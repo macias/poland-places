@@ -1,0 +1,2082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Szlak romański</name>
+    <Style id="icon-1500-FFEA00-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1500-FFEA00-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1500-FFEA00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1500-FFEA00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1500-FFEA00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1541-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1541-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1541-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1541-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1541-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1594-880E4F-normal">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1594-880E4F-highlight">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1594-880E4F">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1594-880E4F-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1594-880E4F-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1603-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1603-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1603-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1644-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1644-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1644-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1644-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1644-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1644-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1644-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1846-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1846-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1846-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1846-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1846-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1846-795548-normal">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1846-795548-highlight">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1846-795548">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1846-795548-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1846-795548-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1846-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1846-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1846-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1846-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1846-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1898-000000-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1898-000000-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1898-000000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1898-000000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1898-000000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Chalno</name>
+      <description>kościół z XII w, relikty</description>
+      <styleUrl>#icon-1594-880E4F</styleUrl>
+      <Point>
+        <coordinates>
+          18.7018636,52.5024331,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Giecz</name>
+      <description>palatium, fundamenty z pierwszej połowy XI wieku</description>
+      <styleUrl>#icon-1594-880E4F</styleUrl>
+      <Point>
+        <coordinates>
+          17.3637588,52.3185189,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Januszowice</name>
+      <description>dwór murowany z XVI w. z reliktami kaplicy z XIII w.</description>
+      <styleUrl>#icon-1594-880E4F</styleUrl>
+      <Point>
+        <coordinates>
+          20.0732632,50.2533516,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Łekno</name>
+      <description>rotunda św. Piotra, relikty. X/XI w.</description>
+      <styleUrl>#icon-1594-880E4F</styleUrl>
+      <Point>
+        <coordinates>
+          17.290571,52.8397176,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ostrów Lednicki</name>
+      <description>kościół z prezbiterium, baseny chrzcielne, X w.</description>
+      <styleUrl>#icon-1594-880E4F</styleUrl>
+      <Point>
+        <coordinates>
+          17.3773567,52.5263281,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wiślica</name>
+      <description>zabudowa palatialna wraz z rotundą z XI w.</description>
+      <styleUrl>#icon-1594-880E4F</styleUrl>
+      <Point>
+        <coordinates>
+          20.6709376,50.3508159,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Zawichost</name>
+      <description>(niewidoczne?) pozostałości kaplicy św. Maurycego, XI w.</description>
+      <styleUrl>#icon-1594-880E4F</styleUrl>
+      <Point>
+        <coordinates>
+          21.8613929,50.8044969,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Banie</name>
+      <description>XIII-wieczny kościół parafialny MB Wspomożenia Wiernych</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          14.660969,53.1010206,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bartniki-Niwnice</name>
+      <description>kościół filialny św. Jadwigi, po 1305</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          15.4872197,51.1183435,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Biały Kościół</name>
+      <description>kościół Nawiedzenia Najświętszej Maryi Panny, 1264 (odbudowany w XXw)</description>
+      <styleUrl>#icon-1644-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          17.0399665,50.7299764,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brzeg Głogowski</name>
+      <description>kościół Bożego Ciała, XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          15.9148447,51.6986457,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chlewiska</name>
+      <description>kościół św. Stanisława Bp Męczennika, 1121</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.7659722,51.2436623,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cieszyn</name>
+      <description>Rotunda św. Mikołaja z XI w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          18.6256039,49.751165,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Czchów</name>
+      <description>romańska wieża zamkowa, koniec XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.6772244,49.8331534,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Czerwińsk nad Wisłą</name>
+      <description>kościół Zwiastowania Najświętszej Marii Panny, XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.309449,52.3953252,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Czerwona Wieś</name>
+      <description>kościół św. Idziego, fragmenty z pierwszej połowy XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.7839783,51.9587103,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dziekanowice</name>
+      <description><![CDATA[sanktuarium Macierzyństwa NMP, kościół romański z XII/XIII wieku;<br>Dziekanowice 7, 32-410 Dobczyce;<br>http://www.dziekanowice.diecezja.krakow.pl/]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.0992566,49.9012169,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gardno</name>
+      <description>kościół romański Najświętszego Serca Pana Jezusa z 1 poł. XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          14.6205236,53.2590468,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Giebło</name>
+      <description>kościół św. Jakuba, fragmenty z pierwszej połowy XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          19.6014171,50.4813861,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Giecz</name>
+      <description>kościół św. Mikołaja, fundamenty z pierwszej połowy XI wieku,</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.368902,52.3203357,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Głogów</name>
+      <description>Zamek Książąt Głogowskich, murowana wieża z XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.0903625,51.6671722,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Głogów</name>
+      <description>kościół św. Piotra w Głogowie, fundamenty z XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.0890701,51.6657818,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Głuchołazy</name>
+      <description>kościół parafialny św. Wawrzyńca, 1250</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.384955,50.3170249,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gniezno</name>
+      <description>kościół św. Jerzego (XII w., przebudowany 1782)</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.5930599,52.5373562,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gniezno</name>
+      <description>katedra gnieźnińska, relikty z IX/X w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.5930112,52.5366994,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gogołów</name>
+      <description>Gogołów – kościół romański z początku XIII w, przebudowany</description>
+      <styleUrl>#icon-1644-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          16.5924404,50.8306454,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gościszów</name>
+      <description>ruiny zamku z XIII w.</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          15.4556603,51.1608738,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gościszów</name>
+      <description>kościół Matki Boskiej i Jana Chrzciciela, fragmenty z pierwszej połowy XIII wieku</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          15.456852,51.1604258,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Goźlice</name>
+      <description>kościół parafialny Wniebowzięcia NMP, 1 poł. XIII wieku</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          21.476963,50.6970349,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Grzegorzowice</name>
+      <description>kościół św. Jana Chrzciciela, prezbiterium z XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          21.1560224,50.88401,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Henryków</name>
+      <description>opactwo Cystersów, ok. 1270</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.0137776,50.6526301,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Imielno</name>
+      <description>kościół św. Mikołaja z 1 poł. XIII wieku</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.4447494,50.5849282,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Inowłódz</name>
+      <description>kościół św. Idziego, XI/XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.2275197,51.5273492,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Inowrocław</name>
+      <description>kościół NMP, XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          18.263864,52.8000163,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jerzmanki</name>
+      <description>kościół św. Franciszka z Asyżu, XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          15.0615803,51.1365942,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jędrzejów</name>
+      <description>archiopactwo cystersów w Jędrzejowie, 1140</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.2848709,50.6534942,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kałdus</name>
+      <description>relikty bazyliki z XI w.</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          18.399396,53.321697,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kałków</name>
+      <description>kościół Narodzenia NMP i św. Jerzego, XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.1886992,50.4054441,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kamień Pomorski</name>
+      <description>bazylika św. Jana Chrzciciela, przełom XII/XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          14.7723468,53.9731412,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kazimierz Biskupi</name>
+      <description>kościół św. Marcina, fragmenty z XII w.</description>
+      <styleUrl>#icon-1644-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          18.1698663,52.311914,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kępnica</name>
+      <description>kościół Wniebowzięcia NMP, XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.3911133,50.4172006,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kije</name>
+      <description>kościół Świętych Apostołów Piotra i Pawła z 2 poł. XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.5702741,50.6078769,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kiełczyn</name>
+      <description>kościół Narodzenia Najświętszej Maryi Panny, relikty z XIII w.</description>
+      <styleUrl>#icon-1644-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          16.6414122,50.8116097,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kołbacz</name>
+      <description>kościół w zespole klasztornym Cystersów, XII/XIII w.</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          14.8137034,53.3013934,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kondratów</name>
+      <description>kościół filialny św. Jerzego, pocz. XIV w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          15.9637145,51.0500681,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Konin</name>
+      <description>Romański słup drogowy, 1151r.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          18.2550174,52.2094098,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Końskie</name>
+      <description>kolegiata św. Mikołaja i Wojciecha, 1 poł. XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.4094862,51.1905505,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Koprzywnica</name>
+      <description>pocysterski kościół św. Floriana, 1207-1240</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          21.5741311,50.5941585,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kościelec (pow. inowrocławski)</name>
+      <description>kościół św. Małgorzaty, XII/XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          18.1579835,52.7926469,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kościelec (pow. kaliski, gm. Mycielin)</name>
+      <description>kościół św. Wojciecha, połowa XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          18.2117901,51.9066065,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kościelec (pow. kolski, gm. Kościelec)</name>
+      <description>kościół św. Andrzeja Apostoła, połowa XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          18.5738419,52.1737118,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kościelec (pow. proszowicki)</name>
+      <description>kościół św. Wojciecha, ok. 1230-1240</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.3979282,50.1971065,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kościelna Wieś</name>
+      <description>kościół św. Wawrzyńca, fragmenty z przełomu XII/XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          18.7132923,52.668844,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kościelniki Średnie</name>
+      <description>mury romańskiego kościoła z XIII wieku</description>
+      <styleUrl>#icon-1644-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          15.2902326,51.0666062,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kotłów</name>
+      <description>kościół Narodzenia Najświętszej Marii Panny, XII w.</description>
+      <styleUrl>#icon-1644-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          17.9713989,51.5487379,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kraków</name>
+      <description>katedra św. Stanisława i św. Wacława – relikty X/XI w.: krypta św. Leonarda</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          19.935387,50.0546997,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kraków</name>
+      <description>zamek – relikty z końca XIII w.</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          19.9347918,50.0536533,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kraków</name>
+      <description>Rotunda Najświętszej Marii Panny, X/XI w. (zachodnie skrzydło zamku)</description>
+      <styleUrl>#icon-1846-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          19.9362831,50.0542942,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kraków</name>
+      <description>kościół św. Gereona, XI w. nie zachowany</description>
+      <styleUrl>#icon-1898-000000</styleUrl>
+      <Point>
+        <coordinates>
+          19.9360654,50.0547645,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kraków</name>
+      <description>kościół Mariacki – fundamenty kościoła gotyckiego z pocz. XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          19.9394274,50.0617127,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kraków</name>
+      <description>kościół św. Wojciecha – X-XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          19.9377202,50.0609202,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kraków</name>
+      <description>kościół św. Andrzeja, 1079-1098</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          19.9384328,50.0566276,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kraków</name>
+      <description>kościół Najświętszego Salwatora, X-XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          19.9122749,50.0534347,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Krobia</name>
+      <description>kościół św. Idziego, XII w</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.9857204,51.7774222,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kruszwica</name>
+      <description>kolegiata śś. Piotra i Pawła, 1120-1140</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          18.3276336,52.6798294,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Krzyworzeka</name>
+      <description>kościół św. Piotra i Pawła, 1264</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          18.5134489,51.1818889,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Legnica</name>
+      <description>Zamek Piastowski, mury do 12 m z 1 poł. XIII w., relikty kaplicy zamkowej</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.1622248,51.2110973,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Legnica</name>
+      <description>katedra św. ap. Piotra i Pawła, pierwotnie 1208, 1333-1380</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.1617897,51.207038,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Licheń</name>
+      <description>w kapliczce romański krzyż z piaskowca, 1151</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          18.3539334,52.3148822,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lubiąż</name>
+      <description>opactwo cystersów, pobenedyktyński kościół św. Jakuba, 1150</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.4669818,51.2611628,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lubiń</name>
+      <description>opactwo benedyktynów, XI/XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.9006321,51.9661701,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lwówek Śląski</name>
+      <description>kościół Wniebowzięcia NMP (fasada zachodnia) joannitów, 1260-1270</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          15.5828567,51.1108574,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mętno</name>
+      <description>Kościół filialny Zwiastowania NMP, XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          14.3551396,52.9150001,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mieronice</name>
+      <description>kościół św. Jakuba Starszego, 2 poł. XIII w</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.163335,50.5207303,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mogilno</name>
+      <description>kościół w klasztorze benedyktyńskim, I poł. XI w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.9547901,52.6483069,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mogiła</name>
+      <description><![CDATA[opactwo cystersów z kościołem, 1 poł. XIII w.<br>Parafia pw. św. Bartłomieja Apostoła<br>ul. Klasztorna 11, 31-979 Kraków <br>http://www.mogila.cystersi.pl/]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.0532831,50.0645033,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mokrsko Dolne</name>
+      <description>kościół Wniebowzięcia NMP, poł. XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.4357369,50.6825952,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Moryń</name>
+      <description>Kościół Świętego Duch, poł. XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          14.4001497,52.8586416,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nowy Kościół</name>
+      <description>ruiny kościoła Najświętszej Marii Panny, XIII w.</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          15.8622192,51.0700819,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nysa</name>
+      <description>kościół św. Jakuba i św. Agnieszki, relikty kościoła z XIII w.</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          17.3345754,50.4746115,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Objezierze</name>
+      <description>kościół św. Bartłomieja z fragmentami z 1. poł. XIII w</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.7645668,52.6032667,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oliwa</name>
+      <description>romańskie przejście do oratorium za nagrobkiem Hülsena, przebudowane opactwo cystersów z XII/XIII w</description>
+      <styleUrl>#icon-1644-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          18.5587113,54.4105503,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Opatów</name>
+      <description>kolegiata św. Marcina, XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          21.42117,50.8026173,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ostrów Lednicki</name>
+      <description>palatium połączone z kaplicą, X w.</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          17.3776689,52.5256659,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pakosławice</name>
+      <description>kościół Świętych Apostołów Piotra i Pawła, 1221</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.3669414,50.5452688,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pastuchów</name>
+      <description>kościół św. Barbary, poł. XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.4365769,50.9443577,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piaseczno</name>
+      <description>kościół MB Królowej Różańca, XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          14.6998663,53.0611369,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pielgrzymka</name>
+      <description>ościół parafialny pw. św. Jana Nepomucena, portal z XIII w.</description>
+      <styleUrl>#icon-1644-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          15.8154902,51.1198941,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Płock</name>
+      <description>katedra z XII w., drzwi płockie z XII w. (kopia, oryginał w Nowogrodzie Wielkim)</description>
+      <styleUrl>#icon-1644-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          19.6897045,52.5409498,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Płock</name>
+      <description>palatium i rotunda z X/XI w (eksponowane przy zamku)</description>
+      <styleUrl>#icon-1846-795548</styleUrl>
+      <Point>
+        <coordinates>
+          19.688889,52.5415049,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Płóczki Górne</name>
+      <description>kościół filialny św. Bartłomieja, ok. 1241</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          15.5338633,51.0840413,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Poznań</name>
+      <description>kościół św. Jana Jerozolimskiego za murami, XI-XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.9589147,52.4094219,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Poznań</name>
+      <description>katedra św. Piotra i św. Pawła, (fragmenty w podziemiu), X-XI w.</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          16.9487014,52.4115669,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Poznań</name>
+      <description>relikty palatium przy kościele Najświętszej Marii Panny, X w.</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          16.9495664,52.4112291,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Prandocin</name>
+      <description>kościół św. Jana Chrzciciela, XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.0912286,50.262662,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Proszków</name>
+      <description>kościół św. Anny, pocz. XIV w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.5326911,51.1636253,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Przemyśl</name>
+      <description>preromańskie monasterium na Wzgórzu Zamkowym, IX w</description>
+      <styleUrl>#icon-1846-795548</styleUrl>
+      <Point>
+        <coordinates>
+          22.7654552,49.7797588,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Przemyśl</name>
+      <description>preromańska rotunda – relikty na Wzgórzu Zamkowym, IX w</description>
+      <styleUrl>#icon-1846-795548</styleUrl>
+      <Point>
+        <coordinates>
+          22.76563,49.7796514,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Przemyśl</name>
+      <description>romańskie mury rotundy św. Mikołaja z XI wieku</description>
+      <styleUrl>#icon-1846-795548</styleUrl>
+      <Point>
+        <coordinates>
+          22.7683353,49.7810021,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Raciborowice Górne</name>
+      <description>kościół św. Michała Archanioła, pocz. XIII w</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          15.6964163,51.1899873,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rąbiń</name>
+      <description>kościół wiejski, XIII w. (obecnie późnogotycki kościół śś. Piotra i Pawła z wykorzystaniem murów świątyni romańskiej)</description>
+      <styleUrl>#icon-1644-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          16.8717491,52.0418672,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rokicie</name>
+      <description>kościół św. Piotra i Pawła, XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          19.461093,52.612477,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rokitnica</name>
+      <description>Zamek w Rokitnicy z XIII/XIV w.</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          15.9780206,51.1284915,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rokitnica</name>
+      <description>kościół filialny pw. św. Michała Archanioła, dawniej św. Bartłomieja, wczesnogotycki</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          15.9819608,51.1284516,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ruda</name>
+      <description>kościół św. Wojciecha, 1142</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          18.6152812,51.1994565,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rurka</name>
+      <description>(własność prywatna) Kaplica templariuszy, XIII w.</description>
+      <styleUrl>#icon-1603-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          14.4823605,52.9961268,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Samborzec</name>
+      <description>kościół św. Trójcy, poł. XIII w.</description>
+      <styleUrl>#icon-1644-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          21.6489122,50.6475102,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sandomierz</name>
+      <description>kościół dominikański św. Jakuba, 1226</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          21.7442581,50.6769131,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sędziszowa</name>
+      <description>ruiny kościoła św. Katarzyny, XIII w.</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          15.8656796,51.0284099,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Siewierz</name>
+      <description>kościół cmentarny św. Jana Chrzciciela, 1140</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          19.2309089,50.4560313,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Skalbmierz</name>
+      <description>kościół św. Jana Chrzciciela, XII/XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.398682,50.3168766,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sobótka</name>
+      <description>Kamienny lew romański stojący obok kościoła św. Anny</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.7437888,50.8995028,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sobótka</name>
+      <description>Zamek w Górce – dawne opactwo augustianów, XII-XIV w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.7080381,50.8872146,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sokołowiec</name>
+      <description>kościół parafialny św. Jadwigi, ok. poł. XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          15.8263953,51.0349377,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stara Zagość</name>
+      <description>kościół joannitów św. Jana Chrzciciela, XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.6087462,50.4171709,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stare Miasto</name>
+      <description>romański słup przydrożny z pogańskiego obelisku</description>
+      <styleUrl>#icon-1500-FFEA00</styleUrl>
+      <Point>
+        <coordinates>
+          18.213487,52.17859,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stare Miasto</name>
+      <description>kościół Świętych Apostołów Piotra i Pawła, XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          18.2146478,52.1815515,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stary Zamek</name>
+      <description>kościół parafialny św. Stanisława biskupa, II poł. XIII w.</description>
+      <styleUrl>#icon-1846-795548</styleUrl>
+      <Point>
+        <coordinates>
+          16.8027651,50.9311945,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stary Żagań</name>
+      <description>Kościół NMP Królowej Polski, XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          15.3164297,51.6500466,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stolec</name>
+      <description>kościół pomocniczy NMP, koniec XIII w.</description>
+      <styleUrl>#icon-1644-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          16.8840252,50.5885871,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stronia</name>
+      <description>kościół Narodzenia NMP, ok. 1300</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.5382916,51.1994881,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Strońsko</name>
+      <description>kościół św. Urszuli i 11 Tysięcy Dziewic, I poł. XIII w</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          18.860304,51.5441249,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Strzelin</name>
+      <description>romańska rotunda św. Gotarda, XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.0735849,50.7812723,0
+        </coordinates>
+      </Point>
+    </Placemark>   
+    <Placemark>
+      <name>Strzelno</name>
+      <description>kościół Świętej Trójcy i Najświętszej Marii Panny, XII/XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          18.1791115,52.6295632,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Strzelno</name>
+      <description>Rotunda świętego Prokopa, 1133</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          18.1796267,52.630266,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Studniska Dolne</name>
+      <description>kościół filialny św. Anny, XIII w.</description>
+      <styleUrl>#icon-1644-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          15.0658203,51.1048241,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sulejów</name>
+      <description><![CDATA[opactwo cystersów, XII/XIII w.<br>Opacka 13, 97-330 Sulejów‎ - 44 616 25 84‎]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          19.8790847,51.3641465,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sulisławice</name>
+      <description>kościół Narodzenia NMP, XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          21.4679424,50.5875016,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Swobnica</name>
+      <description>zamek joannitów z XIII wieku</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          14.6233096,53.0312436,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Swobnica</name>
+      <description>kościół św. Kazimierza, 1234-1250</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          14.6242944,53.0406289,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Szprotawa (Iława)</name>
+      <description>kościół św. Andrzeja, XII w.</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          15.4906017,51.5657631,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Środa Śląska</name>
+      <description>kościół św. Andrzeja, ściany zewnętrzne naw bocznych, XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.5920378,51.1644196,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Środa Śląska</name>
+      <description>kościół Najświętszej Marii Panny za murami, 1220-1230</description>
+      <styleUrl>#icon-1644-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.581362,51.1631564,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Świerzawa</name>
+      <description>kościół św. Jana i Katarzyny.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          15.8879925,51.0181776,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Święta Katarzyna</name>
+      <description>kościół obronny św. Katarzyny Aleksandryjskiej, poł. XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.1160928,51.0262553,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Święty Krzyż</name>
+      <description>opactwo benedyktyńskie, XI w.</description>
+      <styleUrl>#icon-1644-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          21.0532524,50.8591969,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tarczek</name>
+      <description>kościół św. Idziego, 1 poł. XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          21.0086835,50.9401783,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Trójca</name>
+      <description>kościół św. Piotra i Pawła, poł. XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          15.1084976,51.1592238,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Trzebnica</name>
+      <description>klasztor cystersek, 1202</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.067089,51.3088698,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Trzemeszno</name>
+      <description>opactwo benedyktynów, X/XI w.</description>
+      <styleUrl>#icon-1644-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.8173669,52.559628,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tulce</name>
+      <description>kościół Narodzenia NMP, XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.0792184,52.342038,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tum</name>
+      <description>kolegiata NMP i św. Aleksego, XII w</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          19.2326588,52.0560413,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tymowa</name>
+      <description>kościół Najświętszej Marii Panny, koniec XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.3451993,51.4542078,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tyniec</name>
+      <description><![CDATA[kościół św. Piotra i św. Pawła, XI w.<br>Benedyktyńskie Opactwo Świętych Apostołów Piotra i Pawła w Tyńcu<br>ul. Benedyktyńska 37, 30-398 Kraków; tel. (12) 688-52-00<br>http://www.tyniec.benedyktyni.pl/]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          19.8021695,50.0188356,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tyniec nad Ślężą</name>
+      <description>kościół św. Michała, ok. XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.9299433,50.8863964,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ujazd Górny</name>
+      <description>kościół św. Marcina, pocz. XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.5019505,51.0840698,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wąchock</name>
+      <description>Zespół klasztorny cystersów z romańskim kapitularzem, XII w.</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          21.0160449,51.0750536,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wąchock</name>
+      <description>kościół klasztorny Najświętszej Marii Panny i św. Floriana, XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          21.0153562,51.0751719,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wądroże Wielkie</name>
+      <description>kościół Matki Bożej Różańcowej (pierwotnie św. Piotra i Pawła), XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.3290067,51.1117292,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Miechów</name>
+      <description>relikty pierwszego kościoła Bożogrobców, 1 poł. XIII w.</description>
+      <styleUrl>#icon-1644-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          20.0268044,50.3575943,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wierzbięcice</name>
+      <description>kościół św. Mikołaja, pocz. XIV w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.431688,50.4230493,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wierzbna</name>
+      <description>kościół Wniebowzięcia NMP, XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.5028882,50.9024802,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wiślica</name>
+      <description>kolegiata z reliktami dwóch kościołów romańskich z XII i XIII wieku;</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.6738224,50.3488117,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wiślica</name>
+      <description>Płyta Orantów z 1174 roku,</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.6739264,50.3488012,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wiślica</name>
+      <description>pozostałości romańskiego kościoła  św. Mikołaja z X w. wraz z kaplicą grobową z XI w.</description>
+      <styleUrl>#icon-1846-795548</styleUrl>
+      <Point>
+        <coordinates>
+          20.673468,50.3488738,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wiślica</name>
+      <description>Misa Chrzcielna z 880 roku.</description>
+      <styleUrl>#icon-1846-795548</styleUrl>
+      <Point>
+        <coordinates>
+          20.673512,50.348918,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wleń</name>
+      <description>zamek (donżon, relikty kaplicy i budynku mieszkalnego) z fragmentami murów z XII/XIII w.</description>
+      <styleUrl>#icon-1541-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          15.6628799,51.017503,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Włocławek</name>
+      <description>katedra Wniebowzięcia NMP we Włocławku, pierwotnie z XI w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          19.0679436,52.6610759,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Włostów</name>
+      <description>kościół św. Jana Chrzciciela, XIII/XIV w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          21.4404099,50.7464675,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wrocław</name>
+      <description>kościół św. Idziego, 1 poł. XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.046943,51.1145648,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wrocław</name>
+      <description>kościół św. Marii Magdaleny z XIV w. – portal przeniesiony z rozebranego kościoła benedyktynów na Ołbinie, 1150-1175</description>
+      <styleUrl>#icon-1846-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          17.0350766,51.109556,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wrocław</name>
+      <description>katedra św. Jana Chrzciciela z reliktami z X-XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.0465859,51.1142352,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wrocław</name>
+      <description>kościół augustianów NMP na Piasku, nad wejściem do zakrystii tympanon fundacyjny z pierwotnej romańskiej świątyni, po 1153</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.0413293,51.1146757,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wrocław</name>
+      <description>kościół zamkowy św. Marcina  z reliktami zamku piastowskiego, XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          17.042881,51.1155081,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wysocice</name>
+      <description>kościół obronny św. Mikołaja, XII/XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          19.9153687,50.2839136,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Zawichost</name>
+      <description>kościół św. Jana Chrzciciela, 2 poł. XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          21.861001,50.8049398,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Zbylutów</name>
+      <description>kościół Najświętszej Marii Panny, XIII-XIV w</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          15.6728369,51.1448532,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Złotoryja</name>
+      <description>kościół NMP, XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          15.9150262,51.1231948,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Źródła</name>
+      <description>kościół pw. Świętego Krzyża, obronny, XIII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          16.7232325,51.1586851,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Żarnów</name>
+      <description>kościół św. Mikołaja, koniec XII w.</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          20.1731661,51.2491645,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
