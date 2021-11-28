@@ -1,6 +1,7 @@
 # Poland — places
 
 Useful maps for your bikepacking trips (in Poland) — see it at [Google Maps](https://www.google.com/maps/d/edit?mid=1l2Pl5J3VAosJ-ESXrLPnW0w6s7h-yeNe&usp=sharing).
+See my PL/EN [blog](https://przypadkopis.wordpress.com/) for other, various in nature, resources.
 
 ## Romanesque trail
 
