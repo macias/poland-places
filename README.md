@@ -4,9 +4,9 @@ Useful maps for your bikepacking trips (in Poland) — see it at [Google Maps](h
 
 ## Romanesque trail
 
-Based on https://turystyczneszlaki.pl/szlak-romanski/ with corrections using Google satellite maps and Polish wikipedia. There are still few places
-which I was unable to pinpoint (marked with “?”) and one place which is probably an error (romanesque signpost in Stare Miasto; actually the artifact
-is located in Konin).
+Based on [Szlak romański](https://turystyczneszlaki.pl/szlak-romanski/) with corrections using Google satellite maps and
+[Polish wikipedia](https://pl.wikipedia.org/wiki/Szlak_Roma%C5%84ski_w_Polsce). There are still few places which I was unable to pinpoint (marked with “?”) and one
+place which is probably an error (romanesque signpost in Stare Miasto; actually the artifact is located in Konin).
 
 Please note some of the remainings are already gone.
 
