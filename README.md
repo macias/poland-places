@@ -15,3 +15,19 @@ Please note some of the remainings are already gone.
 
 * EN/PL [Polish monuments](https://zabytek.pl/)
 * PL [Styl romański w Wielkopolsce](https://wielkopolskaciekawie.pl/bez-kategorii/styl-romanski-w-wielkopolsce/)
+
+## Teutonic castles trail
+
+*Note: Google Maps reports some vague error while importing this map, I don't know what it is and what effect it has, but so far it seems to work.*
+
+Almost entire map taken from [Zamki krzyżackie w Polsce – mapa](https://discover.pl/mapa-zamkow-krzyzackich-w-polsce/) with few additions and one fix using Google
+satellite maps. “KW” suffix denotes castles of Warmia Chapter.
+
+Please note some of the remainings are already gone.
+
+**Links**:
+
+* PL [Zamki znane i nieznane](https://zamkiobronne.pl/)
+* EN/PL [Castles in Poland](http://www.polishcastles.eu/)
+* PL [Szlak Zamków Krzyżackich](https://kujawsko-pomorskie.travel/pl/content/szlak-zamkow-krzyzackich)
+* EN/PL [Polish Gothic Castles](https://zamkigotyckie.org.pl/en)

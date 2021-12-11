@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Szlak zamków krzyżackich</name>
+    <Style id="icon-1598-000000-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1598-000000-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1598-000000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1598-000000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1598-000000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1598-000000-nodesc-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1598-000000-nodesc-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1598-000000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1598-000000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1598-000000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1598-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1598-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1598-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1598-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1598-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1598-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1598-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1598-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1598-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1598-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1598-0F9D58-nodesc-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1598-0F9D58-nodesc-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1598-0F9D58-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1598-0F9D58-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1598-0F9D58-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1598-4E342E-normal">
+      <IconStyle>
+        <color>ff2e344e</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1598-4E342E-highlight">
+      <IconStyle>
+        <color>ff2e344e</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1598-4E342E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1598-4E342E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1598-4E342E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1598-C2185B-normal">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1598-C2185B-highlight">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1598-C2185B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1598-C2185B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1598-C2185B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1598-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1598-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1598-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1598-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1598-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1598-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1598-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1598-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1598-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1598-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Barciany</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUEmve7oT8SJRconYs9wkNk4CkDHZfgDAT_qDQQ0h3dB9mce9ahxcmEwwK-MutB3s9N-ZF-uydSIfuz8lXXel047vfMZD3WPi4c3npTdtAftHavmpfl-LouG1hAtlP2l6LXi3aHQFVeUau66lnqnlaI1d7TXuhdkQdZa_6sBMKUkqESByW1MSeOdOFapzI07rIl13p9XQ0vUKjYRE2RC_nCr3AMsrnxTyMfBFjYDP1686wnsCEjVROvJgO7pKwwBYqdJVON-8EyM_t4V56qwB7ZZjARk2QntVnFpvuHHRHFipDPQo08ZwZDRbR0zKqkmpm4kbjYqUMdc3mcPyfbbNVmNM8Uur5EJ-OfRH_6IjPmDNJMyNqVzx4641i7cB4Vdf3rglQiD9UP_uswWCqTy5EcSYgdHE5LWgTha1PBO2b8n5bOHPLsTPCl4F49EPDR8Q2LmHFgtig2ZvUfw9LyHfpTdxstVs2sloAGMM-A7HTIA3ckACFuSAdg1XTMNnO5KXAd5G1RQC8eXNGywFwEERl7IAiL4P2myxRwXk5kF" height="200" width="auto" /><br><br>https://pl.wikipedia.org/wiki/Zamek_w_Barcianach<br>Gotycki zamek krzyżacki z drugiej połowy XIV wieku. Foto: https://upload.wikimedia.org/wikipedia/commons/2/23/Barciany_-_Castle_02.jpg]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUEmve7oT8SJRconYs9wkNk4CkDHZfgDAT_qDQQ0h3dB9mce9ahxcmEwwK-MutB3s9N-ZF-uydSIfuz8lXXel047vfMZD3WPi4c3npTdtAftHavmpfl-LouG1hAtlP2l6LXi3aHQFVeUau66lnqnlaI1d7TXuhdkQdZa_6sBMKUkqESByW1MSeOdOFapzI07rIl13p9XQ0vUKjYRE2RC_nCr3AMsrnxTyMfBFjYDP1686wnsCEjVROvJgO7pKwwBYqdJVON-8EyM_t4V56qwB7ZZjARk2QntVnFpvuHHRHFipDPQo08ZwZDRbR0zKqkmpm4kbjYqUMdc3mcPyfbbNVmNM8Uur5EJ-OfRH_6IjPmDNJMyNqVzx4641i7cB4Vdf3rglQiD9UP_uswWCqTy5EcSYgdHE5LWgTha1PBO2b8n5bOHPLsTPCl4F49EPDR8Q2LmHFgtig2ZvUfw9LyHfpTdxstVs2sloAGMM-A7HTIA3ckACFuSAdg1XTMNnO5KXAd5G1RQC8eXNGywFwEERl7IAiL4P2myxRwXk5kF</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.347844,54.213974,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bezławki</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUGYDgukgw39VwGj68VVqyF6h7qdRCV6wJgH32da7fZgYeSJhUn0qZc0kMaGLDgHxoJKg1kXp7uGgSr48UIhqrUv-QyBwBliPiJ8IIuiGrab6U6pH8YZradUpwLV2Psk-dZhuF3RRSArq3o-M1NP_h8TizLgipixfiUaRf-co9-rlhYZCpwlC4oH0zSANDnj4JcI7I5eLJsnDC2vxoVuHHSpqF1NWVX9KFFl7RdIBtwCMx9pkqSn2FmQt7g4J2bWEVqzGOMpaT2zWtZQulPwQ88WdczE9eDI1zG0xix_oVtE3B_EaAfT00v-2lMjOU9PrQUsavJCBERT7btk_Fr5bU3EUaRoQdCB-nh2_yxgSsZ1YHIi10eF6p_loV3u-g502YJ1VvHwBpo-w_VhClZgsAQE3c_qAGEHR0TgT5JpZ_qAUuaE6LY8vVwaNBYdSi6-bMB0geIu_-7hNj4H711mtkBpc21BxL1lYXqj3TYY7KZgZiw4e47Ux1Amzf3VcrQ6o6PSw4yEIMQsC-3-eVeNSgPSSBmBiJXOFf0gRys" height="200" width="auto" /><br><br>Zamek komornika krzyżackiego z drugiej połowy XIV wieku, w XVI wieku przebudowany na kościół.  Foto: Jerzy Strzelecki [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUGYDgukgw39VwGj68VVqyF6h7qdRCV6wJgH32da7fZgYeSJhUn0qZc0kMaGLDgHxoJKg1kXp7uGgSr48UIhqrUv-QyBwBliPiJ8IIuiGrab6U6pH8YZradUpwLV2Psk-dZhuF3RRSArq3o-M1NP_h8TizLgipixfiUaRf-co9-rlhYZCpwlC4oH0zSANDnj4JcI7I5eLJsnDC2vxoVuHHSpqF1NWVX9KFFl7RdIBtwCMx9pkqSn2FmQt7g4J2bWEVqzGOMpaT2zWtZQulPwQ88WdczE9eDI1zG0xix_oVtE3B_EaAfT00v-2lMjOU9PrQUsavJCBERT7btk_Fr5bU3EUaRoQdCB-nh2_yxgSsZ1YHIi10eF6p_loV3u-g502YJ1VvHwBpo-w_VhClZgsAQE3c_qAGEHR0TgT5JpZ_qAUuaE6LY8vVwaNBYdSi6-bMB0geIu_-7hNj4H711mtkBpc21BxL1lYXqj3TYY7KZgZiw4e47Ux1Amzf3VcrQ6o6PSw4yEIMQsC-3-eVeNSgPSSBmBiJXOFf0gRys</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.266772,54.015133,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bobrowniki</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUEVEx6TYmtYUx3ETIUuObpiD5JUfV0ErlLkel24RMpelQKNahj5yOrBQKEEPqfmDf-EVk7LFVNbGSuLeNWljhLFN2roJ1IA1sEPaz8TVVKaCTHC7ufgTyU_hkx35LzTGq-nONE9oND0Yxol0m0IUqHDFvVnrTs36fUjC6MZ0ZRghixNdoeMNSurE9d0ZwlfulKpvmwRWfI9uBzdrLOUDowuCfUZvlgqgy61MjoefQinNhvGRxfNf9U6rkME8vAQYMJ7Gr-5E2Wn5Zc5qaoehKk2xPmYcniogHodHb69s_seSz9clBXlh_ImV2-ENg3n8OXR6jCtIGcmIZGluQIGN-JXUNmzIsF1S2EpAXNssdRr2xYJytodRYqMtlyNZzNom2NHHPgVSJq0jbrJEn3KpOE_VRmtlfi3ny4623d-Wt4aLX8rtXraODM6NEcr2ipipRRcaEd8fkj8cVQHNrmBlOi3lOXmfonxlTdugeLw6mi-zn5Yw6Rd1tXp3jo0EXbjz5gD-97wEVTgX2-0MhkWyXRRHPkjwfk2lw9mnNvx" height="200" width="auto" /><br><br>Zamek w Bobrownikach zbudowany ok. połowy XIV w. przez księcia dobrzyńskiego. Sprzedany krzyżakom, przechodził z rąk do rąk. Ruiny. Foto:ZeroJeden [CC BY-SA 3.0 pl (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)]]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUEVEx6TYmtYUx3ETIUuObpiD5JUfV0ErlLkel24RMpelQKNahj5yOrBQKEEPqfmDf-EVk7LFVNbGSuLeNWljhLFN2roJ1IA1sEPaz8TVVKaCTHC7ufgTyU_hkx35LzTGq-nONE9oND0Yxol0m0IUqHDFvVnrTs36fUjC6MZ0ZRghixNdoeMNSurE9d0ZwlfulKpvmwRWfI9uBzdrLOUDowuCfUZvlgqgy61MjoefQinNhvGRxfNf9U6rkME8vAQYMJ7Gr-5E2Wn5Zc5qaoehKk2xPmYcniogHodHb69s_seSz9clBXlh_ImV2-ENg3n8OXR6jCtIGcmIZGluQIGN-JXUNmzIsF1S2EpAXNssdRr2xYJytodRYqMtlyNZzNom2NHHPgVSJq0jbrJEn3KpOE_VRmtlfi3ny4623d-Wt4aLX8rtXraODM6NEcr2ipipRRcaEd8fkj8cVQHNrmBlOi3lOXmfonxlTdugeLw6mi-zn5Yw6Rd1tXp3jo0EXbjz5gD-97wEVTgX2-0MhkWyXRRHPkjwfk2lw9mnNvx</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          18.947403,52.779352,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Braniewo KW
+</name>
+      <description>https://pl.wikipedia.org/wiki/Zamek_w_Braniewie</description>
+      <styleUrl>#icon-1598-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          19.8256904,54.3819269,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bratian</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUHYckDb43TF8hG-gGTv5KBfwu8einW0Z37WNQWT9CLhnWwI_F2_YGs2OPVLElk8DeekcMDd91UcuGFdj3iEzmKUv4cS48SUTHHOLQ4SHU7usMZbngBQ2-QQIdr8xHMjgyRcDDtcNVyrdiz6ahojds4vml-H1zV5KpZSoFb1opA2Dhj821LOIOy4DCgaBR-KK_b71v_RESrOxu200yluZuZk9OwXOroRlSyp3iCDAJOeG7thRmVG-WmvRHzwe5mR4E8kkPBZuUE582Iax21EnpQEPylw-yJM9QWw17E2f1Fl6xon227kbq11nLVP8ZUwdtWugRwC3P9Sfr7-kv6wrMVUn7zZQszvZWNGw_LXYeQ-o0TO2uMT1RpySV6dDQICjZwylosWNR43l3GJZyQvQg6Z3L3QPga2y9BSs2JOxzl874KGCPhkW_pMCoiXaZQn4df9BLtpXdipYIz1Vk09kUkt31ElTunaHqQMHr4Kww9gIXB7ECC8JhgMPX-6H8QNRlJfxFnVLfLRFIUGYdiymusAcjh4sz44UHNtGY_y" height="200" width="auto" /><br><br>Ruiny średniowiecznego zamku krzyżackiego w Bratianie. Zostało niewiele. Foto: ZeroJeden [CC BY-SA 3.0 pl (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)]]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUHYckDb43TF8hG-gGTv5KBfwu8einW0Z37WNQWT9CLhnWwI_F2_YGs2OPVLElk8DeekcMDd91UcuGFdj3iEzmKUv4cS48SUTHHOLQ4SHU7usMZbngBQ2-QQIdr8xHMjgyRcDDtcNVyrdiz6ahojds4vml-H1zV5KpZSoFb1opA2Dhj821LOIOy4DCgaBR-KK_b71v_RESrOxu200yluZuZk9OwXOroRlSyp3iCDAJOeG7thRmVG-WmvRHzwe5mR4E8kkPBZuUE582Iax21EnpQEPylw-yJM9QWw17E2f1Fl6xon227kbq11nLVP8ZUwdtWugRwC3P9Sfr7-kv6wrMVUn7zZQszvZWNGw_LXYeQ-o0TO2uMT1RpySV6dDQICjZwylosWNR43l3GJZyQvQg6Z3L3QPga2y9BSs2JOxzl874KGCPhkW_pMCoiXaZQn4df9BLtpXdipYIz1Vk09kUkt31ElTunaHqQMHr4Kww9gIXB7ECC8JhgMPX-6H8QNRlJfxFnVLfLRFIUGYdiymusAcjh4sz44UHNtGY_y</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          19.607929,53.459136,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brodnica</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUFiuVa3ckDnPYwLKPyrSgG8TZX7exrZLyWt8xZTvy1IrRXGe5rSO3wYn4x2oOEqSujQiNBwphzPTeMH6Ulijo22vY4k4mNMXpEwl0J1Jw2ryd_Xvd_bBW5uDNjWWalUsXHVY-J9iw7l5EwgW66Y-UzZi8vrhusUmCS_cuP-3wyy8J-3QMLRyKl_aT223Yw364l9uZjSgg4kqZn5rf-uPDn3UBUA8lF5woOgIOlHr8Tth-0ZzmoJILF1aPleXoJMECD3rzcA0VvzsnlXVKu41k7CM_vMldn9ucP5v_80XI6dDrMRysm4p3WNME4NyGtsiNyrLSNkceR2RK6p3t_6Rgq7JBrRBxlRq_pZGlOJZsWW4cJxBaWaQH6diOLEnIB4WCjt05Vl9N8J9PTLEE05spADJ-NssZuRW-1aNxVfOOGFCS6ojj5P2mz3vpWnRIr6KAsY62Zz9qMam8ewztwH4_DWgRKgZRRnElt48dPiLTJWNkgEaa90B7I87F6axh4XSWmhwFPivKXGXAnXvmWMvpuT0t3YQ1Z3FoldOg" height="200" width="auto" /><br><br>Murowany zamek z XIV wieku, częściowo rozebrany przez Prusaków.  Foto: Kazimierz Mendlik [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUFiuVa3ckDnPYwLKPyrSgG8TZX7exrZLyWt8xZTvy1IrRXGe5rSO3wYn4x2oOEqSujQiNBwphzPTeMH6Ulijo22vY4k4mNMXpEwl0J1Jw2ryd_Xvd_bBW5uDNjWWalUsXHVY-J9iw7l5EwgW66Y-UzZi8vrhusUmCS_cuP-3wyy8J-3QMLRyKl_aT223Yw364l9uZjSgg4kqZn5rf-uPDn3UBUA8lF5woOgIOlHr8Tth-0ZzmoJILF1aPleXoJMECD3rzcA0VvzsnlXVKu41k7CM_vMldn9ucP5v_80XI6dDrMRysm4p3WNME4NyGtsiNyrLSNkceR2RK6p3t_6Rgq7JBrRBxlRq_pZGlOJZsWW4cJxBaWaQH6diOLEnIB4WCjt05Vl9N8J9PTLEE05spADJ-NssZuRW-1aNxVfOOGFCS6ojj5P2mz3vpWnRIr6KAsY62Zz9qMam8ewztwH4_DWgRKgZRRnElt48dPiLTJWNkgEaa90B7I87F6axh4XSWmhwFPivKXGXAnXvmWMvpuT0t3YQ1Z3FoldOg</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          19.39878,53.257822,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bytów</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUH5ZIqfpI2u5lmsIKWBDl5nWeLBdoOJeHC_FbgwgCA3_uYh4VlGSJfUGTSkvuDHSbs31Lzou2OgXl7mEILOT1ZwhfrydsIsNqmewV1Se8fiYy16gN4b_mt-I6w0C-7_J57FNE9NMYk_27m1oFsYK0vtBD_R-xBhutPkdPO7UCLg_pQL4tmY9udShJN7eXgILsVzgsKvzS71nMZILSHopv3jkUtB8YC0g7u9ugiKZ_OlRjt-db81-6_rlqnzG0vU2eNE3hHdG9Qgr-Gicl60wmaxy1dmoOPcfQ9NKL7_auns74KnBzMuc4Gqtdk2aSlcxMgMIzlauEps77ibgDOmK6B_nxjraKeqYWdtFCwYLKN3n0V3SzDPv4W76DmUv8OpKXWD6DQVXmmLBe7Tz9EKsxpiKWkQDT8Un1xdPjOtBW91s_PGVDzBqMXiKi9Z5xxV2ZAtn_ZUrHqV5Fk3eZ0lDhbb7hHgu2Kej1xRTi_0n9XnLJRwJOLadtinNmffjwONoAtJtkiHKJBpC-wxm-rEop6I0bI24czzDjL4hJXa" height="200" width="auto" /><br><br>Gotycki zamek krzyżacki z XIV i XV wieku będący początkowo siedzibą prokuratora krzyżackiego, a następnie własność książąt pomorskich.]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUH5ZIqfpI2u5lmsIKWBDl5nWeLBdoOJeHC_FbgwgCA3_uYh4VlGSJfUGTSkvuDHSbs31Lzou2OgXl7mEILOT1ZwhfrydsIsNqmewV1Se8fiYy16gN4b_mt-I6w0C-7_J57FNE9NMYk_27m1oFsYK0vtBD_R-xBhutPkdPO7UCLg_pQL4tmY9udShJN7eXgILsVzgsKvzS71nMZILSHopv3jkUtB8YC0g7u9ugiKZ_OlRjt-db81-6_rlqnzG0vU2eNE3hHdG9Qgr-Gicl60wmaxy1dmoOPcfQ9NKL7_auns74KnBzMuc4Gqtdk2aSlcxMgMIzlauEps77ibgDOmK6B_nxjraKeqYWdtFCwYLKN3n0V3SzDPv4W76DmUv8OpKXWD6DQVXmmLBe7Tz9EKsxpiKWkQDT8Un1xdPjOtBW91s_PGVDzBqMXiKi9Z5xxV2ZAtn_ZUrHqV5Fk3eZ0lDhbb7hHgu2Kej1xRTi_0n9XnLJRwJOLadtinNmffjwONoAtJtkiHKJBpC-wxm-rEop6I0bI24czzDjL4hJXa</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          17.491633,54.168468,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chełmno</name>
+      <description>https://pl.wikipedia.org/wiki/Wie%C5%BCa_Mestwina</description>
+      <styleUrl>#icon-1598-F57C00</styleUrl>
+      <Point>
+        <coordinates>
+          18.4165557,53.3490575,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Czarne</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUH38em4ygwRRtd9K0jbiRi7RsTCWSaLJKEKdbEIT5LqNqlpO9DwE5LuN-yrZU4mIWyUSm7rr3GWjckHxHmtsbGxX7l75GSZFCbIzUYsT6VJxeByhH66iN5QHO9sXW0lmhfL-IgfKuCL2U5ex36feM1Rh5yKLUI24EoYsx7Aod8o2MbsDqh0yUZC6T09GLQdrMYsK1Da4Zr-YEpYCIWaOmJYMz6Y_tANmUMlZmMSvK83dwVaGIcgFosFezRmmMF4zS5WvoRHRvvYYxClOOlQuh2Qghshe6IaTapEv0L6d7xuipFmMOAEA50FlqgfyuuR2qV-EwH4jp0bmETHMkmqmxUAQv8uvi1IBBGOd1O2aiD153bN9WWH_gi4IFioz7Bud2acFT_H8LFKTE2qz9pO29A3VJrSY6nSKwQFPGkUWwJNRKDMqDI4CElo7ibO6FfAIRL5q61nkEe8yObCkrM-kmoKDC6eQYAMrgq0OTXNkjL-co7G_Ju_od-Z7YDVHvea-Wtd0nbEjcDC-sBi-pTSx_U_B7il3PHyrmR5Fm7h" height="200" width="auto" /><br><br>https://pl.wikipedia.org/wiki/Zamek_w_Czarnem<br>Zamek został wzniesiony przez Zakon krzyżacki w latach 1396-1403. Rozebrany przez Prusaków. Zostały fragmenty murów obwodowych widoczne obok budynku na zdjęciu. Foto: ZeroJeden [CC BY-SA 3.0 pl (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)]]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUH38em4ygwRRtd9K0jbiRi7RsTCWSaLJKEKdbEIT5LqNqlpO9DwE5LuN-yrZU4mIWyUSm7rr3GWjckHxHmtsbGxX7l75GSZFCbIzUYsT6VJxeByhH66iN5QHO9sXW0lmhfL-IgfKuCL2U5ex36feM1Rh5yKLUI24EoYsx7Aod8o2MbsDqh0yUZC6T09GLQdrMYsK1Da4Zr-YEpYCIWaOmJYMz6Y_tANmUMlZmMSvK83dwVaGIcgFosFezRmmMF4zS5WvoRHRvvYYxClOOlQuh2Qghshe6IaTapEv0L6d7xuipFmMOAEA50FlqgfyuuR2qV-EwH4jp0bmETHMkmqmxUAQv8uvi1IBBGOd1O2aiD153bN9WWH_gi4IFioz7Bud2acFT_H8LFKTE2qz9pO29A3VJrSY6nSKwQFPGkUWwJNRKDMqDI4CElo7ibO6FfAIRL5q61nkEe8yObCkrM-kmoKDC6eQYAMrgq0OTXNkjL-co7G_Ju_od-Z7YDVHvea-Wtd0nbEjcDC-sBi-pTSx_U_B7il3PHyrmR5Fm7h</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          16.9406751,53.6859249,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Człuchów</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUHMs6H5yiYLkqPUYx5eEjAFPOPigbzm8eLi--sHAd61FaK22Fe2OUWR9ApVUBM5AduUMyoU--RkhS_kyDolIl0_ITU4_HoGBG8jVjPFtoelyMCK2WCTcrsGmAotz4NBbosqTQ1HKbLusV_5RMtjs9yD366sTqhoSrMfTRN8zcGnyXZ-3XVpI3FMyovdlXx5BIJBfyclhjYP70elP9U-H_KjV4P0HqXXlDFFcZjhwmWi9LAswzCAIL_qAIMjeIfs31oH63dyXEouwGhLbJZwGPGEz_Z5DnK7GaIK9Yf_w0eRnt2ooLvu2-1JB8K1lbG1KHuqped0FptJS_kV9Vv0-IlaJebpBRBIshmdZ9Y85pdgdyffkzGA9CUd9MIF4O9kGSOnpZLQJWkde36imKKreR8E-0J5mKjy1n9Kx9sTB1dVM1oKVk_hZCrnvSlF8SqmvCxQsu52MGUmsv6SpF8_ytsnzArUj0GYOWlvFWZJo6BqbZXQxCGa7XbXR39dEbT3nqmtL9MmTxQaX6iA-Qoaob66RcSP4E-esE6k1uYC" height="200" width="auto" /><br><br>https://pl.wikipedia.org/wiki/Zamek_w_Cz%C5%82uchowie<br>Zamek zbudowany przez krzyżaków po 1340 roku. W dużym stopniu rozebrany.]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUHMs6H5yiYLkqPUYx5eEjAFPOPigbzm8eLi--sHAd61FaK22Fe2OUWR9ApVUBM5AduUMyoU--RkhS_kyDolIl0_ITU4_HoGBG8jVjPFtoelyMCK2WCTcrsGmAotz4NBbosqTQ1HKbLusV_5RMtjs9yD366sTqhoSrMfTRN8zcGnyXZ-3XVpI3FMyovdlXx5BIJBfyclhjYP70elP9U-H_KjV4P0HqXXlDFFcZjhwmWi9LAswzCAIL_qAIMjeIfs31oH63dyXEouwGhLbJZwGPGEz_Z5DnK7GaIK9Yf_w0eRnt2ooLvu2-1JB8K1lbG1KHuqped0FptJS_kV9Vv0-IlaJebpBRBIshmdZ9Y85pdgdyffkzGA9CUd9MIF4O9kGSOnpZLQJWkde36imKKreR8E-0J5mKjy1n9Kx9sTB1dVM1oKVk_hZCrnvSlF8SqmvCxQsu52MGUmsv6SpF8_ytsnzArUj0GYOWlvFWZJo6BqbZXQxCGa7XbXR39dEbT3nqmtL9MmTxQaX6iA-Qoaob66RcSP4E-esE6k1uYC</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          17.362402,53.664239,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dąbrówno</name>
+      <styleUrl>#icon-1598-0F9D58-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          20.037387,53.433797,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Działdowo</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUHxHpLrS5TuvmyCL0J-Xgr8ejYeNoVx-YXeIchs2pcd5zAx5n0OQRq6YAMAXxx4F_JKSDaokusD_X6L-c8k1j_kg1zr67EjJRcrBHQtWdk0sdo9G1scSi7UHjoeSZ5XdgYF8DkTojV1zrKhNhEJIFMk6tWtO55fvTmCRZbfMmhSWfCZj_Put4s9HHXfMIM9P8McgsiFUscKiF4QUdozDHyaKHBC5i1YhjlIIBi1c9cYRqyAvZd1o7RBNWSFV8JUMj9EVISpUeI_sjWh3TqTYdSjMRQKS6p5sHW1UgOTwivz2XSbzT-isZAs1nN3zKYK2RBKPXq3dpHH4O_8bgsXINw0wW_L0dWcyGdQ839uDensFU4qL5IvBj8MHbHrIjb_7t3rP1vtnNa2cB3SRLKLCp0jul56cXHU_rXPDiapUG6cUxuahPr5zmoO0pGSHNdvlHhNuQmgaBbuHmXQHBur_oD6DFETWcaEnNdKzxTmFR4HX6xnnRztbfHMdG1xljC8yVqpHhizo72vlXQ21H7PmyvvrwqCDO0AOasIL8am" height="200" width="auto" /><br><br>https://pl.wikipedia.org/wiki/Zamek_w_Dzia%C5%82dowie<br>Zamek zbudowany w latach w latach 1344-1391, przebudowany w 1676, później częściowo rozebrany. Foto: Sławek Zawadzki [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUHxHpLrS5TuvmyCL0J-Xgr8ejYeNoVx-YXeIchs2pcd5zAx5n0OQRq6YAMAXxx4F_JKSDaokusD_X6L-c8k1j_kg1zr67EjJRcrBHQtWdk0sdo9G1scSi7UHjoeSZ5XdgYF8DkTojV1zrKhNhEJIFMk6tWtO55fvTmCRZbfMmhSWfCZj_Put4s9HHXfMIM9P8McgsiFUscKiF4QUdozDHyaKHBC5i1YhjlIIBi1c9cYRqyAvZd1o7RBNWSFV8JUMj9EVISpUeI_sjWh3TqTYdSjMRQKS6p5sHW1UgOTwivz2XSbzT-isZAs1nN3zKYK2RBKPXq3dpHH4O_8bgsXINw0wW_L0dWcyGdQ839uDensFU4qL5IvBj8MHbHrIjb_7t3rP1vtnNa2cB3SRLKLCp0jul56cXHU_rXPDiapUG6cUxuahPr5zmoO0pGSHNdvlHhNuQmgaBbuHmXQHBur_oD6DFETWcaEnNdKzxTmFR4HX6xnnRztbfHMdG1xljC8yVqpHhizo72vlXQ21H7PmyvvrwqCDO0AOasIL8am</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          20.18236,53.234318,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dzierzgoń</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUEU7yZMXWXxJz08tZzUK11RDmOlH2MD-emmQcUjyXU-O6ChMFzkunCj6xS94152Al_4LYskzuGEhL16x62bQB0kyzJ1Rq2BnjAmrAziKFyJoW_dG_dBGRywIoKXf0RkGkfjZ8eJDpe192u2XFWqyVj9uk4ABJI47bGCAzM6ozBRkwzCO8DF6UqHxz6jsVvXAbQL9o2MQoEGZAWCD0eh08Q1NUJkFSicbOQNkFfja0oJ21DJgzyCtqRWV6FPxolEULiYaWYGGHys5DQzLjpu4Thp58dkaMcUNijNMWsn5P0kVatJ_Y6oTl7Qjq9h08O-vLVox6eDFXatHKe4_hiaHaYEtDER2ouwBB4TBOXgIXea9uDsGnCw9BokrVY5uOynK3f_oy34hYFwdXmuzGYdrvFd0LCfX0kR81XISTgZsJIFqQeefOay4it5FpMTjRJaZeliaBQ3dBaIF-XdAWs-CXVjwX6YNZdGQA440FtnkQhLgmXD0vLshyphp3HnQ6UtiQSkNaEMShDRsRQ05ui9uwQfudK8N7ZGKzcJ9uPD" height="200" width="auto" /><br><br>Budowę zamku w Dzierzgoniu zaczęto już  w 1248 roku na miejscu pruskiego grodu. Rozebrany w 1456 roku. Pozostałości  murów. Foto: Włodzimierz Jacek Adamski [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)]]]></description>
+      <styleUrl>#icon-1598-0F9D58</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUEU7yZMXWXxJz08tZzUK11RDmOlH2MD-emmQcUjyXU-O6ChMFzkunCj6xS94152Al_4LYskzuGEhL16x62bQB0kyzJ1Rq2BnjAmrAziKFyJoW_dG_dBGRywIoKXf0RkGkfjZ8eJDpe192u2XFWqyVj9uk4ABJI47bGCAzM6ozBRkwzCO8DF6UqHxz6jsVvXAbQL9o2MQoEGZAWCD0eh08Q1NUJkFSicbOQNkFfja0oJ21DJgzyCtqRWV6FPxolEULiYaWYGGHys5DQzLjpu4Thp58dkaMcUNijNMWsn5P0kVatJ_Y6oTl7Qjq9h08O-vLVox6eDFXatHKe4_hiaHaYEtDER2ouwBB4TBOXgIXea9uDsGnCw9BokrVY5uOynK3f_oy34hYFwdXmuzGYdrvFd0LCfX0kR81XISTgZsJIFqQeefOay4it5FpMTjRJaZeliaBQ3dBaIF-XdAWs-CXVjwX6YNZdGQA440FtnkQhLgmXD0vLshyphp3HnQ6UtiQSkNaEMShDRsRQ05ui9uwQfudK8N7ZGKzcJ9uPD</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          19.344445,53.924294,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Elbląg</name>
+      <description>https://pl.wikipedia.org/wiki/Zamek_krzy%C5%BCacki_w_Elbl%C4%85gu</description>
+      <styleUrl>#icon-1598-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          19.3944559,54.1565595,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Frombork KW
+</name>
+      <description>https://pl.wikipedia.org/wiki/Wzg%C3%B3rze_Katedralne_(Frombork)</description>
+      <styleUrl>#icon-1598-4E342E</styleUrl>
+      <Point>
+        <coordinates>
+          19.6820796,54.3567945,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ełk</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUEIQSFDCu4l6-ym7qxW0WInt3rhhPYmRKQ2nc1_-j4nE-NOjkw_O5qEojlUPx2tgj2UWBtn5ghFTq7g4BVCBcfZk3Vi5o6Iq70WGDfK-qpH-PXa5WAYHQ0Dcx_HkQ9jkd58flLa8gFd46B2Nt0RlRCNgDCa9eHRAI97VtJulHSZtBLIeHZUarvdrjbYa4pb6v86SjHdpokLgF4MN81oZollj0WXst9U5EbOa-YK_pawMG5Y_EBGuCIbOksYem6L3CsTvsrqY3bVDqbNzM2r1Qiw2rEUAK1bk5Dg0ppKEjIxOGdhdRUZCt8moB5Y16Bv5rpSHgecuauxhdgYdhbmmqn-4-9q4GsP1bt3wGXE7VXJZn9cBqnJjNPMwl0LJFr1YhuQEId3b3IdEtMwqQcG4q7pCNFgu6QXW45QLnE_u_VPoKz4JxdcoJoOmMaPlO7QHVWgT9yKGXxQwwIR2JdGiIFQTSCq_c9YlJhvvSRI4g2Uis3vyzekBdS9DGVV2rG4YWYrFJhSvDBHHRrhjFmc1llv3a3-h-ez01f5x4w" height="200" width="auto" /><br><br>Zamek zbudowany pod koniec XIV wieku na wyspie (obecnie półwysep) na jeziorze Ełckim. Foto: Historyczka [CC BY-SA 3.0 pl (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)].]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUEIQSFDCu4l6-ym7qxW0WInt3rhhPYmRKQ2nc1_-j4nE-NOjkw_O5qEojlUPx2tgj2UWBtn5ghFTq7g4BVCBcfZk3Vi5o6Iq70WGDfK-qpH-PXa5WAYHQ0Dcx_HkQ9jkd58flLa8gFd46B2Nt0RlRCNgDCa9eHRAI97VtJulHSZtBLIeHZUarvdrjbYa4pb6v86SjHdpokLgF4MN81oZollj0WXst9U5EbOa-YK_pawMG5Y_EBGuCIbOksYem6L3CsTvsrqY3bVDqbNzM2r1Qiw2rEUAK1bk5Dg0ppKEjIxOGdhdRUZCt8moB5Y16Bv5rpSHgecuauxhdgYdhbmmqn-4-9q4GsP1bt3wGXE7VXJZn9cBqnJjNPMwl0LJFr1YhuQEId3b3IdEtMwqQcG4q7pCNFgu6QXW45QLnE_u_VPoKz4JxdcoJoOmMaPlO7QHVWgT9yKGXxQwwIR2JdGiIFQTSCq_c9YlJhvvSRI4g2Uis3vyzekBdS9DGVV2rG4YWYrFJhSvDBHHRrhjFmc1llv3a3-h-ez01f5x4w</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          22.341504,53.81866,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Giżycko</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUGOZEQnUcHV8Z-bVWFfpLFJFRe2acKyCZeKkxH7SAul7NxCx8Tm1Y3xIFTaxhm5FNGL3gBuNL2Ujyue9qtdchpZh99UDk6FYkpeKf5bNwUZbSX3092Ws_4uMsfw7EbnZ3VZD4QPk3pisAyOSL-DIURQ1ijxSG4LRRvY871m3sccdf46TNqBOURoHEtP2Idn-qupT-b734jFbXKzghzHY7iLgPXmrzFN2FMHFB_tWcUMYCd8R_n7N-Qd0faJlaIcinpgkoTWnco3mrbFWkvs9W0rAXE3rdR7HzzEZEDSYTnCObm9N2ePNq_9ODvc4DRQr52UWPyh-micV91YorhY7vDmoz_YHZzJVghtD7GAVNBJlIrkTi8Ut-g5MS8mTtbe82htTlF01uabGspDyqUr0ZtPFsmmYus-pNBZobVfO31x91a7JJDo-tWKQolddyA_bgNbmz93BF1pQVlwQ4WcXhpQYmXQ7-cpVZ1krRgnGcvsDYYnDAs_ZjpapZ9-BoCDvkWKTvcgbb0iJh8HHMdK8ms5QWkDjYr4" height="200" width="auto" /><br><br>Zamek prokuratorski został zbudowany przez zakon krzyżacki około połowy XIV wieku. Obecnie tylko jedno skrzydło jako część hotelu. Foto: ZeroJeden [CC BY-SA 3.0 pl (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)]]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUGOZEQnUcHV8Z-bVWFfpLFJFRe2acKyCZeKkxH7SAul7NxCx8Tm1Y3xIFTaxhm5FNGL3gBuNL2Ujyue9qtdchpZh99UDk6FYkpeKf5bNwUZbSX3092Ws_4uMsfw7EbnZ3VZD4QPk3pisAyOSL-DIURQ1ijxSG4LRRvY871m3sccdf46TNqBOURoHEtP2Idn-qupT-b734jFbXKzghzHY7iLgPXmrzFN2FMHFB_tWcUMYCd8R_n7N-Qd0faJlaIcinpgkoTWnco3mrbFWkvs9W0rAXE3rdR7HzzEZEDSYTnCObm9N2ePNq_9ODvc4DRQr52UWPyh-micV91YorhY7vDmoz_YHZzJVghtD7GAVNBJlIrkTi8Ut-g5MS8mTtbe82htTlF01uabGspDyqUr0ZtPFsmmYus-pNBZobVfO31x91a7JJDo-tWKQolddyA_bgNbmz93BF1pQVlwQ4WcXhpQYmXQ7-cpVZ1krRgnGcvsDYYnDAs_ZjpapZ9-BoCDvkWKTvcgbb0iJh8HHMdK8ms5QWkDjYr4</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.760028,54.035724,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gniew</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUH5C0Y_VLORhQSluZVHq0Gw8lYpkHtEhlYVwokGApuQz2T1XjLt2C2phMvfWmuaHQte1J37mzBc_2rmlRYvUC-xs9SgONtiIgufmdSDh2Em6E4jp76ai0ii4vLXA6ICjOu3Q41t8roOh6n_9FQXr0upmmIJMhK6r3tPDTFGTDj6TrPmQ9PKXVj3Kh0NdVhqGEf_tvETkpQ8B8zrcH_Ug7yTs_vZL1vC-lV7amzlcneZby-0C7nMOgV9YIJArrd2rEpQrqG82-zTiBahvA4ke_UjaLG2DQlvgPrIzyK5mpHoB1sRmRZLew44zZjvaipckWDj98qD3Vnwa6wH0SgqEgp_k9OtGteMhUelxs0Cbz2_a68433yojtrIUf0VVz1hKaWV2sZMeDfj5d2yuGXlHz9zChbDvY1l1eZhhg_2leV4rWkSHA6ctHjatJ90UcH6Wa1gB35-qmSIOznENP79uTTBxBr2pwib-0mIvm444noRPl3cG8rtkciqY9w3U_BcaHokk1tIpMRSCGaVG7tU_HuLt_uaWVovBZF5j2c" height="200" width="auto" /><br><br>Zamek zbudowany przez Zakon krzyżacki po 1290 roku i rozbudowany w XIV i XV wieku.]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUH5C0Y_VLORhQSluZVHq0Gw8lYpkHtEhlYVwokGApuQz2T1XjLt2C2phMvfWmuaHQte1J37mzBc_2rmlRYvUC-xs9SgONtiIgufmdSDh2Em6E4jp76ai0ii4vLXA6ICjOu3Q41t8roOh6n_9FQXr0upmmIJMhK6r3tPDTFGTDj6TrPmQ9PKXVj3Kh0NdVhqGEf_tvETkpQ8B8zrcH_Ug7yTs_vZL1vC-lV7amzlcneZby-0C7nMOgV9YIJArrd2rEpQrqG82-zTiBahvA4ke_UjaLG2DQlvgPrIzyK5mpHoB1sRmRZLew44zZjvaipckWDj98qD3Vnwa6wH0SgqEgp_k9OtGteMhUelxs0Cbz2_a68433yojtrIUf0VVz1hKaWV2sZMeDfj5d2yuGXlHz9zChbDvY1l1eZhhg_2leV4rWkSHA6ctHjatJ90UcH6Wa1gB35-qmSIOznENP79uTTBxBr2pwib-0mIvm444noRPl3cG8rtkciqY9w3U_BcaHokk1tIpMRSCGaVG7tU_HuLt_uaWVovBZF5j2c</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          18.827928,53.834406,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Golub-Dobrzyń</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUEtap8K1Au327xYZCOX5pWmc2bx2NWhdXHDwl2C9FAh30jdt0WDmvDb49rQJ8n384T3WukJGtqpkZE95eRNM9MQFh_qjcLgQZNSoBqrUOD9Pmp4pvSeOsa25xsjhRsVXyBVzndmpqtB5cXCfvCDgqWJ5Fm_Ou9o48nkZwgmBNoxSLnbIbsxeZl5a_SA7HE6IlvuvNw0dyiLte6EhIyRvFwyQlf9ix2FNOEh1I853xaE96eG_hsEZjcrhNk_eeMmCYSdu69XabBxNGDfaCivjLQJWM-n4byPCuJczlxFA6dnYd_yfbJnYAwlFF02GBJJNp2P-30bfOXcQiDY485-QKTz0siaOd_uSOvw_nBggorEA6tKLQy4apBIi-1vBHyGE_mIO2nnBJjdwC1y2gpXmpE1fh66UjUpBXKjlyfjtJhaPt_jjH0IX-luS8Ut9EJSAm9V7bhXx-NDfTardEc4mUnJmo_rOUM--j8ZPoq6OaPUVgx9QCQ6IbZhfF0mGmBdNEPU4w6zKDdooWkCwHOx0x18MWiIQ2Y3x9dUsFei" height="200" width="auto" /><br><br>Zamek krzyżacki z przełomu XIII i XIV wieku.]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUEtap8K1Au327xYZCOX5pWmc2bx2NWhdXHDwl2C9FAh30jdt0WDmvDb49rQJ8n384T3WukJGtqpkZE95eRNM9MQFh_qjcLgQZNSoBqrUOD9Pmp4pvSeOsa25xsjhRsVXyBVzndmpqtB5cXCfvCDgqWJ5Fm_Ou9o48nkZwgmBNoxSLnbIbsxeZl5a_SA7HE6IlvuvNw0dyiLte6EhIyRvFwyQlf9ix2FNOEh1I853xaE96eG_hsEZjcrhNk_eeMmCYSdu69XabBxNGDfaCivjLQJWM-n4byPCuJczlxFA6dnYd_yfbJnYAwlFF02GBJJNp2P-30bfOXcQiDY485-QKTz0siaOd_uSOvw_nBggorEA6tKLQy4apBIi-1vBHyGE_mIO2nnBJjdwC1y2gpXmpE1fh66UjUpBXKjlyfjtJhaPt_jjH0IX-luS8Ut9EJSAm9V7bhXx-NDfTardEc4mUnJmo_rOUM--j8ZPoq6OaPUVgx9QCQ6IbZhfF0mGmBdNEPU4w6zKDdooWkCwHOx0x18MWiIQ2Y3x9dUsFei</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          19.049804,53.11546,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Grabiny-Zameczek</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUHWeGpX3-hrCorxTd8JtFsn4KGRO-tXSbyKnIHs76Ecqth9NGCJzCrET_wEB2vT-A2rWzdocx3VnTKolPZyrPj9rE4R9HYhW618SeM-RkIBqxdJx38K8xIbGbyq_wY1CJak6qChxeB_bu0sjEpYVGZrD1mNCb5mFJ1yUcdTDnbZLIVwmTGLnRGK5QTEcGkmcK1dEsayoFjDBc8pcbN2KAemvy-gNiH-mxlilp-gMIuXi5aGN34qAP6gsjr6l7di-MzPuIUEYrQxSjSRTwBUVLm8zzAieuc-omUlDZfLFpfM4_b9Gf83wJ-Hm9TpPtAyzUMmp-GOT5O5UBJKRydJyoRdsqtRxvAoyahwpwomuiooPSg6CIoKlwtv1s9xHXQFimFq2e__QAraYE8CqFby1JWQ0KvbxKPW69-cclPTYdSYHh7cxjwUFRXhb0B2RkOnjyU-jEKNLgZse6u5qGumj_bWGzjBaWUHqpEHIbSPMgUwOorDK3O_OWKd9V0pw9KVI0lBH7BUxUBuirX58jrGJx-CXeIP62mxIMjlIZSr" height="200" width="auto" /><br><br>Zamek zbudowany w 1406 roku, zburzony przez Gdańszczan w 1459 roku, obecnie dom mieszkalny.   Foto: QuercusGd CC BY-SA 3.0 pl (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUHWeGpX3-hrCorxTd8JtFsn4KGRO-tXSbyKnIHs76Ecqth9NGCJzCrET_wEB2vT-A2rWzdocx3VnTKolPZyrPj9rE4R9HYhW618SeM-RkIBqxdJx38K8xIbGbyq_wY1CJak6qChxeB_bu0sjEpYVGZrD1mNCb5mFJ1yUcdTDnbZLIVwmTGLnRGK5QTEcGkmcK1dEsayoFjDBc8pcbN2KAemvy-gNiH-mxlilp-gMIuXi5aGN34qAP6gsjr6l7di-MzPuIUEYrQxSjSRTwBUVLm8zzAieuc-omUlDZfLFpfM4_b9Gf83wJ-Hm9TpPtAyzUMmp-GOT5O5UBJKRydJyoRdsqtRxvAoyahwpwomuiooPSg6CIoKlwtv1s9xHXQFimFq2e__QAraYE8CqFby1JWQ0KvbxKPW69-cclPTYdSYHh7cxjwUFRXhb0B2RkOnjyU-jEKNLgZse6u5qGumj_bWGzjBaWUHqpEHIbSPMgUwOorDK3O_OWKd9V0pw9KVI0lBH7BUxUBuirX58jrGJx-CXeIP62mxIMjlIZSr</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          18.7460754,54.2374306,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Grudziądz</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUHF9vW4iA7vM0dmyS74gRegWxXWqd38l8gcOQtbCQPuSL9s-ZUj8RA4suQFlKG2xj0zIdAlprRg1yMpLPgqc5ugK9miPOXfNvOu3rrJOhxkNnTdR7skXt6oFT_2A865ueMqCqV9N8N1vA1qEucPZ2J66ny8Zp-AHlDLoNwindDPh8DUpAayYm27y3dw-Fh0JXXQyKwT1mP9LX3XT4jiPwspN61kOGMPiIKBFkpc_4iY38HsfReHk9ENEm8hRV39cxgcCdtBkUzy_wabfBw_5LJ2Y3CDQuHz7NE5Eov2WTXKxq87W67FLyrSMBUAoexXzKrd9VrB-jjKxF4GFu-OsGDQN40aGCUF5zhY1dRlWD8XbE996RSrIYHRkXbusCk31LkX4nMOlXbRRtHTc0bEj4jXqb3KIBvTTKNb-u_HRG7q0KrHuSY8_2jcApQtATHDDzBT6ZXzeLFjEW72kErFPcpt_dyNzZCWhgon5WoVrC25Da5P8hi5TdRda_7lSlKezpABtC6cXpjLSNaeiuyv25fLcIFLfoLg1v4GK00j" height="200" width="auto" /><br><br>Pozostałości zamku z drugiej połowy XIII wieku i wieża Klimek.]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUHF9vW4iA7vM0dmyS74gRegWxXWqd38l8gcOQtbCQPuSL9s-ZUj8RA4suQFlKG2xj0zIdAlprRg1yMpLPgqc5ugK9miPOXfNvOu3rrJOhxkNnTdR7skXt6oFT_2A865ueMqCqV9N8N1vA1qEucPZ2J66ny8Zp-AHlDLoNwindDPh8DUpAayYm27y3dw-Fh0JXXQyKwT1mP9LX3XT4jiPwspN61kOGMPiIKBFkpc_4iY38HsfReHk9ENEm8hRV39cxgcCdtBkUzy_wabfBw_5LJ2Y3CDQuHz7NE5Eov2WTXKxq87W67FLyrSMBUAoexXzKrd9VrB-jjKxF4GFu-OsGDQN40aGCUF5zhY1dRlWD8XbE996RSrIYHRkXbusCk31LkX4nMOlXbRRtHTc0bEj4jXqb3KIBvTTKNb-u_HRG7q0KrHuSY8_2jcApQtATHDDzBT6ZXzeLFjEW72kErFPcpt_dyNzZCWhgon5WoVrC25Da5P8hi5TdRda_7lSlKezpABtC6cXpjLSNaeiuyv25fLcIFLfoLg1v4GK00j</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          18.7493581,53.495255,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kętrzyn</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUEpKRceZCG8xksBZocvv33uu1XY71Y1LJIK9exOelFVUUzB_f57y0fKfiomT0ZYOXSukAtZVkDpr991eCrdQoN6IKIf0ShZOW6bwUXa1AOFg3NVXvuCRtbdOM7eqhivFrkVfhl26r9LHXdP1hU0GWiTKyMGyDv5og6ufLv9USap2qSAo9NgqcxEdGKsIB9N4y9tSwjLkrS8ZKAKUJSJVg1PWuF-p2j--VGnvCLzP_xKbupOSMrcZMWvQD62DTBTL1Z5MHZ_mWIO_TImR5Y1MiRUyV8ZA8cTg72SERuOsZ1em23HRpduL4dZ8QysPK5Z2FxxSl0vMHulRg-WDz3yJjKZ6-hgZJVLpv4yisqottsLESPtBgQfDv8epVAZEjeBWJsSriYGes2IBwnEY0B1RipXROo-A7dg25AIujRu6rcVXMSpCNWZg0M6aVx2zCmaX-snF6VLLrJrtjlRj70r5VpUgYgKayiaxP6DI1677c-MF8XXRFQ4-0rTZmv-zVXtJLmkwjII0nhtiQiB284MmPF36LWZFe5pMwYrBbI" height="200" width="auto" /><br><br>Zamek krzyżackiego prokuratora zbudowany w drugiej połowie XIV wieku. Foto: Jerzy Strzelecki CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUEpKRceZCG8xksBZocvv33uu1XY71Y1LJIK9exOelFVUUzB_f57y0fKfiomT0ZYOXSukAtZVkDpr991eCrdQoN6IKIf0ShZOW6bwUXa1AOFg3NVXvuCRtbdOM7eqhivFrkVfhl26r9LHXdP1hU0GWiTKyMGyDv5og6ufLv9USap2qSAo9NgqcxEdGKsIB9N4y9tSwjLkrS8ZKAKUJSJVg1PWuF-p2j--VGnvCLzP_xKbupOSMrcZMWvQD62DTBTL1Z5MHZ_mWIO_TImR5Y1MiRUyV8ZA8cTg72SERuOsZ1em23HRpduL4dZ8QysPK5Z2FxxSl0vMHulRg-WDz3yJjKZ6-hgZJVLpv4yisqottsLESPtBgQfDv8epVAZEjeBWJsSriYGes2IBwnEY0B1RipXROo-A7dg25AIujRu6rcVXMSpCNWZg0M6aVx2zCmaX-snF6VLLrJrtjlRj70r5VpUgYgKayiaxP6DI1677c-MF8XXRFQ4-0rTZmv-zVXtJLmkwjII0nhtiQiB284MmPF36LWZFe5pMwYrBbI</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.376911,54.074185,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kowalewo Pomorskie
+</name>
+      <description>https://pl.wikipedia.org/wiki/Zamek_w_Kowalewie_Pomorskim</description>
+      <styleUrl>#icon-1598-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          18.8978578,53.1559325,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kurzętnik</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUEIfZsr_nvevoi6tBYShlMw9Bh6j4s7b6jw8HBA_yond5Sdx9D4NP7UVTQ82eoRIWO0oSyXQ5uC3nbybn8MVLgMz-p_uPwxYvq9p9lyp6JMF381jajW7foYmWPHVqTVmGm560ES7lmmgkNPhqH7c2MuWMhFiTWxEeDOIMBrKJeWjObL-WA6yrS2bmm2CZMztl56JT_urkkOE8BNzf4E8qtfge-Of7kF3C65ENZ99Pmh3Eu8xxQfPnqjQxqhnuZoDOgzWONjUDN8bmHTzI8SyaWngILvXqaj5OkikysxNkRAE5GwWYYUZemxKPgiqpsBkJEhl9vyi8NG8gL0Pu_pRY5tPQtYfgks4RX-jV1T1RdDuNu7Vv2tcNUdRjG-sYmRZqFVjSRkoRvBeVrwxEcNPbC_3yq5CLcRQ8n7Li68y4eLr1LBn6QVIj-7HcsmSX8ynPLiCpMQU7n0o1QJl6lJR5rDm6O03axQ_NfhBURmKghDCrtZ14vPbsfIRQA6T2bQEU3yXeuEQTJTmli1PE0VqEMvZZeKqH8ke_6Apos6" height="200" width="auto" /><br><br>https://pl.wikipedia.org/wiki/Zamek_w_Kurz%C4%99tniku<br><br>Ruiny średniowiecznego zamku biskupa chełmińskiego z połowy XIV wieku w Kurzętniku. Foto: 1bumer CC BY-SA 3.0 pl (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)]]></description>
+      <styleUrl>#icon-1598-C2185B</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUEIfZsr_nvevoi6tBYShlMw9Bh6j4s7b6jw8HBA_yond5Sdx9D4NP7UVTQ82eoRIWO0oSyXQ5uC3nbybn8MVLgMz-p_uPwxYvq9p9lyp6JMF381jajW7foYmWPHVqTVmGm560ES7lmmgkNPhqH7c2MuWMhFiTWxEeDOIMBrKJeWjObL-WA6yrS2bmm2CZMztl56JT_urkkOE8BNzf4E8qtfge-Of7kF3C65ENZ99Pmh3Eu8xxQfPnqjQxqhnuZoDOgzWONjUDN8bmHTzI8SyaWngILvXqaj5OkikysxNkRAE5GwWYYUZemxKPgiqpsBkJEhl9vyi8NG8gL0Pu_pRY5tPQtYfgks4RX-jV1T1RdDuNu7Vv2tcNUdRjG-sYmRZqFVjSRkoRvBeVrwxEcNPbC_3yq5CLcRQ8n7Li68y4eLr1LBn6QVIj-7HcsmSX8ynPLiCpMQU7n0o1QJl6lJR5rDm6O03axQ_NfhBURmKghDCrtZ14vPbsfIRQA6T2bQEU3yXeuEQTJTmli1PE0VqEMvZZeKqH8ke_6Apos6</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          19.5764043,53.3956764,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kwidzyn</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUFL9xrCVwDAGuLrh2nPjeMAzI5b8UG-WWMOikOOb-pD6qyXz4pIodveB2a5_nFyoU-YpkTO2id-yoMIMhuzMk_vtMGpFVXhsJw4tQdUB78EqPfGy61s-YoFTapM_H3dWy4FXvTlMFYc-STAwHviJcprxrUtl4Ni-VomDzIBCEDbQk95tk_QfBmwNugf-8rmM1tSjPrAdXsVbvlbu7uZz7EYWsGXsPWI4nkxZK7tS4T8MnAkFfvjdX0xDwBuG8fX0DMqvEWwIWlb0LDiwyamhrPN86ZKzUNZ3Cw8b_7U21bAUIbwPobbqlorsBFyW_8pGTeXh0_FHzspPuaWkzlRU0Px_NPb4pOXCrtjldLusTWyeTaHV2cm9_apHJ9nIUxAGe9S-pYi07n4-ltlXiYvo4NVx7XhpPQZAHzJpMqxi5sN2fkZPoczPKC2mG7zqYhPS4jy5JyRuCyGERToyOvj-2HpOPMlU61YIlRTyXdXUJTTUn-sRNznykvNBENpiy7hdVX4KxBQUHgQI1L7cH9Y_tu9--CZSYQzgw2eyr8" height="200" width="auto" /><br><br>Zamek kapituły pomezańskiej w Kwidzynie wzorowany na zamkach krzyżackich. Po wojnie trzynastoletniej przyznany Krzyżakom.]]></description>
+      <styleUrl>#icon-1598-C2185B</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUFL9xrCVwDAGuLrh2nPjeMAzI5b8UG-WWMOikOOb-pD6qyXz4pIodveB2a5_nFyoU-YpkTO2id-yoMIMhuzMk_vtMGpFVXhsJw4tQdUB78EqPfGy61s-YoFTapM_H3dWy4FXvTlMFYc-STAwHviJcprxrUtl4Ni-VomDzIBCEDbQk95tk_QfBmwNugf-8rmM1tSjPrAdXsVbvlbu7uZz7EYWsGXsPWI4nkxZK7tS4T8MnAkFfvjdX0xDwBuG8fX0DMqvEWwIWlb0LDiwyamhrPN86ZKzUNZ3Cw8b_7U21bAUIbwPobbqlorsBFyW_8pGTeXh0_FHzspPuaWkzlRU0Px_NPb4pOXCrtjldLusTWyeTaHV2cm9_apHJ9nIUxAGe9S-pYi07n4-ltlXiYvo4NVx7XhpPQZAHzJpMqxi5sN2fkZPoczPKC2mG7zqYhPS4jy5JyRuCyGERToyOvj-2HpOPMlU61YIlRTyXdXUJTTUn-sRNznykvNBENpiy7hdVX4KxBQUHgQI1L7cH9Y_tu9--CZSYQzgw2eyr8</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          18.921294,53.736162,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lębork</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUGRS773vj2tW18wS-WGH3dz6egJSaa9xhPCNBZeLxOe6vw4IhNWWD_wetWvkHnfg2GS-kOtuEM6bmhJLztfVQLCuPRhG-lFJrd2diuxd1h9cgtrKe4DjCsg7Peg-1HEpuGr9zHpZrYRbqhHAmbaiJYaiylar7_tfL_qlLsfNbkayTeAAfQZlacPzr96ikFVytwhhjdutkGeW1rqe1hQBYJVlRXgYFUtl9hCazzTDTRp3zp5Bvzf6iNQqty6Jm8sK5dOekyROU-SMz2ZJUl2YSsUdMfoye1j8pVRI5n9iYfp8Xo198N9B-pE-nPT_p5EgetrTV3sQtm4ELsYndawGRpYltAmB06PCgqJgkA0XsB8EssAHvcTq-tzpsV7P3gwmDjkYejItIcT1lPBzdj-FzuE5bTCFK4luHMpZxXtUL97w5393qWn0eg_8q_nmcGuKen-jWFDfNMdYCEU2OX64L7iYiT1o2W3RhyFTAvNFvM0vOtBb4MjB3mewUGZcoA0EU7oF_61nwW3XTt30Bg4STKohKe4iiJbW8LnEAjC" height="200" width="auto" /><br><br>Zamek zbudowany przez Krzyżaków w stylu gotyckim około połowy XIV wieku.  Foto: Jerzy Strzelecki CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUGRS773vj2tW18wS-WGH3dz6egJSaa9xhPCNBZeLxOe6vw4IhNWWD_wetWvkHnfg2GS-kOtuEM6bmhJLztfVQLCuPRhG-lFJrd2diuxd1h9cgtrKe4DjCsg7Peg-1HEpuGr9zHpZrYRbqhHAmbaiJYaiylar7_tfL_qlLsfNbkayTeAAfQZlacPzr96ikFVytwhhjdutkGeW1rqe1hQBYJVlRXgYFUtl9hCazzTDTRp3zp5Bvzf6iNQqty6Jm8sK5dOekyROU-SMz2ZJUl2YSsUdMfoye1j8pVRI5n9iYfp8Xo198N9B-pE-nPT_p5EgetrTV3sQtm4ELsYndawGRpYltAmB06PCgqJgkA0XsB8EssAHvcTq-tzpsV7P3gwmDjkYejItIcT1lPBzdj-FzuE5bTCFK4luHMpZxXtUL97w5393qWn0eg_8q_nmcGuKen-jWFDfNMdYCEU2OX64L7iYiT1o2W3RhyFTAvNFvM0vOtBb4MjB3mewUGZcoA0EU7oF_61nwW3XTt30Bg4STKohKe4iiJbW8LnEAjC</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          17.753368,54.543406,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lidzbark Warmiński KW
+</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUEDeIC-RRuzRj8BbabJ9EnOj4P5_mafQpXuKFGsuH1MiCcsKlZ7PbLxnh_QHz15IjBjDpGDUJD8NQkA4Dq6XNDBfk5CjjuMb8CqiAGLxzYviW6rpeS74B4wX1DZwkA-nLF0jV_oXpMOyPEr6nxnmM9bh0a8IGKFZEU_qV9t-3JiS7QdgV4J0LswEQYoC27hJqDhLl-QWWTkan4Lkqfitq5g4Igwsb4cYvND30kQprZieNfoE2ulOGoyFwKdsmf8ajtHFKwIm2QTNrBpjEke5MAc5ttNnzBF_6QIrZ-P0KVFp49CIU-yrloo16y_GOjC0BaJ5-fhTX_qT-39_ze6kFzAMEUf6n68lSoYoSspLQt9-AlkyRG22M3LOTX0xKA7nfYe0mYkYZ9kMBX7jSbR8-sPd-SMJAHqKZW0LlgmiAT7TK0b1uUfJH-mTX4_Pe9VbGfzFSFje-3LurJtX2eDYTvrJxCwOUmB_owp7g3NFyPyoJ8EHmwIIIaFZ66HzCQOdiUa6OPkZQ5hco51kCUECgEqC5eHC-ClhjubP8s" height="200" width="auto" /><br><br>Zamek biskupów warmińskich.]]></description>
+      <styleUrl>#icon-1598-C2185B</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUEDeIC-RRuzRj8BbabJ9EnOj4P5_mafQpXuKFGsuH1MiCcsKlZ7PbLxnh_QHz15IjBjDpGDUJD8NQkA4Dq6XNDBfk5CjjuMb8CqiAGLxzYviW6rpeS74B4wX1DZwkA-nLF0jV_oXpMOyPEr6nxnmM9bh0a8IGKFZEU_qV9t-3JiS7QdgV4J0LswEQYoC27hJqDhLl-QWWTkan4Lkqfitq5g4Igwsb4cYvND30kQprZieNfoE2ulOGoyFwKdsmf8ajtHFKwIm2QTNrBpjEke5MAc5ttNnzBF_6QIrZ-P0KVFp49CIU-yrloo16y_GOjC0BaJ5-fhTX_qT-39_ze6kFzAMEUf6n68lSoYoSspLQt9-AlkyRG22M3LOTX0xKA7nfYe0mYkYZ9kMBX7jSbR8-sPd-SMJAHqKZW0LlgmiAT7TK0b1uUfJH-mTX4_Pe9VbGfzFSFje-3LurJtX2eDYTvrJxCwOUmB_owp7g3NFyPyoJ8EHmwIIIaFZ66HzCQOdiUa6OPkZQ5hco51kCUECgEqC5eHC-ClhjubP8s</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          20.583068,54.125864,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lipienek</name>
+      <description>https://pl.wikipedia.org/wiki/Zamek_w_Lipienku</description>
+      <styleUrl>#icon-1598-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          18.6517063,53.2665069,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Malbork</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUGlrruiyTQfLfdglhDYkQMBrO3TZBlO4GrbPgg8-cTA9SEntZ20R_0fbeT35wr3Mx47qSpkEoJUiz2SP-ZTjc1zL4adh5nDD3ipExIgayyd1xfKs29Qp-2OU2sfvhV04XbZHRIFHkXTPqjkk6Yy9bjSwSoYru8wWeJ8QBzDZ3d4OoFoUaWdS-mrwMMQSzIH7yqOSklrrFihrqnO2hjVBYELLzEO7HURI2hP0AbyY4UQzydL14qKOxpyXNWanVEiupv8gMGIlhiDJCHjXC-8fEQoaaqZnvPPzLcQtiM58rXNgkcZOtoepqdClUgctBH_kV3yw_RKHb-WROQQ4xQEYcK7lI0XzGpH_EQDRixorg7HyRv8JIjW16ibcEjJzRNTKO1UKAKc7D2ICeCyxYN26OZ1r9B08XiFeY1m08oScIL3WPcre8XCTVnRRn-A5yWB9J7NImFZ-TBFKuVHkp4ZfiUzqHlz6q5knWILF3L3x-PBKhR0ExZ746AQyogjXeSGU6ssUm-YNaHGFl2Yd9T9n8AfkV3HqgRqNAGUEIz6" height="200" width="auto" /><br><br>Zamek w Malborku budowany był od 1280 roku, w latach 1309–1457 siedziba wielkich mistrzów zakonu krzyżackiego.  Foto: Gregy CC BY-SA 3.0 pl (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUGlrruiyTQfLfdglhDYkQMBrO3TZBlO4GrbPgg8-cTA9SEntZ20R_0fbeT35wr3Mx47qSpkEoJUiz2SP-ZTjc1zL4adh5nDD3ipExIgayyd1xfKs29Qp-2OU2sfvhV04XbZHRIFHkXTPqjkk6Yy9bjSwSoYru8wWeJ8QBzDZ3d4OoFoUaWdS-mrwMMQSzIH7yqOSklrrFihrqnO2hjVBYELLzEO7HURI2hP0AbyY4UQzydL14qKOxpyXNWanVEiupv8gMGIlhiDJCHjXC-8fEQoaaqZnvPPzLcQtiM58rXNgkcZOtoepqdClUgctBH_kV3yw_RKHb-WROQQ4xQEYcK7lI0XzGpH_EQDRixorg7HyRv8JIjW16ibcEjJzRNTKO1UKAKc7D2ICeCyxYN26OZ1r9B08XiFeY1m08oScIL3WPcre8XCTVnRRn-A5yWB9J7NImFZ-TBFKuVHkp4ZfiUzqHlz6q5knWILF3L3x-PBKhR0ExZ746AQyogjXeSGU6ssUm-YNaHGFl2Yd9T9n8AfkV3HqgRqNAGUEIz6</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          19.028341,54.039939,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mała Nieszawka
+</name>
+      <description>https://pl.wikipedia.org/wiki/Zamek_w_Ma%C5%82ej_Nieszawce</description>
+      <styleUrl>#icon-1598-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          18.5379635,53.0037432,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Morąg</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUFgATen8CqzdDNyjzsjUUEjl2IETk19HqqgCayvrGt2SuMkjExjKPsEGNiaUxh3qXVQ0wmIJQto5oSCeElq1z9QeEzw2l10aRJoVYRcyJwEoLClw7ADPwAGsnt6gh66H7B448rYWwNDOZqJoSdBR7SZ23WHGpQT38DLeDoC1lx7dfn7YBlm4UoHgCAnLxgMdVZsijYk0Yov2hkZ06XoRiOyEoGL4ebBoIJTq5vGXdzUORx8omYd1YIvWKRssB8FUXwMSYHyNIFnPa7Ie0MS4xpopqn85PWuisueL-UYPd5LyyBRR6Gt7GWio6vVkmeY2QLp1zSRbi2c0tDnezSMhbIzRgka1-SvSDyv74iRHZm7BNmL8ozCz77nXYoOdURcTXRGJkHrL1MF6FQuc4BN78Mqr53mpashfuUNClR3AW-OqqE0TAlSJa7pjFfoJKVEw5yx6iP4end-JxCrJEoTk1C5OiTrJWMVg0SM3QR2dMAUL3xgcs9qMET7Ihop-mCGvzVc6TBvCREaXXCXw7WJ5NZUoqzqZPuXHHSufENk" height="200" width="auto" /><br><br>https://pl.wikipedia.org/wiki/Zamek_w_Mor%C4%85gu<br><br>Zamek krzyżacki z połowy XIV wieku w Morągu. Częściowo zachowany. Foto: Sedek91 CC BY-SA 3.0 pl (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUFgATen8CqzdDNyjzsjUUEjl2IETk19HqqgCayvrGt2SuMkjExjKPsEGNiaUxh3qXVQ0wmIJQto5oSCeElq1z9QeEzw2l10aRJoVYRcyJwEoLClw7ADPwAGsnt6gh66H7B448rYWwNDOZqJoSdBR7SZ23WHGpQT38DLeDoC1lx7dfn7YBlm4UoHgCAnLxgMdVZsijYk0Yov2hkZ06XoRiOyEoGL4ebBoIJTq5vGXdzUORx8omYd1YIvWKRssB8FUXwMSYHyNIFnPa7Ie0MS4xpopqn85PWuisueL-UYPd5LyyBRR6Gt7GWio6vVkmeY2QLp1zSRbi2c0tDnezSMhbIzRgka1-SvSDyv74iRHZm7BNmL8ozCz77nXYoOdURcTXRGJkHrL1MF6FQuc4BN78Mqr53mpashfuUNClR3AW-OqqE0TAlSJa7pjFfoJKVEw5yx6iP4end-JxCrJEoTk1C5OiTrJWMVg0SM3QR2dMAUL3xgcs9qMET7Ihop-mCGvzVc6TBvCREaXXCXw7WJ5NZUoqzqZPuXHHSufENk</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          19.926528,53.910396,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nidzica</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUHVOQfbzQYsVxlpR3nDCgc1-_sWWtpy97Px9q3ah-JloY4yt-MWUrUSmq1c4uuZ0NIjFjDxsFwIhHuEe9D44QSHE27ZrqgPKpGF_da5FZcQvYKxtmBWY9svz1JhzQ8DYQxkux15y2IQbbTfqtV4d-a-AZF3ntjuF4f6kitwnOegJ1wjizEogiPlLBAng0zYroRhTqCYWr1rknQ24YxT_N5c49qPOGpmN66YrHkFNAVhsZEhFy7YkbLPaVSCHMUfeuTno_62LyBRkuQKwc7vAL0kM-QhQnD9bNu2HpRnE7OjPSXDa-85TxTST4fgR6FWLB3bqU5WJ63yLrxJcNotXOJCgN97jnMB7N2jya0w7nA2CZXkjuN32x-OonqeivodpWEQbmyIemlqmJGJreXSi1qLXTHXnlJp9aor5145wEzZink_btaIpI75xxse9xYagKXhlEnSApmcdMCpi-DZ8iXzZAxvCbeHXm0fDalwwXsVwJcMPHGRCBopcvvnAMKqtMQvv4UCBGHx09x1cjOwENLIAqOhhQHdvTTQKOgS" height="200" width="auto" /><br><br>Zamek w Nidzicy zbudowany pod koniec XIV wieku.]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUHVOQfbzQYsVxlpR3nDCgc1-_sWWtpy97Px9q3ah-JloY4yt-MWUrUSmq1c4uuZ0NIjFjDxsFwIhHuEe9D44QSHE27ZrqgPKpGF_da5FZcQvYKxtmBWY9svz1JhzQ8DYQxkux15y2IQbbTfqtV4d-a-AZF3ntjuF4f6kitwnOegJ1wjizEogiPlLBAng0zYroRhTqCYWr1rknQ24YxT_N5c49qPOGpmN66YrHkFNAVhsZEhFy7YkbLPaVSCHMUfeuTno_62LyBRkuQKwc7vAL0kM-QhQnD9bNu2HpRnE7OjPSXDa-85TxTST4fgR6FWLB3bqU5WJ63yLrxJcNotXOJCgN97jnMB7N2jya0w7nA2CZXkjuN32x-OonqeivodpWEQbmyIemlqmJGJreXSi1qLXTHXnlJp9aor5145wEzZink_btaIpI75xxse9xYagKXhlEnSApmcdMCpi-DZ8iXzZAxvCbeHXm0fDalwwXsVwJcMPHGRCBopcvvnAMKqtMQvv4UCBGHx09x1cjOwENLIAqOhhQHdvTTQKOgS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          20.429047,53.359732,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nowe</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUFA7XgQmaSnnTpmsa-gtaHf5R8EF17L1sSQqhr9tieuwXH2HCDe4j1hxQCxrGOomTa38B_W-s3Kz6B3Et24V6S5ZgyVHn0cAvHc4VZJ9DZ9cVvQ0rz7bFwduAdT8WZP3wNOj3xVO2-sPSh7KMu9092aO2wPqBJ7EOTlBW1xJu76UBj2SPx8rZcrxLTMHEYMbzhNdMTmcg-okebI1gu6nPqgOII7FHdxHzwXeRrzGgaXFRwZKosshBRYeq2nPZRE3p9GWVWskEBg2pjGPV7wgmwh9-a2JDPOrN_DbHuzExrt-5IVYNhO6JVQAkdTNJ-g6EPsSun8Yxj1lZkCdZF10l85VIBLdli-3kNAvTb-IKmNRc6Z6NdGMYiQ5KFW1d0P6-GSrQnS_sD_MhT5mSVdGNCHGQ-2cimNU7c4KlEXbkBFnfTkKmGLxSM9lrDZ2UnZMvE8s709MlVWVtjkoM_tbzeL86Sb1HpVeNcyMZ6p42s8LSwqHnjsJZHNjktQGiNRBHUUJ9H-gapVjvxp5gsxWwih5SL1mwsBAt0duz0" height="200" width="auto" /><br><br>https://pl.wikipedia.org/wiki/Zamek_w_Nowem_nad_Wis%C5%82%C4%85<br><br>Zamek w Nowem nad Wisłą zbudowano w połowie XIV wieku. W dużym stopniu rozebrany przez Prusaków. Obecnie centrum kultury. Foro: MOs810 CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUFA7XgQmaSnnTpmsa-gtaHf5R8EF17L1sSQqhr9tieuwXH2HCDe4j1hxQCxrGOomTa38B_W-s3Kz6B3Et24V6S5ZgyVHn0cAvHc4VZJ9DZ9cVvQ0rz7bFwduAdT8WZP3wNOj3xVO2-sPSh7KMu9092aO2wPqBJ7EOTlBW1xJu76UBj2SPx8rZcrxLTMHEYMbzhNdMTmcg-okebI1gu6nPqgOII7FHdxHzwXeRrzGgaXFRwZKosshBRYeq2nPZRE3p9GWVWskEBg2pjGPV7wgmwh9-a2JDPOrN_DbHuzExrt-5IVYNhO6JVQAkdTNJ-g6EPsSun8Yxj1lZkCdZF10l85VIBLdli-3kNAvTb-IKmNRc6Z6NdGMYiQ5KFW1d0P6-GSrQnS_sD_MhT5mSVdGNCHGQ-2cimNU7c4KlEXbkBFnfTkKmGLxSM9lrDZ2UnZMvE8s709MlVWVtjkoM_tbzeL86Sb1HpVeNcyMZ6p42s8LSwqHnjsJZHNjktQGiNRBHUUJ9H-gapVjvxp5gsxWwih5SL1mwsBAt0duz0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          18.731112,53.646248,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nowy Jasiniec
+</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUFy5VHp0b4jpQuI5OQL9LWp3TP4IjGud1odzfv5xg-RRBvYkjHR8hQ7NX5zlUixAdJeFiQkF9MqXv_fCL2j0bzQk5rkQ7RoGUcg8hPKITQAgc8GNNALfg8QhwZ6KjK08dHsQLf4sOQ_lxhKUWslHcnZCxgM1JLx_rXEwRYwCgB-7GzlIQius2XY5yZatdLs7CJLjwF--w_RsF35RspaRh9FJcX0w3Rx4cXM7rxgVZd2LI-aBBiNeX-QazEEnBxLDlWD5EhNCzn8SSdj8hgHV95NspK0iIcss9txK6DWdWbENMcZ3Ugohcfzi-5vj5oi_spe9NwxPoLK8WNgcB2U3Pxz7jYOCoBRDd4NgdDjn5UJJEzq_51SCDKyGqnU5A5dueEt6nUbtZtlnsNzEcGdIpwantC9bESW2BVdaAxRsODLcKkH6y0QDnObaolYtSHRA_oWc6iROPpkBi9gY5vBihaB5vYDZT1Nff3ckZOBLMYOod993ipYMrQn2snwy4eQYabeTyY998_R22TG1SIzyAVfPSAteg7ZzM2TCNTm" height="200" width="auto" /><br><br>Ruiny średniowiecznego zameczku zbudowanego w latach 1377-1392. Foto: Jerzy Strzelecki CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]]></description>
+      <styleUrl>#icon-1598-0F9D58</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUFy5VHp0b4jpQuI5OQL9LWp3TP4IjGud1odzfv5xg-RRBvYkjHR8hQ7NX5zlUixAdJeFiQkF9MqXv_fCL2j0bzQk5rkQ7RoGUcg8hPKITQAgc8GNNALfg8QhwZ6KjK08dHsQLf4sOQ_lxhKUWslHcnZCxgM1JLx_rXEwRYwCgB-7GzlIQius2XY5yZatdLs7CJLjwF--w_RsF35RspaRh9FJcX0w3Rx4cXM7rxgVZd2LI-aBBiNeX-QazEEnBxLDlWD5EhNCzn8SSdj8hgHV95NspK0iIcss9txK6DWdWbENMcZ3Ugohcfzi-5vj5oi_spe9NwxPoLK8WNgcB2U3Pxz7jYOCoBRDd4NgdDjn5UJJEzq_51SCDKyGqnU5A5dueEt6nUbtZtlnsNzEcGdIpwantC9bESW2BVdaAxRsODLcKkH6y0QDnObaolYtSHRA_oWc6iROPpkBi9gY5vBihaB5vYDZT1Nff3ckZOBLMYOod993ipYMrQn2snwy4eQYabeTyY998_R22TG1SIzyAVfPSAteg7ZzM2TCNTm</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          18.041924,53.347206,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Olsztyn KW
+</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUF-qc3SPxu_ONXQ6GlFLA_rWagGs0zVv35VuUHeJbBxsFBHkGpx8M-Hrf3KE5XMBIyxDfjNNmATjvXVFDlI8a7uMgbTtI-63bA4DjXAaPRmRXnrb8uUFbFED6h3IapGjt9MNyVM99FDizeymXnl5ZyuquaRfgXd5pGwRtK8XOfcRGtsd51IFDVtPjJw3W8uH1KvNazcKOVMnRBDkvuKpuA3_PGF9QzAQEVZvLddpi4OvXxcO5ND_R-n2bQzQtZQ7If6Cx8sWdt_0WTW7bP9RpaQRAV-RL0x7x0RRHBbtOEP080_osdPefsE1BwzDv_f9G6VgCZlSnBKklTFtkgyVk-Lg8HsRI-duytresl7het_LK4KsiWBMPLNZx43NtnIBkDUB1uUDnRrAcRUG1ozH4WgR0bBr_jz3_Ixj4dzp3JyT7i6Z79sLMXt2dSVWwGfhrPpY1rW0WdLyOQZybwN-WkdreWrJUAEK-Qf5VfUHc42fdJiG2I5gKEYC5oQDu75xWQxvX6RlWKBn-VcwBrOM5VExt9cFjXs2fgeJ1_oIg" height="200" width="auto" /><br><br>Zamek Kapituły Warmińskiej w Olsztynie zbudowany w połowie XIV wieku, formalnie nie był zamkiem krzyżackim.]]></description>
+      <styleUrl>#icon-1598-C2185B</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUF-qc3SPxu_ONXQ6GlFLA_rWagGs0zVv35VuUHeJbBxsFBHkGpx8M-Hrf3KE5XMBIyxDfjNNmATjvXVFDlI8a7uMgbTtI-63bA4DjXAaPRmRXnrb8uUFbFED6h3IapGjt9MNyVM99FDizeymXnl5ZyuquaRfgXd5pGwRtK8XOfcRGtsd51IFDVtPjJw3W8uH1KvNazcKOVMnRBDkvuKpuA3_PGF9QzAQEVZvLddpi4OvXxcO5ND_R-n2bQzQtZQ7If6Cx8sWdt_0WTW7bP9RpaQRAV-RL0x7x0RRHBbtOEP080_osdPefsE1BwzDv_f9G6VgCZlSnBKklTFtkgyVk-Lg8HsRI-duytresl7het_LK4KsiWBMPLNZx43NtnIBkDUB1uUDnRrAcRUG1ozH4WgR0bBr_jz3_Ixj4dzp3JyT7i6Z79sLMXt2dSVWwGfhrPpY1rW0WdLyOQZybwN-WkdreWrJUAEK-Qf5VfUHc42fdJiG2I5gKEYC5oQDu75xWQxvX6RlWKBn-VcwBrOM5VExt9cFjXs2fgeJ1_oIg</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          20.474268,53.777756,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Olsztynek</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUF72X0cxfYSlem0WOkBQTHCiJYAyB6ZOEPqw-bQmjhkYfdC06y1vpQJQRrnpko0YjDRPULsWoR-PCB_mg3hoz3UsYDaxrtsPgtCFy31VcBM7t_tOSx4cJD0bvagMEH48Ww7T0-QpSbMnGm3s9oidmUK9_jQ4emKu6YQ9cxyNnzLow8bUT-YiAtz3eDDwqUhD2-TTuPbGhP_4yraE1KtFS_zux8ypAK4GoBExOdPzAG95wZHuB3Bkp58Wj0GhdPub_7qLa0Pnk68TMDJvh_PkqCUEGgp85iciU6Dobvsv8CZOkswhDsvU0ulIpbYYD_igi8rZXfW0Cjd6UasyXXhdzb6imZdEYfQLTdnFOtTVD3XnYMRb5GYTfI5UuIsx-Wz25Iwwv1zP_fmovQiYXXAqINuvhutx9-JE2XSqDbYoA5RpexB4xbYKjJoTiRbh6SCZOGLXsbYkgpwiMKGrHbQpA3nUVl-zMF6VU086RuWuTdq3XkaAYQO5Mgr9Bu3AmtLtNLZ4-TcoYKVxk68_C3mzhOU7IZUw8d9agqrDDpH" height="200" width="auto" /><br><br>Zamek krzyżacki w Olsztynku zbudowany w latach 1349–1366. Foto: Rimantas Lazdynas (Public domain)]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUF72X0cxfYSlem0WOkBQTHCiJYAyB6ZOEPqw-bQmjhkYfdC06y1vpQJQRrnpko0YjDRPULsWoR-PCB_mg3hoz3UsYDaxrtsPgtCFy31VcBM7t_tOSx4cJD0bvagMEH48Ww7T0-QpSbMnGm3s9oidmUK9_jQ4emKu6YQ9cxyNnzLow8bUT-YiAtz3eDDwqUhD2-TTuPbGhP_4yraE1KtFS_zux8ypAK4GoBExOdPzAG95wZHuB3Bkp58Wj0GhdPub_7qLa0Pnk68TMDJvh_PkqCUEGgp85iciU6Dobvsv8CZOkswhDsvU0ulIpbYYD_igi8rZXfW0Cjd6UasyXXhdzb6imZdEYfQLTdnFOtTVD3XnYMRb5GYTfI5UuIsx-Wz25Iwwv1zP_fmovQiYXXAqINuvhutx9-JE2XSqDbYoA5RpexB4xbYKjJoTiRbh6SCZOGLXsbYkgpwiMKGrHbQpA3nUVl-zMF6VU086RuWuTdq3XkaAYQO5Mgr9Bu3AmtLtNLZ4-TcoYKVxk68_C3mzhOU7IZUw8d9agqrDDpH</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          20.284251,53.583765,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ostróda</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUEIT30wXMfgoLkY5eCE0oQXfVz_dNz_dALRaQpFcNkmK-TIJJyYQ-ebMm22IewWQHZ8anj89rhJOideO1MU_9WezlicpzpuWprn_OFbu0amnayCRHw8nXFQ1uN-54G95NepMUSi63XVxltePaMHKrDmOZeJrLfPx62dXcSxQ4mYhZZtjtOaI5njGqNdKJgDmgf15H_abg-d7YXfERpDdwAujPWoxRdigowWnnyZKiE7Oo5c4pNBrg_YMuPbqRyWiqKSuUdwOdvi6RgDD75uONr1qPv4PNvzs9WqxK4VW6yD-XQ0EWMjps5w0S17-1pfJK_gdmx5BmbbESuSwS9u4FPR4vv0W0DaMNOGLSKkQBr7FpNErixPv3-U_sVlM0uIWqX43CZA9gQB-wCEOZyCAyXdfTksXXySm0Dtwr8NmM8T_P4JQgnstY4iHekdzrLL4E1cfHiQJH7C9iVBxpFfHS1S7_y1A1nkDIxoNn8gms_nK4cRk4rChl5AL00wbkkYJLALyQbxhleCx0WNMCdjqm_Sip8Auofr0n-TYprI" height="200" width="auto" /><br><br>Zamek krzyżacki w Ostródzie zbudowamy w latach w latach 1350–1370.]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUEIT30wXMfgoLkY5eCE0oQXfVz_dNz_dALRaQpFcNkmK-TIJJyYQ-ebMm22IewWQHZ8anj89rhJOideO1MU_9WezlicpzpuWprn_OFbu0amnayCRHw8nXFQ1uN-54G95NepMUSi63XVxltePaMHKrDmOZeJrLfPx62dXcSxQ4mYhZZtjtOaI5njGqNdKJgDmgf15H_abg-d7YXfERpDdwAujPWoxRdigowWnnyZKiE7Oo5c4pNBrg_YMuPbqRyWiqKSuUdwOdvi6RgDD75uONr1qPv4PNvzs9WqxK4VW6yD-XQ0EWMjps5w0S17-1pfJK_gdmx5BmbbESuSwS9u4FPR4vv0W0DaMNOGLSKkQBr7FpNErixPv3-U_sVlM0uIWqX43CZA9gQB-wCEOZyCAyXdfTksXXySm0Dtwr8NmM8T_P4JQgnstY4iHekdzrLL4E1cfHiQJH7C9iVBxpFfHS1S7_y1A1nkDIxoNn8gms_nK4cRk4rChl5AL00wbkkYJLALyQbxhleCx0WNMCdjqm_Sip8Auofr0n-TYprI</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          19.961264,53.703479,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Papowo Biskupie</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUGkqHeP-Z2s9xF5jKeFdWy031tR9PUDlijOYAb7cYGoFrmaZG_Lhl-8MucBvcxTZSTa-ozo2K4g0U0J5rbg_oHOfg8py_0c0hqNhKhRlhsbN3msxfsb_SV9A8qJ3zC9aUBdTMaS27L9T6S20vqWn2fZyNGCYs88XlOCucsJPNWWhVofWjAMNf01wi4dbUucnQYdRVvM6LWPNAxeZyt1AW2VLbVwiwo49Q9Zj_juDXNMwGuUzFElkkMFUe3UizR8w1tMj1-e3593fu9n8urLZ1vNLPDuj6nD0XRpN5S7MThGE80DmaQanIPmM9DA4Mi4D-nbzuvJvVgKEQfCsuNCmFRwewNjWW-lX7JusF1MF23XjaSn8KeqNCi3vQCtUGGY-dXxcU-o1_xZHKoq6VGYWdcydearBbZcLTdBV76Jjymm7aR6kLTdRYHyoMUoWMdOqjS6ZvMcsIDc0FHpXlNWhR8-qXzTyc9xxo9ULmq5H-TSGHsg-chRDbbINjKWByyqYnlbJkLgeNARWytaWGjU2wGypSOp28Pgalj6sRjc" height="200" width="auto" /><br><br>Zamek w Papowie Biskupim zbudowano w XIII wieku (budola z kamieni polnych), obecnie ruiny.   Foto: Jerzy Strzelecki CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUGkqHeP-Z2s9xF5jKeFdWy031tR9PUDlijOYAb7cYGoFrmaZG_Lhl-8MucBvcxTZSTa-ozo2K4g0U0J5rbg_oHOfg8py_0c0hqNhKhRlhsbN3msxfsb_SV9A8qJ3zC9aUBdTMaS27L9T6S20vqWn2fZyNGCYs88XlOCucsJPNWWhVofWjAMNf01wi4dbUucnQYdRVvM6LWPNAxeZyt1AW2VLbVwiwo49Q9Zj_juDXNMwGuUzFElkkMFUe3UizR8w1tMj1-e3593fu9n8urLZ1vNLPDuj6nD0XRpN5S7MThGE80DmaQanIPmM9DA4Mi4D-nbzuvJvVgKEQfCsuNCmFRwewNjWW-lX7JusF1MF23XjaSn8KeqNCi3vQCtUGGY-dXxcU-o1_xZHKoq6VGYWdcydearBbZcLTdBV76Jjymm7aR6kLTdRYHyoMUoWMdOqjS6ZvMcsIDc0FHpXlNWhR8-qXzTyc9xxo9ULmq5H-TSGHsg-chRDbbINjKWByyqYnlbJkLgeNARWytaWGjU2wGypSOp28Pgalj6sRjc</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          18.564263,53.251692,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pasłęk</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUGM1avx_mgVYAaciaI1ARX_GmgAcRbsLQuCsuNJYcwxiQP0SZxcddMcjb7Dv0aosCuIQ89-8uJa1CFaFYkTzY4P791tg4AB_2lurFqbFw0bng_2fE6S_vEdUs1JT__TAQTOnw49roViB_fnPYnwCx-VKQTXCqXMhj3GgmvosxFyBajBUNgRzr-8kVZfCG7gzPQfIkVbbCzLdMMbgXXs--AALlbdTYpFNlM9Z5sbJamLB52m2fylKbT3IDzqYtxjwoU3MMo5ow7KhI20k2Z95fwiwl3otLwgh1_yk-rhgLwa-LqNYVaSo2peuK7Uu2HviBS6BH5oi7d5GlObdaPlexdG8uZB_aRjfRpYWCTEuFQZkJFGrXt9yc9eRwES5ySqXqqwDbfIIDIjQ5rt5T7kClANHBYiV5KB0wo-3-Tb81mRQ9iWjtutGveG4x5fTseZUkhQGuBbP0_Vx_ZK3qbPOI95-jcnvQfC1hgSFyVsBX5-07U0hDwBtuHEzV64Np7jBZpp4tFGfMe6o8OCn9YpQLzbPrjvFvUXf1Fp3l6H" height="200" width="auto" /><br><br>Zamek krzyżacki w Pasłęku zbudowany w XIV wieku, odbudowany w latach 60. Foto: Romek CC BY-SA 3.0 pl (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUGM1avx_mgVYAaciaI1ARX_GmgAcRbsLQuCsuNJYcwxiQP0SZxcddMcjb7Dv0aosCuIQ89-8uJa1CFaFYkTzY4P791tg4AB_2lurFqbFw0bng_2fE6S_vEdUs1JT__TAQTOnw49roViB_fnPYnwCx-VKQTXCqXMhj3GgmvosxFyBajBUNgRzr-8kVZfCG7gzPQfIkVbbCzLdMMbgXXs--AALlbdTYpFNlM9Z5sbJamLB52m2fylKbT3IDzqYtxjwoU3MMo5ow7KhI20k2Z95fwiwl3otLwgh1_yk-rhgLwa-LqNYVaSo2peuK7Uu2HviBS6BH5oi7d5GlObdaPlexdG8uZB_aRjfRpYWCTEuFQZkJFGrXt9yc9eRwES5ySqXqqwDbfIIDIjQ5rt5T7kClANHBYiV5KB0wo-3-Tb81mRQ9iWjtutGveG4x5fTseZUkhQGuBbP0_Vx_ZK3qbPOI95-jcnvQfC1hgSFyVsBX5-07U0hDwBtuHEzV64Np7jBZpp4tFGfMe6o8OCn9YpQLzbPrjvFvUXf1Fp3l6H</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          19.659196,54.066762,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pieniężno KW
+</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUH9Owow92wbZs76uWBCbKv_8evS86r2g810kZBGKOHav9nbmIVf2i23dlNjpWdLQJ5kMdQUm4chDjo7MvyG90lCT30nsGBsvaALvNOdvWckX2DwVQpdzF6KyCG-TdrYwpPd0N2AcipsqABJ_PU4Go-Hiq4xxd3jmbnG3NTcFjrR5-edAp6uyyGvkCl1jeN7yGjYSDs8gwQMUQtQiCOwMGEk2QJGaPcYWIThpZ9PMAJjBW75W85uGUcRTac2-eb5d1vL5Cr9LRaJ24B6BKDyDAHGmt9oajVTbE5ObLMrvGi9R0wv5IOsoBUFUA4HtmLUuFw_gfKRGNPWNVRBujRhdBy0wvAOArXMj_Ubl0jolK2VyqjoNLR-Blfkmv7QQApEYm5Hzh8D870EOfurcbRQeYJO7dJn4NJl3bwRPPa0L8rI2HLPGXkQQLv2YV11vxQ2Og5Q5bTjpmN7OowetkKyVgujL_8G5f2_ObGFib2JJD2oFWa1hsUQk5v_ya8Vw7pakAcgCkphWqL21xaAvN57ODTeBYs6PYWNVG4NK42g" height="200" width="auto" /><br><br>https://pl.wikipedia.org/wiki/Zamek_Kapitu%C5%82y_Warmi%C5%84skiej_w_Pieni%C4%99%C5%BCnie<br><br>Zamek Kapituły Warmińskiej w Pieniężnie zbudowany w pierwszej połowie XIV wieku. Foto: Jerzy Strzelecki [CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0)]]></description>
+      <styleUrl>#icon-1598-C2185B</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUH9Owow92wbZs76uWBCbKv_8evS86r2g810kZBGKOHav9nbmIVf2i23dlNjpWdLQJ5kMdQUm4chDjo7MvyG90lCT30nsGBsvaALvNOdvWckX2DwVQpdzF6KyCG-TdrYwpPd0N2AcipsqABJ_PU4Go-Hiq4xxd3jmbnG3NTcFjrR5-edAp6uyyGvkCl1jeN7yGjYSDs8gwQMUQtQiCOwMGEk2QJGaPcYWIThpZ9PMAJjBW75W85uGUcRTac2-eb5d1vL5Cr9LRaJ24B6BKDyDAHGmt9oajVTbE5ObLMrvGi9R0wv5IOsoBUFUA4HtmLUuFw_gfKRGNPWNVRBujRhdBy0wvAOArXMj_Ubl0jolK2VyqjoNLR-Blfkmv7QQApEYm5Hzh8D870EOfurcbRQeYJO7dJn4NJl3bwRPPa0L8rI2HLPGXkQQLv2YV11vxQ2Og5Q5bTjpmN7OowetkKyVgujL_8G5f2_ObGFib2JJD2oFWa1hsUQk5v_ya8Vw7pakAcgCkphWqL21xaAvN57ODTeBYs6PYWNVG4NK42g</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          20.123684,54.233589,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pokrzywno</name>
+      <styleUrl>#icon-1598-000000-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          18.850211,53.436269,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Prabuty</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUE8FJ2rdYNV3UwymyTOjfwIlHCTppVTnbTuJfub5a3xfWEdrX6eig-QIluYTb5jxvDdubWrXFjmUu1IYwjZ0LEWFkiuU4fUfI4yhlnGhaehmlPUZIlcwjVOb5gkRP_sRf1p7ODiTZZVAX0gKpRKU1uMty1rnQhcQMSRYsbhJWL5uBGJHDTYV4xR6YoQft60QBfpAenZQACMrSStdPd1JTMLTGSq8LKu2b83vIxcAila9HR2dqYBLE3jADAYfoJzkFir-YX05sJM_1XpDx16kDG6KLHheTfM9CU5LTj8ZNhdTX2RWw3V89vi_OwCwniWsVF-RjrzCFwRJ4viv-SAHIhhhBtWpMeoCFTTLgM_3mXJoQLXyMInHQ9cBeelUubv96S8-mUEPZCTOSY7MdARz_6QlLuMgYa5pB3GVsnGHdi_WRR83YH5BYcuHAJin-0W2xm5awJiEsYT_W0MtVgMIckIbSakXrtcW0WLCzfvEJnFeHASg50YEaVnAlqGVOEk1K4kxjA6bLZsHxvZMR5O70WQKcRqepPw4pdShTe1" height="200" width="auto" /><br><br>https://pl.wikipedia.org/wiki/Zamek_w_Prabutach<br><br>Zamek biskupi w Prabutach zbudowany w latach 1276-1277. Ruiny. Foto: Michalbu15 CC BY-SA 3.0 pl (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)]]></description>
+      <styleUrl>#icon-1598-0F9D58</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUE8FJ2rdYNV3UwymyTOjfwIlHCTppVTnbTuJfub5a3xfWEdrX6eig-QIluYTb5jxvDdubWrXFjmUu1IYwjZ0LEWFkiuU4fUfI4yhlnGhaehmlPUZIlcwjVOb5gkRP_sRf1p7ODiTZZVAX0gKpRKU1uMty1rnQhcQMSRYsbhJWL5uBGJHDTYV4xR6YoQft60QBfpAenZQACMrSStdPd1JTMLTGSq8LKu2b83vIxcAila9HR2dqYBLE3jADAYfoJzkFir-YX05sJM_1XpDx16kDG6KLHheTfM9CU5LTj8ZNhdTX2RWw3V89vi_OwCwniWsVF-RjrzCFwRJ4viv-SAHIhhhBtWpMeoCFTTLgM_3mXJoQLXyMInHQ9cBeelUubv96S8-mUEPZCTOSY7MdARz_6QlLuMgYa5pB3GVsnGHdi_WRR83YH5BYcuHAJin-0W2xm5awJiEsYT_W0MtVgMIckIbSakXrtcW0WLCzfvEJnFeHASg50YEaVnAlqGVOEk1K4kxjA6bLZsHxvZMR5O70WQKcRqepPw4pdShTe1</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          19.19536,53.759435,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Przezmark</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUEoDcY2iQuzufXSw1DZOxu2BnOOKsRBqqwRTc5VmoY0d-WxyAn7jOM68R5_QtyCO4GEAiMeq-f26SMsycxbWFo1uQMkVfYDWtJKlRlypbHyO8Wvc6CpJrAZrLO71ABQWhTNF1Iy1o8tC3Ej5VNUItKyfevJYLmT9wuqtTF7Ld3O3TJEfCz_B62ClBrseX1thBscXNPiz5ydLdicv14WTRMS7uanrUJBf0OEVTlmi85Km5YfHYterwwf1U2hoyGSrqqyNWmAje3TkL0WRUemWZ2L1RaauFkVGCta4JAQkIPMU5kjdRUz8jwdEJcMm4xxEs06bTt-UEvXe_YhWElYWZOFoM3ZlkZt4BQuv2HlRTaYkWOpUZjyRhTtHXattaiNMx9g4mgVKEHXbG0oy1hNGh5YVQBLERqzRO5ssjrCVb3YeGsvWHIk0fM9IdI59DfdIk7vOtTAMfQnIQY5rDKWf-92ONInq9zFKpku1xKD3NwWL-bfsibl6Xu9kvA36rPYTbvXhKhsGEk933va9J56fiMGSwabQ6s4_0usSPiB" height="200" width="auto" /><br><br>Zamek krzyżacki w Przezmarku z pierwszej połowy XIV wieku. Foto: Mclion at Polish Wikipedia CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUEoDcY2iQuzufXSw1DZOxu2BnOOKsRBqqwRTc5VmoY0d-WxyAn7jOM68R5_QtyCO4GEAiMeq-f26SMsycxbWFo1uQMkVfYDWtJKlRlypbHyO8Wvc6CpJrAZrLO71ABQWhTNF1Iy1o8tC3Ej5VNUItKyfevJYLmT9wuqtTF7Ld3O3TJEfCz_B62ClBrseX1thBscXNPiz5ydLdicv14WTRMS7uanrUJBf0OEVTlmi85Km5YfHYterwwf1U2hoyGSrqqyNWmAje3TkL0WRUemWZ2L1RaauFkVGCta4JAQkIPMU5kjdRUz8jwdEJcMm4xxEs06bTt-UEvXe_YhWElYWZOFoM3ZlkZt4BQuv2HlRTaYkWOpUZjyRhTtHXattaiNMx9g4mgVKEHXbG0oy1hNGh5YVQBLERqzRO5ssjrCVb3YeGsvWHIk0fM9IdI59DfdIk7vOtTAMfQnIQY5rDKWf-92ONInq9zFKpku1xKD3NwWL-bfsibl6Xu9kvA36rPYTbvXhKhsGEk933va9J56fiMGSwabQ6s4_0usSPiB</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          19.4942863,53.8581395,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Radzyń Chełmiński</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUGGGE6Z7_-npgXXgkK1N38v-krPcZIVsY_Ggg-x-MXFxo9Wn4wrLv0vCxHq_rx5mCThfpDjwrWPsUYYfQHQBYVvZvGh5obJI4KgahGyvxouOvIw5dUUiSVokpBGeL7tPIhPCumGQsMDR2LCXAYP7axZdOG9B-fYH-kwT6o2bOyFciGGh8D8ilV_QXdNAuD03caw1nhVg3vRRCvM48lvPCBWAEk2X46hseT01eaoYfap0_-qu4yYhScH4_6N-_o9xKKxshqoVEQyPLytYLRR5xxMMrzsUsfBoaY2jX6U2LDjdMx2sknfbTSTF6xG9THTaHvFUqZVd1sQPApO8t6K1wTylbjiGymZmgLWaCQh3eC8D8yjugUxpDw9EzOwYTE6TE-IWIEdiAzsHloMCjqpEjFsyLvJOFaKOVvR50BpFoFRW9_o6_dwWBqr9aGZHUywlzgUL0sY4Umwia8rLFBhEzyEbgnX-B3Dz1OxHicV8dwG4gNIZhzjdEZNMDAqU0szSZWZzILruOvyMTpHA0VGZSdLxrpDVeXXEHhYc1A" height="200" width="auto" /><br><br>Zamek krzyżacki w Radzyniu Chełmińskim zbudowany w latach latach 1310-1330.]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUGGGE6Z7_-npgXXgkK1N38v-krPcZIVsY_Ggg-x-MXFxo9Wn4wrLv0vCxHq_rx5mCThfpDjwrWPsUYYfQHQBYVvZvGh5obJI4KgahGyvxouOvIw5dUUiSVokpBGeL7tPIhPCumGQsMDR2LCXAYP7axZdOG9B-fYH-kwT6o2bOyFciGGh8D8ilV_QXdNAuD03caw1nhVg3vRRCvM48lvPCBWAEk2X46hseT01eaoYfap0_-qu4yYhScH4_6N-_o9xKKxshqoVEQyPLytYLRR5xxMMrzsUsfBoaY2jX6U2LDjdMx2sknfbTSTF6xG9THTaHvFUqZVd1sQPApO8t6K1wTylbjiGymZmgLWaCQh3eC8D8yjugUxpDw9EzOwYTE6TE-IWIEdiAzsHloMCjqpEjFsyLvJOFaKOVvR50BpFoFRW9_o6_dwWBqr9aGZHUywlzgUL0sY4Umwia8rLFBhEzyEbgnX-B3Dz1OxHicV8dwG4gNIZhzjdEZNMDAqU0szSZWZzILruOvyMTpHA0VGZSdLxrpDVeXXEHhYc1A</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          18.935694,53.388521,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Reszel KW
+</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUGQC8ZiwnyMc7P2ZzUyGA-WclddyAtDvo7IrDbs4fdrMGRu6wTPvNUWdpMNJxTeqOc07nywO-Xe6eldqEWMLlycd90rUdlYnVB9vp03YeLulHfhg472Zr0P5hZveTCN2wjp42ccIUOVvqP0b09f1e50nwbJkH_V3Yh5z3zTKR4jXnsZqcRVCREBKK3iXVelJsL0UfyjKqkEiJeIZH0p5aty10X_sprTHzyx4M1QZA4OSMfeiEh6fwTffCbemGE9YMKMgM6jVi7beA3Fso30hui2z5rdSIAGPLV4xN0h7mS07XxN7vcfRd2PhE54-QxSuSVCU6CJEp24yxr3O7cqHK9YpqWp8NVXqttfl4S9QiA0hVtBQGR0Bg_TlIIIWSBBtFpJUhubw30O5pktf8ntFoIwAH5Uw9LInXcE4wO2KbQqaowtwhLOpdhTEiAAxQsSRhRswV7VKgypjwgWcoREV0sYGO-uPt9AsHgnK8Pnt4NOOIi7ttbbRK07WKAMOmP7aMnMMYE_eCxUCwZLQgwv-VJr1LWoLr3NQjUe-sgk" height="200" width="auto" /><br><br>Zamek biskupi w Reszlu zbudowany w latach 1350–1401.]]></description>
+      <styleUrl>#icon-1598-C2185B</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUGQC8ZiwnyMc7P2ZzUyGA-WclddyAtDvo7IrDbs4fdrMGRu6wTPvNUWdpMNJxTeqOc07nywO-Xe6eldqEWMLlycd90rUdlYnVB9vp03YeLulHfhg472Zr0P5hZveTCN2wjp42ccIUOVvqP0b09f1e50nwbJkH_V3Yh5z3zTKR4jXnsZqcRVCREBKK3iXVelJsL0UfyjKqkEiJeIZH0p5aty10X_sprTHzyx4M1QZA4OSMfeiEh6fwTffCbemGE9YMKMgM6jVi7beA3Fso30hui2z5rdSIAGPLV4xN0h7mS07XxN7vcfRd2PhE54-QxSuSVCU6CJEp24yxr3O7cqHK9YpqWp8NVXqttfl4S9QiA0hVtBQGR0Bg_TlIIIWSBBtFpJUhubw30O5pktf8ntFoIwAH5Uw9LInXcE4wO2KbQqaowtwhLOpdhTEiAAxQsSRhRswV7VKgypjwgWcoREV0sYGO-uPt9AsHgnK8Pnt4NOOIi7ttbbRK07WKAMOmP7aMnMMYE_eCxUCwZLQgwv-VJr1LWoLr3NQjUe-sgk</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.147933,54.048413,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rogoźno</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUEL3DR9nqGch6LH184hmHCiMOYiAiiKho5B4ZhNI6kVG1YXHOY4ZGFKprjcrb8W_fDV5Rphtjgw1_iwZ1njsaVfwqJ-z7GNbdHShEoN1XOxQ4uql2TxKqhnly3klb6osATGEeipuGe9fsUYYmGT3PVrP6TL1klXZ92Pq8fScxLLRuisA9rtjw0Y03t8yVpx7FIaNV2ss8W36vll5Yj16uduacgdiZmugUlG9NIw1cVUESLVSI9TSrxh_0roS9uFvEIhu2I2HxNAu8uAm6ikdBBHyCN994wpbr-rMhEJ_zQS9nEBzgMRFZhYzEf5di9KUuKtEmqj_PledH6Eqr94aG-fJk40Yh1rlxx6wN-IbKh5iaxPVEQjHLgKrIrOMtpbu0TA6hvBznhljpzBq9wPgEq_gseBa2QWrOiOTeedbys-p4zXcVr84YwuJgTHHzV_Pnks6kSfBFSW8SWSGidKYnMj_xWzV6g_beDJxUV4Udv0g0XZbZHSEyIY_8mOcFQXuFdp4ISWMKO4eAVaA8r-vdEPT_2p5-gqGmykIow1" height="200" width="auto" /><br><br>Zamek krzyżacki w Rogoźnie zbudowany w drugiej połowie XIII wieku. Ruiny, wieża bramna. Foto: ZeroJeden CC BY-SA 3.0 pl https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)]]></description>
+      <styleUrl>#icon-1598-0F9D58</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUEL3DR9nqGch6LH184hmHCiMOYiAiiKho5B4ZhNI6kVG1YXHOY4ZGFKprjcrb8W_fDV5Rphtjgw1_iwZ1njsaVfwqJ-z7GNbdHShEoN1XOxQ4uql2TxKqhnly3klb6osATGEeipuGe9fsUYYmGT3PVrP6TL1klXZ92Pq8fScxLLRuisA9rtjw0Y03t8yVpx7FIaNV2ss8W36vll5Yj16uduacgdiZmugUlG9NIw1cVUESLVSI9TSrxh_0roS9uFvEIhu2I2HxNAu8uAm6ikdBBHyCN994wpbr-rMhEJ_zQS9nEBzgMRFZhYzEf5di9KUuKtEmqj_PledH6Eqr94aG-fJk40Yh1rlxx6wN-IbKh5iaxPVEQjHLgKrIrOMtpbu0TA6hvBznhljpzBq9wPgEq_gseBa2QWrOiOTeedbys-p4zXcVr84YwuJgTHHzV_Pnks6kSfBFSW8SWSGidKYnMj_xWzV6g_beDJxUV4Udv0g0XZbZHSEyIY_8mOcFQXuFdp4ISWMKO4eAVaA8r-vdEPT_2p5-gqGmykIow1</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          18.952508,53.519795,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ryn</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUGud9NJcx_a7_utuYhsFt7JZkypA1zY8pYc6wEeKmaFmgpIPNrdxyFGcF0JddF47GAmPR5aCaKgsXe-T_u8sJjSG5RdEd_odcM_PAQD2kGm3dCClMzxYUGAjO_3AU20uDktHmfQQ06V09NNw5uEuYD_QkzzojwHlRl2d5PDLLNSTn-tpf6p3EkF6-uTTuTgrrwQUGRc12RZx9hZbq3oAwQTq7PWZwr197lzp_wZvkhcKz2R4ji6nr23G6pcaQjJWetnCFE1mMedmnpUjxLY9sfbCSkPV16H1iksydvtRiqe1Iho8JL42hWaqgIQpuljjVSmj7Kg2FxfDrF6FyvtCcYGjKENMZKjdDXyGpvVTLj8h_H4Zu7OQE3dCXAETAvJKZTmyuDunYSU360lpvXtU9QbWculKKUVRA_zlrIn4vCDmIWwfQuLD7LwN_oggXuImLHF5JEUfHPQjwTYeHlLxh6GP-FILZYHOi_U_Qubkmg8Z2_F2q5pRGg7_Y0eSN_ivpvi2j8Y-A1rZvkMgXWTBUKYNrXXtwkpmkLOL9Y" height="200" width="auto" /><br><br>https://pl.wikipedia.org/wiki/Zamek_w_Rynie<br><br>Zamek krzyżacki w Rynie zbudowano ok. 1377 roku. Foto: Dakorps CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUGud9NJcx_a7_utuYhsFt7JZkypA1zY8pYc6wEeKmaFmgpIPNrdxyFGcF0JddF47GAmPR5aCaKgsXe-T_u8sJjSG5RdEd_odcM_PAQD2kGm3dCClMzxYUGAjO_3AU20uDktHmfQQ06V09NNw5uEuYD_QkzzojwHlRl2d5PDLLNSTn-tpf6p3EkF6-uTTuTgrrwQUGRc12RZx9hZbq3oAwQTq7PWZwr197lzp_wZvkhcKz2R4ji6nr23G6pcaQjJWetnCFE1mMedmnpUjxLY9sfbCSkPV16H1iksydvtRiqe1Iho8JL42hWaqgIQpuljjVSmj7Kg2FxfDrF6FyvtCcYGjKENMZKjdDXyGpvVTLj8h_H4Zu7OQE3dCXAETAvJKZTmyuDunYSU360lpvXtU9QbWculKKUVRA_zlrIn4vCDmIWwfQuLD7LwN_oggXuImLHF5JEUfHPQjwTYeHlLxh6GP-FILZYHOi_U_Qubkmg8Z2_F2q5pRGg7_Y0eSN_ivpvi2j8Y-A1rZvkMgXWTBUKYNrXXtwkpmkLOL9Y</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.545792,53.938773,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Starogród</name>
+      <description>https://pl.wikipedia.org/wiki/Zamek_w_Starogrodzie</description>
+      <styleUrl>#icon-1598-FBC02D</styleUrl>
+      <Point>
+        <coordinates>
+          18.3725149,53.3088974,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Szczytno</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUEhQkV70Wk8L9emnkCt3ACGRsPr4iToM5Wt35FqEu4HE5rbzTVvGzEjdZS0P3pIG2Z4EP55PjrdR7fntcV4iCoPdhdoDBh3tXXqmqCELnEDPMzB4xDbRRcZDTe0-Z9eSZNJuOG0ST_w80ZAbZLfh3bwPEUvN-IDBvaIoIHQHOPO9usQ7VyHiY2oOM_ebLuy0ec4VEbcsMpAsjElTqn1geGK7fj6VXIbHerVjMuZQxbgMO0vHB-hYE1gDR1Hl1DCXcHnF8JrSaUMnfTS0DKGiJWVK6F_HNyN7nEAyjKsHXWWDhV_6911p-xhNAdYtrovHvOoI3JDC_sN97ubQ7jBu4sxdi3HXjSDEb06bc3jUT2YpoVse5YEPZcn1F8z-N8ZhdIVD2_NCTE_4VKlBiDObwX8B45LqX2izTOEKNH8M9ywh8nB3Xb6THT3XWVQiHgYjw3tfSQwR2GaVMnA1RGKoObFTJ_IGqnMu_BJSm3Z3xFTuxgQnicN7ixHwd6jLkgXqVOHah-U75RS9Ip5wrmXj0GYVVNm5xs3k2HUWC91" height="200" width="auto" /><br><br>Zamek w Szczytnie zbudowany jako murowany pod koniec XIV wieku.]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUEhQkV70Wk8L9emnkCt3ACGRsPr4iToM5Wt35FqEu4HE5rbzTVvGzEjdZS0P3pIG2Z4EP55PjrdR7fntcV4iCoPdhdoDBh3tXXqmqCELnEDPMzB4xDbRRcZDTe0-Z9eSZNJuOG0ST_w80ZAbZLfh3bwPEUvN-IDBvaIoIHQHOPO9usQ7VyHiY2oOM_ebLuy0ec4VEbcsMpAsjElTqn1geGK7fj6VXIbHerVjMuZQxbgMO0vHB-hYE1gDR1Hl1DCXcHnF8JrSaUMnfTS0DKGiJWVK6F_HNyN7nEAyjKsHXWWDhV_6911p-xhNAdYtrovHvOoI3JDC_sN97ubQ7jBu4sxdi3HXjSDEb06bc3jUT2YpoVse5YEPZcn1F8z-N8ZhdIVD2_NCTE_4VKlBiDObwX8B45LqX2izTOEKNH8M9ywh8nB3Xb6THT3XWVQiHgYjw3tfSQwR2GaVMnA1RGKoObFTJ_IGqnMu_BJSm3Z3xFTuxgQnicN7ixHwd6jLkgXqVOHah-U75RS9Ip5wrmXj0GYVVNm5xs3k2HUWC91</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          20.989648,53.566668,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sztum</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUErapjDpCyLuUkdCp5Hzgb81fnlZn_FMx4v8r68-1GbWdltWgsSgGCi3GJxfGMYBq2fIP7Jo0bhJWgbi-d90SF_JnE9WGwrnEz_vA2dE5B3TjAHeTFHxq7BWthirpUb8MXYHyNBLwjcB-V299J70CKP0MjBJWxmjBPjNPYEXOkwM9MRxCL_IuG47Ak4j3t0mbt4-JitIVZQAP627w8EGXtoxxv0F6D2dBcIcS4RPAzBGXmHzZU7u7ddYNCbvNXweW-IETHhxgItcnGhTkvMP2-41-ffPA9jRRU_8ftnu_elW3p3VWqCSKJ_3WqdP0jVSZ5hYcxsy7JHSehthEct5V5JiP85EOY0IpGKfJ6bzSsxJwZQkSKOJvubUdAN5sYDVIoD8grzgtEOmrThAvlPzBhT3lkuBVKKkfLQ2ANSktkrSXvABWPBTruIxpaw8MtOw84_SYLKYNaW70vWi8Ks3BgqxGbCNVQXMH7uMRdUJdrhHCh_Xtd2YTykhJKmsh8crgv-R3zFF4cHf2VVX2yypKjmRCi1vfln8F_jf5NV" height="200" width="auto" /><br><br>Zamek w Sztumie zbudowany przez krzyżaków w latach 1326–1335. Foto:Sławek Zawadzki [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUErapjDpCyLuUkdCp5Hzgb81fnlZn_FMx4v8r68-1GbWdltWgsSgGCi3GJxfGMYBq2fIP7Jo0bhJWgbi-d90SF_JnE9WGwrnEz_vA2dE5B3TjAHeTFHxq7BWthirpUb8MXYHyNBLwjcB-V299J70CKP0MjBJWxmjBPjNPYEXOkwM9MRxCL_IuG47Ak4j3t0mbt4-JitIVZQAP627w8EGXtoxxv0F6D2dBcIcS4RPAzBGXmHzZU7u7ddYNCbvNXweW-IETHhxgItcnGhTkvMP2-41-ffPA9jRRU_8ftnu_elW3p3VWqCSKJ_3WqdP0jVSZ5hYcxsy7JHSehthEct5V5JiP85EOY0IpGKfJ6bzSsxJwZQkSKOJvubUdAN5sYDVIoD8grzgtEOmrThAvlPzBhT3lkuBVKKkfLQ2ANSktkrSXvABWPBTruIxpaw8MtOw84_SYLKYNaW70vWi8Ks3BgqxGbCNVQXMH7uMRdUJdrhHCh_Xtd2YTykhJKmsh8crgv-R3zFF4cHf2VVX2yypKjmRCi1vfln8F_jf5NV</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          19.040374,53.915078,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Szymbark</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUEKIlogF9E_CHyRT_0icq7up3phT-DbO0r8XY6xNVz8NIAeRuiS6O-SsXiRNsyTugVCJ8KO-_HNoHu-mSxtDNypDeodDcSE6TMQu9pMmzhlwrGkWCZ6UcbuoEm8oUpfPDI7oHC5atNw6qxGxr58XmjZ4Ewc4LFIeXfLJVLRKu3hqeoU4IiCf70b9SWRt0GBUCo713WtwqhlexdJks504Jd9Pwh4PIkDYYNSuKm8stBJkwfc2IQ45QkXUtxZMsvW499C6d2DBwJeGze6b-OdSn8zD3HF9Uo5Q2gqqUQWMFJ8USCIPr78vj2s3EivCF0kAPCyfWX7hvlweRr-vLLhb16mGdlN9Gx8TTtJoiGiP12NtwsQE6Ovjc8vESk3lOqjjltXiJYq89lPxZNAVSfOqTYSIGmtIJRvoVG24_R-atHYJe80x9zddJqnqeoGEH2xXxhTGu4GOFpRMhi0-ZPCwZ-KwFmHFTg-EtmxIWGdwomq64DX-fBSLVZLDYAN6pacTr9eUX6JxUYdl2-4iIhcX7dmWcx5HqM79gfsD-tD" height="200" width="auto" /><br><br>Zamek kapituły pomezańskiej w Szymbarku zbudowany pod koniec XIV wieku.]]></description>
+      <styleUrl>#icon-1598-C2185B</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUEKIlogF9E_CHyRT_0icq7up3phT-DbO0r8XY6xNVz8NIAeRuiS6O-SsXiRNsyTugVCJ8KO-_HNoHu-mSxtDNypDeodDcSE6TMQu9pMmzhlwrGkWCZ6UcbuoEm8oUpfPDI7oHC5atNw6qxGxr58XmjZ4Ewc4LFIeXfLJVLRKu3hqeoU4IiCf70b9SWRt0GBUCo713WtwqhlexdJks504Jd9Pwh4PIkDYYNSuKm8stBJkwfc2IQ45QkXUtxZMsvW499C6d2DBwJeGze6b-OdSn8zD3HF9Uo5Q2gqqUQWMFJ8USCIPr78vj2s3EivCF0kAPCyfWX7hvlweRr-vLLhb16mGdlN9Gx8TTtJoiGiP12NtwsQE6Ovjc8vESk3lOqjjltXiJYq89lPxZNAVSfOqTYSIGmtIJRvoVG24_R-atHYJe80x9zddJqnqeoGEH2xXxhTGu4GOFpRMhi0-ZPCwZ-KwFmHFTg-EtmxIWGdwomq64DX-fBSLVZLDYAN6pacTr9eUX6JxUYdl2-4iIhcX7dmWcx5HqM79gfsD-tD</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          19.481483,53.645245,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Świdwin</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUFgvgTKpR1W7Bgr-gppsAT_r09qam62D4ALfdJtIt7DnpI6FXWnRa4uFRuk_EyM7jDrr-BtPvelF4XDzKs4M0A4tyaRfvD3vwnBqBGkpb-fDofFqPX50x4s49pg6GTBdvjkLU3RPwLaaZaPE8TZjrN2jrrB3qjimqeSqxDhGYF6-5oHf23_M1x72VqsExoyt86Sd9VZTC4LhpTvQE-abn-2_vZ8fhq8FhWic5cNd-H8suPwkyRmF5A6F3BEyiFBF-RYgC48bhcDpkr12KfaLOiXyJIFSh82Y440QN8zBMGYCFsajFTXPz3cvBs3pFPB16uDc3KvBp2bIKGNvs7A-e1QY3qCQwL-lyvbC4Q2T_0BUB3sgiTFgRGDFmoHbUpykX0Czs8njp3wQheqCHp1GzTg2rnVeMiC8fs-No5ASwXJOPlxOrqI05YjqhYqXRp0apvvNHvHJpvMlUI0hubk55-lYFOTYtdAupzF8LAXyVMJn0S-xwkk3F2NbpezQTHLZhpZtZiQj4WLL_jdojEqNFe75ZqxTPNRdq9Pvz0" height="200" width="auto" /><br><br>Zamek w Świdwinie zbudowany za czasów margrabiów brandenburskich, zakupiony i rzobudowany przez krzyżaków.  Foto: 7alaskan [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUFgvgTKpR1W7Bgr-gppsAT_r09qam62D4ALfdJtIt7DnpI6FXWnRa4uFRuk_EyM7jDrr-BtPvelF4XDzKs4M0A4tyaRfvD3vwnBqBGkpb-fDofFqPX50x4s49pg6GTBdvjkLU3RPwLaaZaPE8TZjrN2jrrB3qjimqeSqxDhGYF6-5oHf23_M1x72VqsExoyt86Sd9VZTC4LhpTvQE-abn-2_vZ8fhq8FhWic5cNd-H8suPwkyRmF5A6F3BEyiFBF-RYgC48bhcDpkr12KfaLOiXyJIFSh82Y440QN8zBMGYCFsajFTXPz3cvBs3pFPB16uDc3KvBp2bIKGNvs7A-e1QY3qCQwL-lyvbC4Q2T_0BUB3sgiTFgRGDFmoHbUpykX0Czs8njp3wQheqCHp1GzTg2rnVeMiC8fs-No5ASwXJOPlxOrqI05YjqhYqXRp0apvvNHvHJpvMlUI0hubk55-lYFOTYtdAupzF8LAXyVMJn0S-xwkk3F2NbpezQTHLZhpZtZiQj4WLL_jdojEqNFe75ZqxTPNRdq9Pvz0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          15.768926,53.772694,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Świecie</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUF6N4nHp2InffV29NV1eaUL2bfrveOaGk4NxtocurQaIsZcsibdDssZPnxojGAmJa8lK4C2Vq7toh-_tDMIW_XL7wBS-TFQDPV_cCpy5RZcos0cQ4O8HZW8Df8Uf9_m4xU1B0ozrzhAb9YNHZdhMpO-EXjqauK_wuzPPElhyO1-Q8Lb1IoiNxsPyxfar3-QuIo16ZAASapAUh1BrjixAVGuULneqhqY37j4hQyXJNw2VHnPktV9Djp0rXhh-nYuLebzR3LVePxdRipcnA22ovBMisMos5IcGrdZWxmUHQeoetIgj_Fzy1kAEX9BGiElEh6etKKMIXq14mpK3qCgXeBquJ-H3rdWoIyaST4U-bPMkddX6HYo9lAFoqbTymUzuJpMPE1BBOvVDh95MreabeFyS4ZoxSOlJNrb5BcI4D07XRuRCUoef35CzRUXaZtGxus8eV0X6QkRabUhuLVmn-lqP-053LNIDFaQtfCDnIgpIZ0emfDqU6VA8S3oKlRrL4xzJA1I_d5uovq2QMsJdCyzV40DLo4bbCWKwDOj" height="200" width="auto" /><br><br>https://pl.wikipedia.org/wiki/Zamek_krzy%C5%BCacki_w_%C5%9Awieciu<br><br>Zamek w świeciu zbudowany został przez Zakon krzyżacki po roku 1335. Uznawany za jedyny zamek wodny zbudowany przez Krzyżaków]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUF6N4nHp2InffV29NV1eaUL2bfrveOaGk4NxtocurQaIsZcsibdDssZPnxojGAmJa8lK4C2Vq7toh-_tDMIW_XL7wBS-TFQDPV_cCpy5RZcos0cQ4O8HZW8Df8Uf9_m4xU1B0ozrzhAb9YNHZdhMpO-EXjqauK_wuzPPElhyO1-Q8Lb1IoiNxsPyxfar3-QuIo16ZAASapAUh1BrjixAVGuULneqhqY37j4hQyXJNw2VHnPktV9Djp0rXhh-nYuLebzR3LVePxdRipcnA22ovBMisMos5IcGrdZWxmUHQeoetIgj_Fzy1kAEX9BGiElEh6etKKMIXq14mpK3qCgXeBquJ-H3rdWoIyaST4U-bPMkddX6HYo9lAFoqbTymUzuJpMPE1BBOvVDh95MreabeFyS4ZoxSOlJNrb5BcI4D07XRuRCUoef35CzRUXaZtGxus8eV0X6QkRabUhuLVmn-lqP-053LNIDFaQtfCDnIgpIZ0emfDqU6VA8S3oKlRrL4xzJA1I_d5uovq2QMsJdCyzV40DLo4bbCWKwDOj</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          18.458456,53.40478,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toruń</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUHeA0s0jbXe9IeEYDuEtxJ2tGfmoai5WCcxnnHayo6u2nuqbcQ6xi175mM3a1ssHepf9YBQ7dyq9VIchHXWv-8ExdFOCaXtmf4zNPrJO7p6AfqB14em5RMyzNwKyAccm6r_d8uX06M1-_DKVyXsuEEX-VCHgEWQYaNTKG8_Iw8XmJ6V-V63oO73uwV_ix0aGc7M6YC1UxbXpmO0H2Get1RQziJEvDVVHg1OOVpRqqxhHcbXvS2z9uDM4KznPuTX0QB-QFRfVhUAJWZcHxcDG4UtHGkapizVfoKd0flB4PPk4e9HUnBGKpMnAK8oCe-wYplI28R820j-WMO82UkxE6O6VJOn1geLZNknMvqKulNN6RVeZKKdCle9pNOYqIqv9ngeoHlZszc4wOnHDrZzej6ihsBMY9_21h7uFpGzN-fMe8uFpLpieaCVXR-xGz_UFF2nu8RZ8V-Pr2ow8NCe4cSSXiqMDmgvxbrgeY3X955aqDKsJQ5x88KS239xzExDHwrvzyYlzomrl1CMahgipG5T0HVCvt1L2GhfOdyZ" height="200" width="auto" /><br><br>Budowę zamku krzyżackiego w Toruniu zakończono w drugiej ćwierci XIV wieku. Zniszczony w 1454 roku przez mieszczan.  Ruiny. Foto: Mateuszgdynia [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)]]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUHeA0s0jbXe9IeEYDuEtxJ2tGfmoai5WCcxnnHayo6u2nuqbcQ6xi175mM3a1ssHepf9YBQ7dyq9VIchHXWv-8ExdFOCaXtmf4zNPrJO7p6AfqB14em5RMyzNwKyAccm6r_d8uX06M1-_DKVyXsuEEX-VCHgEWQYaNTKG8_Iw8XmJ6V-V63oO73uwV_ix0aGc7M6YC1UxbXpmO0H2Get1RQziJEvDVVHg1OOVpRqqxhHcbXvS2z9uDM4KznPuTX0QB-QFRfVhUAJWZcHxcDG4UtHGkapizVfoKd0flB4PPk4e9HUnBGKpMnAK8oCe-wYplI28R820j-WMO82UkxE6O6VJOn1geLZNknMvqKulNN6RVeZKKdCle9pNOYqIqv9ngeoHlZszc4wOnHDrZzej6ihsBMY9_21h7uFpGzN-fMe8uFpLpieaCVXR-xGz_UFF2nu8RZ8V-Pr2ow8NCe4cSSXiqMDmgvxbrgeY3X955aqDKsJQ5x88KS239xzExDHwrvzyYlzomrl1CMahgipG5T0HVCvt1L2GhfOdyZ</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          18.610823,53.009338,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toruń (Dybów)
+</name>
+      <description>https://pl.wikipedia.org/wiki/Zamek_Dyb%C3%B3w</description>
+      <styleUrl>#icon-1598-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          18.6000124,53.0011485,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Węgorzewo</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUGoxlC_NhyKfX-HMoNOA7eofvpe6U38lVEpe-qnlpNl4iwPgywdopmTJfa97Eu2IJbMxuYCWxHuF6FIUY9fa8YrKUafkN-5zVInSOOiej_Y1VAq3Aglc_1pBcpNupmws1HKOTKOLLL1JXslGa29jlgjoFSL7CrE7w3m-LkcS0TBpoZUeMOU7SeGBgil094NEInDDwH5scvLtA2v9Ml3Ap4a3caCjILeHlJyVVw_FLEiQY66sz3YA74qijIdqyRAkhVrJkeokD44V7QO2lN4VMFw1PYnSze5GIQCnfv1gtzoZ14PhVlrecBiNJZvRmNmhUjiUoIzrHuHTqiqw5y0zfMk4u4wp_VpiuSJ12ValuYzG3x4Ad9BW0Zh9QPeax9Xefd1Hx-MiKtC1DlbZZakiCubWb-qlPkUA238TiOBuISGQS8R7OnqrtBBHRsb7ByW1TP_KFtJwsp9bThOKjT013TtWsHwaKB46Zg6PiYfg7MXNHr9AfEZaVWYuKCklcn4tcsPWL0LW0V9cG4VmIm5w32YljUyH2iRGZWHNkCg" height="200" width="auto" /><br><br>Zamek w Węgorzewie zbudował w 1398 roku komtur Królewca z przeznaczeniem dla zakonnego prokuratora. Foto: Jerzy Strzelecki [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUGoxlC_NhyKfX-HMoNOA7eofvpe6U38lVEpe-qnlpNl4iwPgywdopmTJfa97Eu2IJbMxuYCWxHuF6FIUY9fa8YrKUafkN-5zVInSOOiej_Y1VAq3Aglc_1pBcpNupmws1HKOTKOLLL1JXslGa29jlgjoFSL7CrE7w3m-LkcS0TBpoZUeMOU7SeGBgil094NEInDDwH5scvLtA2v9Ml3Ap4a3caCjILeHlJyVVw_FLEiQY66sz3YA74qijIdqyRAkhVrJkeokD44V7QO2lN4VMFw1PYnSze5GIQCnfv1gtzoZ14PhVlrecBiNJZvRmNmhUjiUoIzrHuHTqiqw5y0zfMk4u4wp_VpiuSJ12ValuYzG3x4Ad9BW0Zh9QPeax9Xefd1Hx-MiKtC1DlbZZakiCubWb-qlPkUA238TiOBuISGQS8R7OnqrtBBHRsb7ByW1TP_KFtJwsp9bThOKjT013TtWsHwaKB46Zg6PiYfg7MXNHr9AfEZaVWYuKCklcn4tcsPWL0LW0V9cG4VmIm5w32YljUyH2iRGZWHNkCg</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.7418,54.210347,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Zamek Bierzgłowski</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUHg-ZpbcPGpTVzD29RJ--DlBXgOrBnoCqR5DcjCdJC9r5f5LhIZ-n8icS4kHWsvi9uc9MwL_gsSGIKuJwqSfvz280_EiSE6R55fPOCb4geRJ9-07fHKRF6Sde3v4mX3WAHZ0Nr_siOiKfJFw7Nl2V-n9WdvkaT8a71H_viLYio2W2n4y0jS9NBsZrYN3hdETFJpijX1ASppOL6MkP14YctlRfYjp5TNIYwLLSYGlfiJWz1eyrTURSHHTv4viqNleEvhzURE8XbMsEtZZHJQyYE4KZba4J20veePLr9pZMYB0qmzf6-p--e58f_ktFWXK6333xezQwIi-u4AyE4DL3hWD3B6ZlHrXhDZVsphlYN-eUsp8Avl-EDpNWZ5040vJk2E8tW-CiiZe5sW3dDkuFZkxOyCwdUwILR9rYnBD0dnM0pIDg7E71l5AypWwXyzy4gStL-SOj6MBCg8ihaNhBXXvuMbxTn1vwEaOnTXh4RdrOuIO1wZYtw8LFf-htZH78kFRj3KoTOmdaoy04IXAKfnLD3FNc01b2uFI-Q2" height="200" width="auto" /><br><br>Zamek Bierzgłowski zbudowano w latach 1270–1305. Foto: Pko [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)]]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUHg-ZpbcPGpTVzD29RJ--DlBXgOrBnoCqR5DcjCdJC9r5f5LhIZ-n8icS4kHWsvi9uc9MwL_gsSGIKuJwqSfvz280_EiSE6R55fPOCb4geRJ9-07fHKRF6Sde3v4mX3WAHZ0Nr_siOiKfJFw7Nl2V-n9WdvkaT8a71H_viLYio2W2n4y0jS9NBsZrYN3hdETFJpijX1ASppOL6MkP14YctlRfYjp5TNIYwLLSYGlfiJWz1eyrTURSHHTv4viqNleEvhzURE8XbMsEtZZHJQyYE4KZba4J20veePLr9pZMYB0qmzf6-p--e58f_ktFWXK6333xezQwIi-u4AyE4DL3hWD3B6ZlHrXhDZVsphlYN-eUsp8Avl-EDpNWZ5040vJk2E8tW-CiiZe5sW3dDkuFZkxOyCwdUwILR9rYnBD0dnM0pIDg7E71l5AypWwXyzy4gStL-SOj6MBCg8ihaNhBXXvuMbxTn1vwEaOnTXh4RdrOuIO1wZYtw8LFf-htZH78kFRj3KoTOmdaoy04IXAKfnLD3FNc01b2uFI-Q2</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          18.460609,53.106434,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Zamek Kiszewski</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUG0sgW6mt2xEoO_PHfO38W6g0FxBP4bJEW4bCXeueQPiUlKJ9u-LwtkPz55WH2sAtBUpm1VsgnZkaOp2qVRLiomOgXiCL8rZxhddxB9qwDuxNYct8YlCTu8tBzWr3TIkE5nrJ3suBkiLIpBs3-qWFO1aoHZtPS0UWutmWWLIRB89D914hRLkKZ9wCq6USNQhVWZIMMx035Gg_tskXdWrS5eSb3Eaz29qta9sf-ogcGXMxM_1bI5ZePgg22ViNZB0iZjW2FtjwjjG3RLj4A9guIEeLk0ox18X67PwJmF4Rfz80Hp_qsRKfnvDh2LTs0wXMEL9_QJWvS5t1gSiKhH0rLWoxOhcfk3ADOpn_XZ2L-Ale4_EKayGJbGxlhwSW1A5aAYKjRkg09wuMgefbVJu9T4NpPOHrDivzXvYqTa04-mrbZ57zIgNmuIbu38B3vOHq8kZSdRIiZZTABf-pMyJqP-7HOgUbFrGvatokDc_hdP5XD_S3pSZiKTKS03oeEdyuWsi6XLlyFuk0gLT6_pbZxnQyPhOENZm3wsQu5z" height="200" width="auto" /><br><br>Zamek kiszewski zbudowano po 1350 roku, był siedzibą zakonnego prokuratora.]]></description>
+      <styleUrl>#icon-1598-000000</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUG0sgW6mt2xEoO_PHfO38W6g0FxBP4bJEW4bCXeueQPiUlKJ9u-LwtkPz55WH2sAtBUpm1VsgnZkaOp2qVRLiomOgXiCL8rZxhddxB9qwDuxNYct8YlCTu8tBzWr3TIkE5nrJ3suBkiLIpBs3-qWFO1aoHZtPS0UWutmWWLIRB89D914hRLkKZ9wCq6USNQhVWZIMMx035Gg_tskXdWrS5eSb3Eaz29qta9sf-ogcGXMxM_1bI5ZePgg22ViNZB0iZjW2FtjwjjG3RLj4A9guIEeLk0ox18X67PwJmF4Rfz80Hp_qsRKfnvDh2LTs0wXMEL9_QJWvS5t1gSiKhH0rLWoxOhcfk3ADOpn_XZ2L-Ale4_EKayGJbGxlhwSW1A5aAYKjRkg09wuMgefbVJu9T4NpPOHrDivzXvYqTa04-mrbZ57zIgNmuIbu38B3vOHq8kZSdRIiZZTABf-pMyJqP-7HOgUbFrGvatokDc_hdP5XD_S3pSZiKTKS03oeEdyuWsi6XLlyFuk0gLT6_pbZxnQyPhOENZm3wsQu5z</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          18.193633,53.984677,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Złotoria</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AFiHsUEX0rO6Dk6SW6_Tzk5AOCxzftXdftKFcgjL5rKSvPYaQnpONr3N-d0jR44ZCZ_X1rXGmp2YV9jkfsGKee8jdmsvL1MfZtBf9UY5Mrn-mPOyJmsdTVduQeIqP9F5OTeUtU8-i-4lwMk7nW_miQG0PMUcqgvwSmk4_M_jMJtW1zPzKtbalW2vzBghyFsLuZjL1wPtGLce8XSDPqZp7Ot004YSTbmrlHPdr5L0mhu7hHo1d4SQQCi0Zh5zStQzzEcd2v0wTdzcin1RgjuTgUFd9Kt441V8Mkt4Ov3GWgTYRCy91ZVwdhvHg7gJJXTuUzxN0xRU8MkrPKLXWbLAL-jfLUDK413fb8cgctNwVzI7gev9CFsXfNKCij8j0Of90gPUa58qPXxJpJ0lWER1U9XST_8Ntr7d6z523xuqQbtOgc3cD1ietMFMorZzV4RxutKk2KlaQ9ZQM5KzxiOzbSMjKjII47JbFShEdlF3JuJNRadtaZe0STpYRQA8hWK3OjRQfKGR_OgMxHU5Fo8tM2BkdKFKoR_-cXoF4QnBzNr6" height="200" width="auto" /><br><br>Zamek w Złotorii zbudowany w XIV wieku, Ruiny. Foto: Morpheius [CC BY-SA 3.0 pl (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)]]]></description>
+      <styleUrl>#icon-1598-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AFiHsUEX0rO6Dk6SW6_Tzk5AOCxzftXdftKFcgjL5rKSvPYaQnpONr3N-d0jR44ZCZ_X1rXGmp2YV9jkfsGKee8jdmsvL1MfZtBf9UY5Mrn-mPOyJmsdTVduQeIqP9F5OTeUtU8-i-4lwMk7nW_miQG0PMUcqgvwSmk4_M_jMJtW1zPzKtbalW2vzBghyFsLuZjL1wPtGLce8XSDPqZp7Ot004YSTbmrlHPdr5L0mhu7hHo1d4SQQCi0Zh5zStQzzEcd2v0wTdzcin1RgjuTgUFd9Kt441V8Mkt4Ov3GWgTYRCy91ZVwdhvHg7gJJXTuUzxN0xRU8MkrPKLXWbLAL-jfLUDK413fb8cgctNwVzI7gev9CFsXfNKCij8j0Of90gPUa58qPXxJpJ0lWER1U9XST_8Ntr7d6z523xuqQbtOgc3cD1ietMFMorZzV4RxutKk2KlaQ9ZQM5KzxiOzbSMjKjII47JbFShEdlF3JuJNRadtaZe0STpYRQA8hWK3OjRQfKGR_OgMxHU5Fo8tM2BkdKFKoR_-cXoF4QnBzNr6</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          18.691308,52.997484,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
