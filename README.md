@@ -1,6 +1,8 @@
 # Poland — places
 
 Useful maps for your bikepacking trips (in Poland) — see it at [Google Maps](https://www.google.com/maps/d/edit?mid=1l2Pl5J3VAosJ-ESXrLPnW0w6s7h-yeNe&usp=sharing).
+Please note some of the remainings are already gone.
+
 See my PL/EN [blog](https://przypadkopis.wordpress.com/) for other, various in nature, resources.
 
 ## Romanesque trail
@@ -8,8 +10,6 @@ See my PL/EN [blog](https://przypadkopis.wordpress.com/) for other, various in n
 Based on [Szlak romański](https://turystyczneszlaki.pl/szlak-romanski/) with corrections using Google satellite maps and
 [Polish wikipedia](https://pl.wikipedia.org/wiki/Szlak_Roma%C5%84ski_w_Polsce). There are still few places which I was unable to pinpoint (marked with “?”) and one
 place which is probably an error (romanesque signpost in Stare Miasto; actually the artifact is located in Konin).
-
-Please note some of the remainings are already gone.
 
 **Links**:
 
@@ -22,8 +22,6 @@ Please note some of the remainings are already gone.
 
 Almost entire map taken from [Zamki krzyżackie w Polsce – mapa](https://discover.pl/mapa-zamkow-krzyzackich-w-polsce/) with few additions and one fix using Google
 satellite maps. “KW” suffix denotes castles of Warmia Chapter.
-
-Please note some of the remainings are already gone.
 
 **Links**:
 
