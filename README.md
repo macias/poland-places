@@ -39,4 +39,5 @@ All places follow [the list at Wikipedia](https://pl.wikipedia.org/wiki/Orle_Gni
 locations are from [Odtur](https://odtur.pl/atrakcje/gieblo-zamek-w-gieble-nieistniejacy-47573.html),
 [Eksploratorzy](https://eksploratorzy.com.pl/viewtopic.php?f=99&t=19155), [Strażnicy Czasu](http://www.straznicyczasu.pl/viewtopic.php?t=2012),
 [Jurainfo](https://www.jurainfo.pl/p/1,straznica-obronna-na-kamieniu-mirow-kolo-czestochowy),
-[Polskie zamki](https://www.zamki.pl/?idzamku=wiesiolka) and [Fotowojaże](https://fotowojaze.pl/zloty-potok/).
+[Polskie zamki](https://www.zamki.pl/?idzamku=wiesiolka), [Zamki znane i nieznane](https://zamkiobronne.pl/zamek/brzeznica/)
+and [Fotowojaże](https://fotowojaze.pl/zloty-potok/).
