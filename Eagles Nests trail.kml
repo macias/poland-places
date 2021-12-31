@@ -286,46 +286,6 @@
         <styleUrl>#icon-1898-000000-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1898-000000-nodesc-normal">
-      <IconStyle>
-        <color>ff000000</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1898-000000-nodesc-highlight">
-      <IconStyle>
-        <color>ff000000</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1898-000000-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1898-000000-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1898-000000-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="icon-1899-0F9D58-normal">
       <IconStyle>
         <color>ff589d0f</color>
@@ -404,7 +364,7 @@
       <styleUrl>#icon-1594-000000</styleUrl>
       <Point>
         <coordinates>
-          19.6883968,50.1585873,0
+          19.688397,50.158587,0
         </coordinates>
       </Point>
     </Placemark>
@@ -414,7 +374,7 @@
       <styleUrl>#icon-1594-000000</styleUrl>
       <Point>
         <coordinates>
-          19.603855,50.4808688,0
+          19.603855,50.480869,0
         </coordinates>
       </Point>
     </Placemark>
@@ -424,18 +384,17 @@
       <styleUrl>#icon-1594-000000</styleUrl>
       <Point>
         <coordinates>
-          19.5794836,50.3327464,0
+          19.579484,50.332746,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>Kwaśniów Dolny
-</name>
+      <name>Kwaśniów Dolny</name>
       <description>http://www.straznicyczasu.pl/viewtopic.php?t=2012</description>
       <styleUrl>#icon-1594-795548</styleUrl>
       <Point>
         <coordinates>
-          19.5815823,50.3824653,0
+          19.581582,50.382465,0
         </coordinates>
       </Point>
     </Placemark>
@@ -444,7 +403,7 @@
       <styleUrl>#icon-1594-795548-nodesc</styleUrl>
       <Point>
         <coordinates>
-          19.5583187,50.2789593,0
+          19.558319,50.278959,0
         </coordinates>
       </Point>
     </Placemark>
@@ -454,7 +413,7 @@
       <styleUrl>#icon-1594-795548</styleUrl>
       <Point>
         <coordinates>
-          19.7700927,50.445217,0
+          19.770093,50.445217,0
         </coordinates>
       </Point>
     </Placemark>
@@ -464,17 +423,17 @@
       <styleUrl>#icon-1594-000000</styleUrl>
       <Point>
         <coordinates>
-          19.3561565,50.4186173,0
+          19.356156,50.418617,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>Złoty Potok </name>
+      <name>Złoty Potok</name>
       <description>https://fotowojaze.pl/zloty-potok/</description>
       <styleUrl>#icon-1594-000000</styleUrl>
       <Point>
         <coordinates>
-          19.439845,50.7138792,0
+          19.439845,50.713879,0
         </coordinates>
       </Point>
     </Placemark>
@@ -484,7 +443,7 @@
       <styleUrl>#icon-1899-FF5252</styleUrl>
       <Point>
         <coordinates>
-          19.4448777,50.0768229,0
+          19.444878,50.076823,0
         </coordinates>
       </Point>
     </Placemark>
@@ -494,17 +453,16 @@
       <styleUrl>#icon-1899-FF5252</styleUrl>
       <Point>
         <coordinates>
-          19.1291762,50.3272169,0
+          19.129176,50.327217,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>Biały Kościół
-</name>
+      <name>Biały Kościół</name>
       <styleUrl>#icon-1846-795548-nodesc</styleUrl>
       <Point>
         <coordinates>
-          19.8284922,50.1613634,0
+          19.828492,50.161363,0
         </coordinates>
       </Point>
     </Placemark>
@@ -514,17 +472,17 @@
       <styleUrl>#icon-1899-FF5252</styleUrl>
       <Point>
         <coordinates>
-          19.4931351,50.6133095,0
+          19.493135,50.61331,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>Brzeźnica
-</name>
-      <styleUrl>#icon-1898-000000-nodesc</styleUrl>
+      <name>Brzeźnica</name>
+      <description>https://zamkiobronne.pl/zamek/brzeznica/</description>
+      <styleUrl>#icon-1898-000000</styleUrl>
       <Point>
         <coordinates>
-          19.1835865,51.0812094,0
+          19.183586,51.081209,0
         </coordinates>
       </Point>
     </Placemark>
@@ -534,18 +492,17 @@
       <styleUrl>#icon-1846-0F9D58</styleUrl>
       <Point>
         <coordinates>
-          19.6430065,50.3887359,0
+          19.643006,50.388736,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>Danków
-</name>
+      <name>Danków</name>
       <description>https://pl.wikipedia.org/wiki/Zamek_w_Dankowie</description>
       <styleUrl>#icon-1846-0F9D58</styleUrl>
       <Point>
         <coordinates>
-          18.8008004,50.9987148,0
+          18.8008,50.998715,0
         </coordinates>
       </Point>
     </Placemark>
@@ -555,7 +512,7 @@
       <styleUrl>#icon-1899-FF5252</styleUrl>
       <Point>
         <coordinates>
-          19.8827341,50.1622023,0
+          19.882734,50.162202,0
         </coordinates>
       </Point>
     </Placemark>
@@ -565,27 +522,27 @@
       <styleUrl>#icon-1846-795548</styleUrl>
       <Point>
         <coordinates>
-          19.1458523,50.6031396,0
+          19.145852,50.60314,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>Krzepice
-</name>
+      <name>Krzepice</name>
       <description>https://pl.wikipedia.org/wiki/Zamek_w_Krzepicach</description>
       <styleUrl>#icon-1898-000000</styleUrl>
       <Point>
         <coordinates>
-          18.7210797,50.9675172,0
+          18.72108,50.967517,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>Lelów</name>
-      <styleUrl>#icon-1898-000000-nodesc</styleUrl>
+      <description>https://www.zamki.pl/?idzamku=lelow</description>
+      <styleUrl>#icon-1898-000000</styleUrl>
       <Point>
         <coordinates>
-          19.630403,50.6849214,0
+          19.630403,50.684921,0
         </coordinates>
       </Point>
     </Placemark>
@@ -595,18 +552,17 @@
       <styleUrl>#icon-1846-000000</styleUrl>
       <Point>
         <coordinates>
-          19.4502113,50.6292223,0
+          19.450211,50.629222,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mirów
-</name>
+      <name>Mirów</name>
       <description>https://pl.wikipedia.org/wiki/Zamek_w_Mirowie</description>
       <styleUrl>#icon-1899-0F9D58</styleUrl>
       <Point>
         <coordinates>
-          19.475296,50.6145714,0
+          19.475296,50.614571,0
         </coordinates>
       </Point>
     </Placemark>
@@ -616,7 +572,7 @@
       <styleUrl>#icon-1898-000000</styleUrl>
       <Point>
         <coordinates>
-          19.207347,50.8241423,0
+          19.207347,50.824142,0
         </coordinates>
       </Point>
     </Placemark>
@@ -626,7 +582,7 @@
       <styleUrl>#icon-1846-000000</styleUrl>
       <Point>
         <coordinates>
-          19.751753,50.0782207,0
+          19.751753,50.078221,0
         </coordinates>
       </Point>
     </Placemark>
@@ -636,7 +592,7 @@
       <styleUrl>#icon-1846-0F9D58</styleUrl>
       <Point>
         <coordinates>
-          19.5207317,50.5506744,0
+          19.520732,50.550674,0
         </coordinates>
       </Point>
     </Placemark>
@@ -646,7 +602,7 @@
       <styleUrl>#icon-1846-0F9D58</styleUrl>
       <Point>
         <coordinates>
-          19.8300558,50.2117202,0
+          19.830056,50.21172,0
         </coordinates>
       </Point>
     </Placemark>
@@ -656,7 +612,7 @@
       <styleUrl>#icon-1846-795548</styleUrl>
       <Point>
         <coordinates>
-          19.4002303,50.6747176,0
+          19.40023,50.674718,0
         </coordinates>
       </Point>
     </Placemark>
@@ -666,7 +622,7 @@
       <styleUrl>#icon-1899-FF5252</styleUrl>
       <Point>
         <coordinates>
-          19.2742198,50.7497405,0
+          19.27422,50.74974,0
         </coordinates>
       </Point>
     </Placemark>
@@ -676,7 +632,7 @@
       <styleUrl>#icon-1899-FF5252</styleUrl>
       <Point>
         <coordinates>
-          19.6486966,50.4678591,0
+          19.648697,50.467859,0
         </coordinates>
       </Point>
     </Placemark>
@@ -686,17 +642,17 @@
       <styleUrl>#icon-1899-FF5252</styleUrl>
       <Point>
         <coordinates>
-          19.5520634,50.4531329,0
+          19.552063,50.453133,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>Przewodziszowice </name>
+      <name>Przewodziszowice</name>
       <description>https://pl.wikipedia.org/wiki/Stra%C5%BCnica_Przewodziszowice</description>
       <styleUrl>#icon-1846-795548</styleUrl>
       <Point>
         <coordinates>
-          19.3947794,50.6447265,0
+          19.394779,50.644726,0
         </coordinates>
       </Point>
     </Placemark>
@@ -706,7 +662,7 @@
       <styleUrl>#icon-1846-0F9D58</styleUrl>
       <Point>
         <coordinates>
-          19.5929355,50.2996527,0
+          19.592936,50.299653,0
         </coordinates>
       </Point>
     </Placemark>
@@ -726,7 +682,7 @@
       <styleUrl>#icon-1846-795548</styleUrl>
       <Point>
         <coordinates>
-          19.6018099,50.4276077,0
+          19.60181,50.427608,0
         </coordinates>
       </Point>
     </Placemark>
@@ -736,7 +692,7 @@
       <styleUrl>#icon-1899-FF5252</styleUrl>
       <Point>
         <coordinates>
-          19.2417131,50.4673037,0
+          19.241713,50.467304,0
         </coordinates>
       </Point>
     </Placemark>
@@ -746,7 +702,7 @@
       <styleUrl>#icon-1846-795548</styleUrl>
       <Point>
         <coordinates>
-          19.3915024,50.296606,0
+          19.391502,50.296606,0
         </coordinates>
       </Point>
     </Placemark>
@@ -756,7 +712,7 @@
       <styleUrl>#icon-1899-0F9D58</styleUrl>
       <Point>
         <coordinates>
-          19.675141,50.4384307,0
+          19.675141,50.438431,0
         </coordinates>
       </Point>
     </Placemark>
@@ -766,7 +722,7 @@
       <styleUrl>#icon-1899-FF5252</styleUrl>
       <Point>
         <coordinates>
-          19.1457879,50.2854049,0
+          19.145788,50.285405,0
         </coordinates>
       </Point>
     </Placemark>
@@ -776,7 +732,7 @@
       <styleUrl>#icon-1846-795548</styleUrl>
       <Point>
         <coordinates>
-          19.3649633,50.6733136,0
+          19.364963,50.673314,0
         </coordinates>
       </Point>
     </Placemark>
@@ -786,7 +742,7 @@
       <styleUrl>#icon-1899-FF5252</styleUrl>
       <Point>
         <coordinates>
-          19.7799679,50.2442853,0
+          19.779968,50.244285,0
         </coordinates>
       </Point>
     </Placemark>
@@ -796,7 +752,7 @@
       <styleUrl>#icon-1898-000000</styleUrl>
       <Point>
         <coordinates>
-          18.5719525,51.2193883,0
+          18.571952,51.219388,0
         </coordinates>
       </Point>
     </Placemark>
@@ -806,7 +762,7 @@
       <styleUrl>#icon-1898-000000</styleUrl>
       <Point>
         <coordinates>
-          19.863176,50.4845596,0
+          19.863176,50.48456,0
         </coordinates>
       </Point>
     </Placemark>
