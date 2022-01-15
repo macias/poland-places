@@ -32,6 +32,7 @@ with few additions and one fix using Google satellite maps. “KW” suffix deno
 * EN/PL [Castles in Poland](http://www.polishcastles.eu/)
 * PL [Szlak Zamków Krzyżackich](https://kujawsko-pomorskie.travel/pl/content/szlak-zamkow-krzyzackich)
 * EN/PL [Polish Gothic Castles](https://zamkigotyckie.org.pl/en)
+* PL [Kociewie24](https://kociewie24.eu/)
 
 ## Eagles' Nests trail
 
