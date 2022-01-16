@@ -33,6 +33,9 @@ with few additions and one fix using Google satellite maps. “KW” suffix deno
 * PL [Szlak Zamków Krzyżackich](https://kujawsko-pomorskie.travel/pl/content/szlak-zamkow-krzyzackich)
 * EN/PL [Polish Gothic Castles](https://zamkigotyckie.org.pl/en)
 * PL [Kociewie24](https://kociewie24.eu/)
+* PL [naKole](http://www.nakole.net/)
+* PL [Zamkomania](https://zamkomania.pl/)
+* PL [Gniew: Nasze Miasto](https://gniew.naszemiasto.pl/)
 
 ## Eagles' Nests trail
 
