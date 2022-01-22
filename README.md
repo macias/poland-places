@@ -36,6 +36,8 @@ with few additions and one fix using Google satellite maps. “KW” suffix deno
 * PL [naKole](http://www.nakole.net/)
 * PL [Zamkomania](https://zamkomania.pl/)
 * PL [Gniew: Nasze Miasto](https://gniew.naszemiasto.pl/)
+* PL [Średniowieczna architektura obronna](https://zamkidwory.forumoteka.pl/)
+* EN/PL [Wikimapia](http://wikimapia.org/)
 
 ## Eagles' Nests trail
 
