@@ -23,8 +23,8 @@ actually the artifact is located in Konin).
 *Note: Google Maps reports some vague error while importing this map, I don't know what it is and what effect it has,
 but so far it seems to work.*
 
-Almost entire map taken from [Zamki krzyżackie w Polsce – mapa](https://discover.pl/mapa-zamkow-krzyzackich-w-polsce/)
-with few additions and one fix using Google satellite maps. “KW” suffix denotes castles of Warmia Chapter.
+Initial, well prepared map was taken from [Zamki krzyżackie w Polsce – mapa](https://discover.pl/mapa-zamkow-krzyzackich-w-polsce/),
+later on new entries were added using following sources. For actual mapping Google Maps and OpenStreetMap were used. “KW” suffix denotes castles of Warmia Chapter.
 
 **Links**:
 
@@ -38,6 +38,7 @@ with few additions and one fix using Google satellite maps. “KW” suffix deno
 * PL [Gniew: Nasze Miasto](https://gniew.naszemiasto.pl/)
 * PL [Średniowieczna architektura obronna](https://zamkidwory.forumoteka.pl/)
 * EN/PL [Wikimapia](http://wikimapia.org/)
+* PL [Rotmanka](http://zamki.rotmanka.com/)
 
 ## Eagles' Nests trail
 
