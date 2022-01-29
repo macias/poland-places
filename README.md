@@ -20,9 +20,6 @@ actually the artifact is located in Konin).
 
 ## Teutonic castles trail
 
-*Note: Google Maps reports some vague error while importing this map, I don't know what it is and what effect it has,
-but so far it seems to work.*
-
 Initial, well prepared map was taken from [Zamki krzyżackie w Polsce – mapa](https://discover.pl/mapa-zamkow-krzyzackich-w-polsce/),
 later on new entries were added using following sources. For actual mapping Google Maps and OpenStreetMap were used. “KW” suffix denotes castles of Warmia Chapter.
 
