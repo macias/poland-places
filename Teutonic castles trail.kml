@@ -471,6 +471,17 @@
       </Point>
     </Placemark>
     <Placemark>
+      <name>Miasto Lubawskie, Nowe
+</name>
+      <description>https://ziemialubawska.blogspot.com/2010/10/sredniowieczne-fortyfikacje-obronne.html</description>
+      <styleUrl>#icon-1594-000000</styleUrl>
+      <Point>
+        <coordinates>
+          19.5910299,53.4224673,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>Barciany</name>
       <description>https://pl.wikipedia.org/wiki/Zamek_w_Barcianach</description>
       <styleUrl>#icon-1598-000000</styleUrl>
@@ -797,6 +808,17 @@
       <Point>
         <coordinates>
           17.753368,54.543406,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lidzbark (Welski)
+</name>
+      <description>https://ziemialubawska.blogspot.com/2011/07/fortyfikacje-obronne-w-lidzbarku.html</description>
+      <styleUrl>#icon-1846-795548</styleUrl>
+      <Point>
+        <coordinates>
+          19.8242788,53.2629402,0
         </coordinates>
       </Point>
     </Placemark>
