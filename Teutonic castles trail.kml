@@ -451,6 +451,16 @@
       </Pair>
     </StyleMap>
     <Placemark>
+      <name>Bartążek</name>
+      <description>https://gazetaolsztynska.pl/olsztyn/22135,Jak-powstal-Olsztyn.html</description>
+      <styleUrl>#icon-1594-000000</styleUrl>
+      <Point>
+        <coordinates>
+          20.4945437,53.7105854,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>Iława</name>
       <description>https://www.zamki.pl/?idzamku=ilawa</description>
       <styleUrl>#icon-1594-000000</styleUrl>
@@ -478,6 +488,16 @@
       <Point>
         <coordinates>
           19.5910299,53.4224673,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Olsztyn (Dajtki) KW
+</name>
+      <styleUrl>#icon-1594-000000-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          20.4294347,53.763704,0
         </coordinates>
       </Point>
     </Placemark>
@@ -991,6 +1011,16 @@
       <Point>
         <coordinates>
           19.659196,54.066762,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pasym</name>
+      <description>https://zamkidwory.forumoteka.pl/temat,263,pasym.html</description>
+      <styleUrl>#icon-1898-000000</styleUrl>
+      <Point>
+        <coordinates>
+          20.7927745,53.6539359,0
         </coordinates>
       </Point>
     </Placemark>
