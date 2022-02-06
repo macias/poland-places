@@ -76,6 +76,40 @@
         <styleUrl>#icon-1594-000000-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="icon-1594-795548-normal">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1594-795548-highlight">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1594-795548">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1594-795548-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1594-795548-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1598-000000-normal">
       <IconStyle>
         <color>ff000000</color>
@@ -502,12 +536,43 @@
       </Point>
     </Placemark>
     <Placemark>
+      <name>Spychowo</name>
+      <description>https://www.spychowo.com.pl/artykul,historia-spychowa,3.html</description>
+      <styleUrl>#icon-1594-000000</styleUrl>
+      <Point>
+        <coordinates>
+          21.3425507,53.6036764,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wielbark</name>
+      <description>https://zamkidwory.forumoteka.pl/temat,284,wielbark.html</description>
+      <styleUrl>#icon-1594-795548</styleUrl>
+      <Point>
+        <coordinates>
+          20.9446731,53.3969366,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>Barciany</name>
       <description>https://pl.wikipedia.org/wiki/Zamek_w_Barcianach</description>
       <styleUrl>#icon-1598-000000</styleUrl>
       <Point>
         <coordinates>
           21.347844,54.213974,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barczewo KW
+</name>
+      <description>https://pl.wikipedia.org/wiki/Zamek_w_Barczewie</description>
+      <styleUrl>#icon-1846-795548</styleUrl>
+      <Point>
+        <coordinates>
+          20.6923248,53.8290134,0
         </coordinates>
       </Point>
     </Placemark>
@@ -768,6 +833,17 @@
       <Point>
         <coordinates>
           18.041924,53.347206,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jedzbark KW
+</name>
+      <description>https://pl.wikipedia.org/wiki/Jedzbark</description>
+      <styleUrl>#icon-1898-000000</styleUrl>
+      <Point>
+        <coordinates>
+          20.7538583,53.7841116,0
         </coordinates>
       </Point>
     </Placemark>
