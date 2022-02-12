@@ -566,6 +566,17 @@
       </Point>
     </Placemark>
     <Placemark>
+      <name>Barczewko KW
+</name>
+      <description><![CDATA[https://zamkomania.pl/barczewko.php<br>https://olsztyn.wyborcza.pl/olsztyn/7,48726,23848096,podolsztynski-biskupin-odslania-mroczne-tajemnice.html]]></description>
+      <styleUrl>#icon-1846-000000</styleUrl>
+      <Point>
+        <coordinates>
+          20.6195888888889,53.8417083333333,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>Barczewo KW
 </name>
       <description>https://pl.wikipedia.org/wiki/Zamek_w_Barczewie</description>
@@ -1020,6 +1031,16 @@
       </Point>
     </Placemark>
     <Placemark>
+      <name>Okartowo</name>
+      <description>https://zamkomania.pl/okartowo.php</description>
+      <styleUrl>#icon-1898-795548</styleUrl>
+      <Point>
+        <coordinates>
+          21.8574444444444,53.8054694444444,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>Olsztynek</name>
       <description>https://pl.wikipedia.org/wiki/Zamek_w_Olsztynku</description>
       <styleUrl>#icon-1598-000000</styleUrl>
@@ -1111,6 +1132,16 @@
       </Point>
     </Placemark>
     <Placemark>
+      <name>Pisz</name>
+      <description>https://pl.wikipedia.org/wiki/Zamek_w_Piszu</description>
+      <styleUrl>#icon-1846-000000</styleUrl>
+      <Point>
+        <coordinates>
+          21.8095011,53.6306042,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>Pokrzywno</name>
       <description>https://pl.wikipedia.org/wiki/Zamek_w_Pokrzywnie</description>
       <styleUrl>#icon-1598-000000</styleUrl>
@@ -1197,6 +1228,17 @@
       <Point>
         <coordinates>
           18.6081749,53.69507,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Smolajny KW
+</name>
+      <description>https://pl.wikipedia.org/wiki/Pa%C5%82ac_w_Smolajnach</description>
+      <styleUrl>#icon-1898-000000</styleUrl>
+      <Point>
+        <coordinates>
+          20.3917469,54.0257521,0
         </coordinates>
       </Point>
     </Placemark>
