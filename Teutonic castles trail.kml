@@ -570,16 +570,6 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Sątoczno</name>
-      <description>https://mojemazury.pl/79959,Satoczno-kosciol-z-XIV-wieku.html</description>
-      <styleUrl>#icon-1594-795548</styleUrl>
-      <Point>
-        <coordinates>
-          21.0996517,54.2337778,0
-        </coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
       <name>Spychowo</name>
       <description>https://www.spychowo.com.pl/artykul,historia-spychowa,3.html</description>
       <styleUrl>#icon-1594-000000</styleUrl>
@@ -1294,6 +1284,16 @@
       <Point>
         <coordinates>
           18.6081749,53.69507,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sątoczno</name>
+      <description>https://mojemazury.pl/79959,Satoczno-kosciol-z-XIV-wieku.html</description>
+      <styleUrl>#icon-1846-795548</styleUrl>
+      <Point>
+        <coordinates>
+          21.1010102,54.2336209,0
         </coordinates>
       </Point>
     </Placemark>
