@@ -580,6 +580,16 @@
       </Point>
     </Placemark>
     <Placemark>
+      <name>Straduny</name>
+      <description>https://zamkidwory.forumoteka.pl/temat,4847,straduny.html?p=6305</description>
+      <styleUrl>#icon-1594-000000</styleUrl>
+      <Point>
+        <coordinates>
+          22.3504763,53.8897708,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>Wielbark</name>
       <description>https://zamkidwory.forumoteka.pl/temat,284,wielbark.html</description>
       <styleUrl>#icon-1594-795548</styleUrl>
@@ -823,6 +833,17 @@
       </Point>
     </Placemark>
     <Placemark>
+      <name>Garbno
+</name>
+      <description>https://www.zamki.pl/?idzamku=garbno</description>
+      <styleUrl>#icon-1846-795548</styleUrl>
+      <Point>
+        <coordinates>
+          21.2831477,54.1325251,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>Gdańsk</name>
       <description>https://pl.wikipedia.org/wiki/Zamek_w_Gda%C5%84sku</description>
       <styleUrl>#icon-1898-795548</styleUrl>
@@ -900,6 +921,16 @@
       <Point>
         <coordinates>
           20.7538583,53.7841116,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jegławki</name>
+      <description>https://www.ruinyizamki.pl/warminsko-mazurskie/jeglawki.html</description>
+      <styleUrl>#icon-1898-795548</styleUrl>
+      <Point>
+        <coordinates>
+          21.441069,54.238739,0
         </coordinates>
       </Point>
     </Placemark>
@@ -1053,6 +1084,16 @@
       <Point>
         <coordinates>
           19.926528,53.910396,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nakomiady</name>
+      <description>https://www.ruinyizamki.pl/warminsko-mazurskie/nakomiady.html</description>
+      <styleUrl>#icon-1898-795548</styleUrl>
+      <Point>
+        <coordinates>
+          21.4480529,54.004102,0
         </coordinates>
       </Point>
     </Placemark>
