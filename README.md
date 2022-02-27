@@ -45,3 +45,13 @@ locations are from [Odtur](https://odtur.pl/atrakcje/gieblo-zamek-w-gieble-nieis
 [Jurainfo](https://www.jurainfo.pl/p/1,straznica-obronna-na-kamieniu-mirow-kolo-czestochowy),
 [Polskie zamki](https://www.zamki.pl/?idzamku=wiesiolka), [Zamki znane i nieznane](https://zamkiobronne.pl/zamek/brzeznica/)
 and [Fotowojaże](https://fotowojaze.pl/zloty-potok/).
+
+## Rossmann
+
+Not a sightseeing but useful to have it. Retrieve [all the shops data](https://www.rossmann.pl/shops/api/shops). Assuming you saved the data to
+"rossmann_shops.json" file, execute:
+
+```
+rossmann_shops.py < rossmann_shops.json  > rossmann_shops.kml
+```
+
