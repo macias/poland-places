@@ -46,12 +46,25 @@ locations are from [Odtur](https://odtur.pl/atrakcje/gieblo-zamek-w-gieble-nieis
 [Polskie zamki](https://www.zamki.pl/?idzamku=wiesiolka), [Zamki znane i nieznane](https://zamkiobronne.pl/zamek/brzeznica/)
 and [Fotowojaże](https://fotowojaze.pl/zloty-potok/).
 
-## Rossmann
+## Shop networks
 
-Not a sightseeing but useful to have it. Retrieve [all the shops data](https://www.rossmann.pl/shops/api/shops). Assuming you saved the data to
+Not a sightseeing but useful to have it.
+
+### Rossmann
+
+Retrieve [all the shops data](https://www.rossmann.pl/shops/api/shops). Assuming you saved the data to
 "rossmann_shops.json" file, execute:
 
 ```
-./rossmann_shops.py < rossmann_shops.json  > rossmann_shops.kml
+./shops.py rossmann < rossmann_shops.json  > rossmann_shops.kml
+```
+
+### Żabka
+
+Retrieve [all the shops data](https://www.zabka.pl/ajax/shop-clusters.json). Assuming you saved the data to
+"zabka_shops.json" file, execute:
+
+```
+./shops.py zabka < zabka_shops.json  > zabka_shops.kml
 ```
 
