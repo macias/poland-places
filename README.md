@@ -52,6 +52,6 @@ Not a sightseeing but useful to have it. Retrieve [all the shops data](https://w
 "rossmann_shops.json" file, execute:
 
 ```
-rossmann_shops.py < rossmann_shops.json  > rossmann_shops.kml
+./rossmann_shops.py < rossmann_shops.json  > rossmann_shops.kml
 ```
 
