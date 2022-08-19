@@ -3,11 +3,23 @@
 import json
 import sys
 from datetime import date
+import csv
+
+def csv_load(file):
+  rows = []
+  csvreader = csv.reader(file)
+  for row in csvreader:
+    rows.append(row)
+  return rows
 
 brand = sys.argv[1]
 
 def unpack_shop(shop):
-  if brand=="zabka":
+  if brand=="circlek":
+    label = shop[0]
+    lat = shop[1]
+    lon = shop[2]
+  elif brand=="zabka":
     lat = shop["lat"]
     lon = shop["lng"]
     label = shop["id"]
@@ -29,7 +41,6 @@ def unpack_shop(shop):
 
   return lat, lon, label
 
-shops = json.load(sys.stdin)
 
 today = date.today().isoformat()
 
@@ -39,10 +50,15 @@ print(f"<!-- {today} -->")
 print("<Document>")
 print(f"<name>{brand.capitalize()}</name>")
 
-if "data" in shops: # Rossmann packs data this way
-  shops = shops["data"]
-elif "Elements" in shops: # Moya packs data this way
-  shops = shops["Elements"]
+if brand=="circlek":
+  shops = csv_load(sys.stdin)
+else:
+  shops = json.load(sys.stdin)
+
+  if "data" in shops: # Rossmann packs data this way
+    shops = shops["data"]
+  elif "Elements" in shops: # Moya packs data this way
+    shops = shops["Elements"]
 
 
 for shop in shops:
