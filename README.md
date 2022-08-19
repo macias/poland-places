@@ -52,19 +52,33 @@ Not a sightseeing but useful to have it.
 
 ### Rossmann
 
-Retrieve [all the shops data](https://www.rossmann.pl/shops/api/shops). Assuming you saved the data to
-"rossmann_shops.json" file, execute:
+Retrieve [all the shops data](https://www.rossmann.pl/shops/api/shops). Then run:
 
 ```
-./shops.py rossmann < rossmann_shops.json  > rossmann_shops.kml
+./shops.py rossmann < shops.json  > rossmann.kml
 ```
 
 ### Żabka
 
-Retrieve [all the shops data](https://www.zabka.pl/ajax/shop-clusters.json). Assuming you saved the data to
-"zabka_shops.json" file, execute:
+Retrieve [all the shops data](https://www.zabka.pl/ajax/shop-clusters.json). Then run:
 
 ```
-./shops.py zabka < zabka_shops.json  > zabka_shops.kml
+./shops.py zabka < shop-clusters.json  > zabka.kml
 ```
 
+### Moya
+
+Retrieve all stations by executing:
+```
+curl 'https://moyastacja.pl/mapa' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0' -H 'Accept: */*' -H 'Accept-Language: en-US,en;q=0.5' --compressed -H 'Content-Type: application/json' -H 'Origin: https://moyastacja.pl' -H 'Connection: keep-alive' -H 'Referer: https://moyastacja.pl/mapa' -H 'Cookie: PHPSESSID=5f79571df4043aacc17c7bda601601de; _ga_C8R5YN224J=GS1.1.1660918294.1.1.1660918338.0.0.0; _ga=GA1.2.1011989688.1660918295; _gid=GA1.2.325263434.1660918296; _gat_gtag_UA_112556703_1=1; _gat_UA-112556703-1=1; _fbp=fb.1.1660918296803.1549341459' -H 'Sec-Fetch-Dest: empty' -H 'Sec-Fetch-Mode: cors' -H 'Sec-Fetch-Site: same-origin' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' -H 'TE: trailers' --data-raw '{"controller":"Main","action":"GetMap"}' > moya.json
+```
+
+*Yes, nothing like making world a better place.*
+
+Then run:
+
+```
+./shops.py moya < moya.json  > moya.kml
+```
+
+Please note output will contain only manned ones.

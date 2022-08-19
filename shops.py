@@ -17,6 +17,13 @@ def unpack_shop(shop):
     lon = coords["longitude"]
     addr = shop["address"]
     label = f"{addr['city']}, {addr['street']}"
+  elif brand=="moya":
+    if shop["type"]!=1: # 1 stands for station with human personel
+      return None
+
+    lat = shop["lat"]
+    lon = shop["lng"]
+    label = f"{shop['city']}, {shop['address']}"
   else:
     raise Exception(f"Unknown brand {brand}")
 
@@ -34,9 +41,16 @@ print(f"<name>{brand.capitalize()}</name>")
 
 if "data" in shops: # Rossmann packs data this way
   shops = shops["data"]
+elif "Elements" in shops: # Moya packs data this way
+  shops = shops["Elements"]
+
 
 for shop in shops:
-  lat, lon, label = unpack_shop(shop)
+  entry = unpack_shop(shop)
+  if entry is None:
+    continue
+
+  (lat, lon, label) = entry
 
   print("<Placemark>")
   print(f"<name>{label}</name>")
