@@ -85,7 +85,7 @@ Retrieve Circle K stations only (excluding TIR and Express ones) by executing:
 curl 'https://www.circlek.pl/wyszukaj-stacje' --data-raw 'phrase=&manned=1&op=Pobierz+wyniki+wyszukiwania&form_build_id=form-eYBmmc_QRrBYWGfCfB8Z3F308XGAjOcXkJmIAb5L3O0&form_id=sim_search_form' > circlek.csv
 ```
 
-or simply go to page [Circle K webpage](https://www.circlek.pl/wyszukaj-stacje), filter out the stations, select "Additional options" ("Opcje dodatkowe")
+or simply go to [Circle K webpage](https://www.circlek.pl/wyszukaj-stacje), filter out the stations, select "Additional options" ("Opcje dodatkowe")
 and click on "Download search results" ("Pobierz wyniki wyszukiwania").
 
 Then run:
