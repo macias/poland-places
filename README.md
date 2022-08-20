@@ -68,10 +68,8 @@ Retrieve [all the shops data](https://www.zabka.pl/ajax/shop-clusters.json). The
 
 Retrieve all stations by executing:
 ```
-curl 'https://moyastacja.pl/mapa' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0' -H 'Accept: */*' -H 'Accept-Language: en-US,en;q=0.5' --compressed -H 'Content-Type: application/json' -H 'Origin: https://moyastacja.pl' -H 'Connection: keep-alive' -H 'Referer: https://moyastacja.pl/mapa' -H 'Cookie: PHPSESSID=5f79571df4043aacc17c7bda601601de; _ga_C8R5YN224J=GS1.1.1660918294.1.1.1660918338.0.0.0; _ga=GA1.2.1011989688.1660918295; _gid=GA1.2.325263434.1660918296; _gat_gtag_UA_112556703_1=1; _gat_UA-112556703-1=1; _fbp=fb.1.1660918296803.1549341459' -H 'Sec-Fetch-Dest: empty' -H 'Sec-Fetch-Mode: cors' -H 'Sec-Fetch-Site: same-origin' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' -H 'TE: trailers' --data-raw '{"controller":"Main","action":"GetMap"}' > moya.json
+curl 'https://moyastacja.pl/mapa' -H 'Content-Type: application/json' --data-raw '{"controller":"Main","action":"GetMap"}' > moya.json
 ```
-
-*Yes, nothing like making world a better place.*
 
 Then run:
 ```
@@ -84,8 +82,11 @@ Please note output will contain only manned ones.
 
 Retrieve Circle K stations only (excluding TIR and Express ones) by executing:
 ```
-curl 'https://www.circlek.pl/wyszukaj-stacje' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.5' --compressed -H 'Content-Type: application/x-www-form-urlencoded' -H 'Origin: https://www.circlek.pl' -H 'Connection: keep-alive' -H 'Referer: https://www.circlek.pl/wyszukaj-stacje' -H $'Cookie: _fbp=fb.1.1660918450268.72188719; CookieConsent={stamp:\'3wr1yy0gpGQA0sGFLXX5xgICXzQVnPUmj+AcyVqaEu0qMOblQtIryQ==\'%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cver:1%2Cutc:1660918460332%2Cregion:\'pl\'}; _gcl_au=1.1.876072264.1660918461; _ga=GA1.1.1432840077.1660918462; _gid=GA1.2.1951645745.1660918462; visitor_id934173=171117472; visitor_id934173-hash=637bff068aadc38aecd04e847ad79fa5cac5e9ac52006260ab37953e98cb898a9be08d78569098a946f42868dd802845aed73abe; _ga_BYD2EBTLRT=GS1.1.1660936154.3.0.1660936154.0.0.0; AMCV_69F83E625E9932000A495E14%40AdobeOrg=359503849%7CMCIDTS%7C19224%7CMCMID%7C87750715433958135714062286142339562421%7CMCAAMLH-1661523276%7C6%7CMCAAMB-1661523276%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1660925676s%7CNONE%7CMCSYNCSOP%7C411-19231%7CvVersion%7C5.0.1; AMCVS_69F83E625E9932000A495E14%40AdobeOrg=1; _gat_gtag_UA_34402764_26=1; _gat_gtag_UA_34402764_41=1' -H 'Upgrade-Insecure-Requests: 1' -H 'Sec-Fetch-Dest: document' -H 'Sec-Fetch-Mode: navigate' -H 'Sec-Fetch-Site: same-origin' -H 'Sec-Fetch-User: ?1' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' --data-raw 'phrase=&manned=1&op=Pobierz+wyniki+wyszukiwania&form_build_id=form-eYBmmc_QRrBYWGfCfB8Z3F308XGAjOcXkJmIAb5L3O0&form_id=sim_search_form' > circlek.csv
+curl 'https://www.circlek.pl/wyszukaj-stacje' --data-raw 'phrase=&manned=1&op=Pobierz+wyniki+wyszukiwania&form_build_id=form-eYBmmc_QRrBYWGfCfB8Z3F308XGAjOcXkJmIAb5L3O0&form_id=sim_search_form' > circlek.csv
 ```
+
+or simply go to page [Circle K webpage](https://www.circlek.pl/wyszukaj-stacje), filter out the stations, select "Additional options" ("Opcje dodatkowe")
+and click on "Download search results" ("Pobierz wyniki wyszukiwania").
 
 Then run:
 ```
