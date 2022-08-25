@@ -54,14 +54,14 @@ Not a sightseeing but useful to have it.
 
 Retrieve [all the shops data](https://www.rossmann.pl/shops/api/shops). Then run:
 ```
-./shops.py rossmann < shops.json  > rossmann.kml
+./shops.py rossmann < shops.json
 ```
 
 ### Żabka
 
 Retrieve [all the shops data](https://www.zabka.pl/ajax/shop-clusters.json). Then run:
 ```
-./shops.py zabka < shop-clusters.json  > zabka.kml
+./shops.py zabka < shop-clusters.json
 ```
 
 ### Moya
@@ -73,7 +73,7 @@ curl 'https://moyastacja.pl/mapa' -H 'Content-Type: application/json' --data-raw
 
 Then run:
 ```
-./shops.py moya < moya.json  > moya.kml
+./shops.py moya < moya.json
 ```
 
 Please note output will contain only manned ones.
@@ -90,7 +90,12 @@ and click on "Download search results" ("Pobierz wyniki wyszukiwania").
 
 Then run:
 ```
-./shops.py circlek < circlek.csv  > circlek.kml
+./shops.py circlek < circlek.csv
 ```
 
+### Lewiatan
 
+Retrieve [all the shops data](https://lewiatan.pl/api/stores). Then run:
+```
+./shops.py lewiatan < stores
+```

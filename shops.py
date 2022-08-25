@@ -36,6 +36,10 @@ def unpack_shop(shop):
     lat = shop["lat"]
     lon = shop["lng"]
     label = f"{shop['city']}, {shop['address']}"
+  elif brand=="lewiatan":
+    lat = shop["latitude"]
+    lon = shop["longitude"]
+    label = f"{shop['city']}, {shop['address']}"
   else:
     raise Exception(f"Unknown brand {brand}")
 
@@ -44,39 +48,49 @@ def unpack_shop(shop):
 
 today = date.today().isoformat()
 
-print('<?xml version="1.0" encoding="UTF-8"?>')
-print('<kml xmlns="http://www.opengis.net/kml/2.2">')
-print(f"<!-- {today} -->")
-print("<Document>")
-print(f"<name>{brand.capitalize()}</name>")
-
 if brand=="circlek":
   shops = csv_load(sys.stdin)
 else:
-  shops = json.load(sys.stdin)
+    shops = json.load(sys.stdin)
 
-  if "data" in shops: # Rossmann packs data this way
-    shops = shops["data"]
-  elif "Elements" in shops: # Moya packs data this way
-    shops = shops["Elements"]
+if "data" in shops: # Rossmann and Lewiatan packs data this way
+  shops = shops["data"]
+elif "Elements" in shops: # Moya packs data this way
+  shops = shops["Elements"]
 
+with open(f"{brand.capitalize()}.kml", 'x') as kml_file: # fails if file already exists
+  def writeline(s):
+    kml_file.write(s)
+    kml_file.write("\n")
 
-for shop in shops:
-  entry = unpack_shop(shop)
-  if entry is None:
-    continue
+  writeline('<?xml version="1.0" encoding="UTF-8"?>')
+  writeline('<kml xmlns="http://www.opengis.net/kml/2.2">')
+  writeline(f"<!-- {today} -->")
+  writeline("<Document>")
+  writeline(f"<name>{brand.capitalize()}</name>")
 
-  (lat, lon, label) = entry
+  count = 0
 
-  print("<Placemark>")
-  print(f"<name>{label}</name>")
-  print("<Point>")
-  print("<coordinates>")
-  print(f"{lon},{lat}")
-  print("</coordinates>")
-  print("</Point>")
-  print("</Placemark>")
+  for shop in shops:
+    entry = unpack_shop(shop)
+    if entry is None:
+      continue
 
-print("</Document>")
-print("</kml>")
+    (lat, lon, label) = entry
+    label = label.replace("&nbsp;"," ")
 
+    count += 1
+
+    writeline("<Placemark>")
+    writeline(f"<name>{label}</name>")
+    writeline("<Point>")
+    writeline("<coordinates>")
+    writeline(f"{lon},{lat}")
+    writeline("</coordinates>")
+    writeline("</Point>")
+    writeline("</Placemark>")
+
+  writeline("</Document>")
+  writeline("</kml>")
+
+print(f"Extracted {count} entries.")
