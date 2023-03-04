@@ -46,6 +46,12 @@ locations are from [Odtur](https://odtur.pl/atrakcje/gieblo-zamek-w-gieble-nieis
 [Polskie zamki](https://www.zamki.pl/?idzamku=wiesiolka), [Zamki znane i nieznane](https://zamkiobronne.pl/zamek/brzeznica/)
 and [Fotowojaże](https://fotowojaze.pl/zloty-potok/).
 
+## 500 wonders of nature in Poland
+
+Based on book “500 cudów natury w Polsce” (500 wonders of nature in Poland) by Paweł Fabijański and Google Maps. Not all places are provided, because
+either book description was too vague, or GM didn’t find them. Due to time constraints so far the names at the map come from GM, not from book, but
+at least page order is preserved.
+
 ## Shop networks
 
 Not a sightseeing but useful to have it.
